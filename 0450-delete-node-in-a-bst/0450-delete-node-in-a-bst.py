@@ -7,16 +7,16 @@
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
         def successorVal(node):
-            node, val = node.right, node.val
-            while node:
-                node, val = node.left, node.val
-            return val
+            node = node.right
+            while node.left:
+                node = node.left
+            return node.val
 
         def predecessorVal(node):
-            node, val = node.left, node.val
-            while node:
-                node, val = node.right, node.val
-            return val
+            node = node.left
+            while node.right:
+                node = node.right
+            return node.val
 
         if not root: return 
         if root.val < key: root.right = self.deleteNode(root.right, key)
