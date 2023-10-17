@@ -6,15 +6,15 @@ class Solution:
             edge[u].append((v, 1))
             edge[v].append((u, 0))
         # BFS
-        queue, ans = [(-1, 0)], 0
+        queue, ans, visited = [0], 0, set([0])
         while queue:
-            # u represents the parent node of node v 
             nextQueue = []
-            for u, v in queue:
-                for next, weight in edge[v]: 
-                    if next != u:
+            for u in queue:
+                for v, weight in edge[u]: 
+                    if v not in visited:
                         ans += weight
-                        nextQueue.append((v, next))
+                        visited.add(v)
+                        nextQueue.append((v))
             queue = nextQueue
         return ans
         
