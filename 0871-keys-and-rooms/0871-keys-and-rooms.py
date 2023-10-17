@@ -1,15 +1,12 @@
 class Solution:
-    # DFS
+    # BFS
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
-        def dfsHelper(i = 0):
-            if i in visited: return 
-            visited.add(i)
-            for neighbour in rooms[i]:
-                dfsHelper(neighbour)
-        
-        visited = set()
-        dfsHelper()
+        deque, visited = collections.deque([0]), set([0])
+        while deque:
+            node = deque.popleft()
+            for neighbour in rooms[node]:
+                if neighbour not in visited:
+                    visited.add(neighbour)
+                    deque.append(neighbour)
         return len(rooms) == len(visited)
-
-
         
