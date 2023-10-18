@@ -1,35 +1,27 @@
 class SmallestInfiniteSet:
+
     def __init__(self):
-        self.curSmallest = 1
-        self.removed = []
-
-    def getFirstMissing(self):
-        nums = self.removed
-        for i in range(len(nums)):
-            while 0 < nums[i] < len(nums) and (nums[i] != i + 1 and nums[i] != nums[nums[i] - 1]):
-                j = nums[i] - 1
-                nums[i], nums[j] = nums[j], nums[i]
-        
-        for i, num in enumerate(nums):
-            if i + 1 != num: return i + 1
-
-        return len(nums) + 1
+        self.smallest = 1
+        self.addList = []
+        self.addSet = set()
         
 
     def popSmallest(self) -> int:
-        ans = self.curSmallest
-        bisect.insort(self.removed, ans)
-        self.curSmallest = self.getFirstMissing()
+        if self.addList:
+            ans = heapq.heappop(self.addList)
+            self.addSet.remove(ans)
+        else:
+            ans = self.smallest
+            self.smallest += 1
         return ans
 
 
     def addBack(self, num: int) -> None:
-        if num not in self.removed: return 
-        self.removed.remove(num)
-        self.curSmallest = self.getFirstMissing()
+        if num >= self.smallest or num in self.addSet: return
+        heapq.heappush(self.addList, num)
+        self.addSet.add(num)
+        
 
-        
-        
 
 # Your SmallestInfiniteSet object will be instantiated and called as such:
 # obj = SmallestInfiniteSet()
