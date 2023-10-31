@@ -9,21 +9,18 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        dummy = prev = Node(0)
-        old2New, cur = {}, head
-        # 1st round
+        cur, clones = head, {}
         while cur:
-            # Make a copy of current node
-            old2New[cur] = Node(cur.val)
-            prev.next = old2New[cur]
-            prev, cur = prev.next, cur.next
-        
-        # 2nd round
-        cur, prev = head, dummy
-        while cur:
-            old2New[cur].random = old2New[cur.random] if cur.random else None
+            clones[cur] = Node(cur.val)
             cur = cur.next
-        return dummy.next
-            
         
+        dummy = prev = Node(0)
+        cur = head
+        while cur:
+            copyNode = clones[cur]
+            copyNode.random = clones[cur.random] if cur.random else None
+            prev.next = copyNode
+            cur, prev = cur.next, prev.next
+        return dummy.next
+
         
