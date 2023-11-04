@@ -2,7 +2,6 @@ class MyStack:
 
     def __init__(self):
         self.stack = []
-        
 
     def push(self, x: int) -> None:
         self.stack.append(x)
@@ -10,7 +9,6 @@ class MyStack:
 
     def pop(self) -> int:
         return self.stack.pop()
-       
         
 
     def top(self) -> int:
@@ -18,7 +16,7 @@ class MyStack:
         
 
     def empty(self) -> bool:
-        return not self.stack
+        return len(self.stack) == 0
         
 
 
