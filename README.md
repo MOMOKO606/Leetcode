@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/MOMOKO606/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/MOMOKO606/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
 # Hash Table
 |  |
 | ------- |
@@ -50,3 +51,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0046-permutations](https://github.com/MOMOKO606/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
