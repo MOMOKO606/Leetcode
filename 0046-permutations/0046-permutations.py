@@ -1,12 +1,5 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        def helper(nums, seq):
-            if not nums: 
-                self.ans.append(seq[:])
-                return 
-            for i in range(len(nums)):
-                helper(nums[:i] + nums[i + 1:], seq + [nums[i]])
-
-        self.ans = []
-        helper(nums, [])
-        return self.ans
+        if not nums: return [[]]
+        return [[nums[i]] + seq for i in range(len(nums)) for seq in self.permute(nums[:i] + nums[i + 1:])]
+        
