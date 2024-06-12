@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0041-first-missing-positive](https://github.com/MOMOKO606/Leetcode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/MOMOKO606/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
 # Hash Table
 |  |
 | ------- |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/MOMOKO606/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
 # Stack
 |  |
 | ------- |
@@ -39,3 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
+# Greedy
+|  |
+| ------- |
+| [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
