@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/MOMOKO606/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
+| [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
 # Hash Table
 |  |
 | ------- |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
+| [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
 # String
 |  |
 | ------- |
@@ -52,3 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0046-permutations](https://github.com/MOMOKO606/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
+# Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
