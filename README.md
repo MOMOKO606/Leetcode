@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/MOMOKO606/Leetcode/tree/master/0050-powx-n) |
 # String
 |  |
 | ------- |
@@ -65,3 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
+# Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/MOMOKO606/Leetcode/tree/master/0050-powx-n) |
