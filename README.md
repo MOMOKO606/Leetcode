@@ -11,10 +11,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/MOMOKO606/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
 # Hash Table
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/MOMOKO606/Leetcode/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
 # Two Pointers
 |  |
 | ------- |
@@ -41,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
+| [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
 # Simulation
 |  |
 | ------- |
@@ -58,3 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
+# Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
