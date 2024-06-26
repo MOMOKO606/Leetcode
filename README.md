@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0018-4sum](https://github.com/MOMOKO606/Leetcode/tree/master/0018-4sum) |
 | [0041-first-missing-positive](https://github.com/MOMOKO606/Leetcode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/MOMOKO606/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0018-4sum](https://github.com/MOMOKO606/Leetcode/tree/master/0018-4sum) |
 | [0042-trapping-rain-water](https://github.com/MOMOKO606/Leetcode/tree/master/0042-trapping-rain-water) |
 # Dynamic Programming
 |  |
@@ -68,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/MOMOKO606/Leetcode/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
 # Recursion
 |  |
