@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/MOMOKO606/Leetcode/tree/master/0050-powx-n) |
+| [1070-convert-to-base-2](https://github.com/MOMOKO606/Leetcode/tree/master/1070-convert-to-base-2) |
 # String
 |  |
 | ------- |
