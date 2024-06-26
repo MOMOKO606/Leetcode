@@ -18,7 +18,7 @@ class Solution:
                     else:
                         j -= 1       
                 return 
-            for i in range(start, len(nums)):
+            for i in range(start, len(nums) - n + 1):
                 if i > start and nums[i] == nums[i - 1]: continue
                 helper(n - 1, i + 1, target - nums[i], seq + [nums[i]])
 
