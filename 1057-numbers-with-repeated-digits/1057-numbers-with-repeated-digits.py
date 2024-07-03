@@ -1,9 +1,9 @@
 class Solution:
     def numDupDigitsAtMostN(self, n: int) -> int:
-        ans, digits, visited = n, list(map(int, list(str(n)))), set([])
-        n = len(digits)
-        for i in range(1, n):
-            ans -= 9 * perm(9, i - 1)
+        digits, ans, visited = [], n, set([])
+        while n: digits, n = digits + [n % 10], n // 10        
+        digits, n = digits[::-1], len(digits)
+        for i in range(n - 1): ans -= 9 * perm(9, i)
         for i, digit in enumerate(digits):
             for j in range(i == 0, digit):
                 if j in visited: continue
@@ -11,6 +11,4 @@ class Solution:
             if digit in visited: return ans
             visited.add(digit)
         return ans - 1
-    
 
-        
