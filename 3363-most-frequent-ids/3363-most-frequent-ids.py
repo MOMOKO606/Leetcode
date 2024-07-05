@@ -6,7 +6,7 @@ class Solution:
             heapq.heappush(max_heap, (-freqs[id], id))
             while max_heap and -max_heap[0][0] != freqs[max_heap[0][1]]:
                 heapq.heappop(max_heap)
-            ans += [-max_heap[0][0]] if max_heap else [0]
+            ans.append(-max_heap[0][0])
         return ans
 
         
