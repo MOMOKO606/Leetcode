@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
+| [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 ## Sorting
 |  |
 | ------- |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
+| [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 ## Greedy
 |  |
 | ------- |
@@ -150,4 +152,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
+## Trie
+|  |
+| ------- |
+| [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 <!---LeetCode Topics End-->
