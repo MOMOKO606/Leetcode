@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
+| [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
+| [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
 ## Heap (Priority Queue)
@@ -195,4 +197,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
+## Sliding Window
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
+## Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
+## Hash Function
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
