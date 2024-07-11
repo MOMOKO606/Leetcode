@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0039-combination-sum) |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
@@ -220,4 +221,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
