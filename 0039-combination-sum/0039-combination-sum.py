@@ -5,10 +5,10 @@ class Solution:
             if not target: 
                 self.ans.append(seq[:])
                 return 
-            if i > len(candidates) - 1 or target < 0: return 
-            helper(i, target - candidates[i], seq + [candidates[i]])
-            helper(i + 1, target, seq)
-            
+            if i == len(candidates) or target < 0: return 
+            for j in range(i, len(candidates)):
+                helper(j, target - candidates[j], seq + [candidates[j]])
+
         self.ans = []
         helper()
         return self.ans
