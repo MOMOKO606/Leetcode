@@ -6,7 +6,7 @@ class Solution:
                 while i < j:
                     key = nums[i] + nums[j]
                     if key == target:
-                        self.ans.append(seq + [nums[i], nums[j]])
+                        ans.append(seq + [nums[i], nums[j]])
                         i += 1
                         while i < len(nums) and nums[i] == nums[i - 1]:
                             i += 1
@@ -22,8 +22,8 @@ class Solution:
                 if k > pos and nums[k] == nums[k - 1]: continue
                 helper(k + 1, n - 1, target - nums[k], seq + [nums[k]])
         
-        self.ans, nums = [], sorted(nums)
+        ans, nums = [], sorted(nums)
         helper()
-        return self.ans
+        return ans
 
         
