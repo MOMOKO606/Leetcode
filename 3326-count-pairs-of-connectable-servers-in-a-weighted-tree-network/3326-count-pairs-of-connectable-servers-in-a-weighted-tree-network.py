@@ -9,10 +9,7 @@ class Solution:
             return ans
 
         def get_paths_in_differ_directs(node):
-            pairs = []
-            for neigbhor in graph[node]:
-                pairs.append(dfsHelper(neigbhor, graph[node][neigbhor], set([node])))
-            return pairs
+            return [dfsHelper(neigbhor, graph[node][neigbhor], set([node])) for neigbhor in graph[node]]
 
         def get_pairs(nums):
             count = 0
