@@ -11,29 +11,22 @@ class Solution:
         def connect(i, j):
             pi, pj = parent(i), parent(j)
             p[pi] = pj
-        
-        
+
         p = [i for i in range(n)]
+        for i, j, _ in edges:
+            connect(i, j)
+
         roots = {parent(i): -1 for i in range(n)}
-        for u, v, w in edges:
-            connect(u, v)
-            
-        for u, v, w in edges:
-            roots[parent(u)] &= w
-        
+        for i, j, w in edges:
+            pi = parent(i)
+            roots[pi] = roots[pi] & w
+
         ans = []
-        for u, v in query:
-            pu, pv = parent(u), parent(v)
-            if pu != pv: ans.append(-1)
-            else: ans.append(roots[pu])
+        for i, j in query:
+            pi, pj = parent(i), parent(j)
+            if pi != pj: ans.append(-1)
+            else: ans.append(roots[pi])
         return ans
 
-            
 
-
-
-        
-            
-
-   
         
