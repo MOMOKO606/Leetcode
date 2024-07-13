@@ -3,20 +3,25 @@ class Solution:
         # Build the Trie
         trie = {}
         for i, word in enumerate(wordsContainer):
-            node, word_length = trie, len(word)
+            node = trie
             for char in word[::-1]:
-                if "$" not in node or word_length < node["$"][0]: 
-                    node["$"] = (word_length, i)
+                if "$" not in node or len(word) < node["$"][0]: node["$"] = [len(word), i]
                 node[char] = node.get(char, {})
                 node = node[char]
-            if "$" not in node or word_length < node["$"][0]: 
-                node["$"] = (word_length, i)
-
+            if "$" not in node or len(word) < node["$"][0]: node["$"] = [len(word), i]
+        
         ans = []
         for word in wordsQuery:
             node = trie
             for char in word[::-1]:
-                if char not in node: break
-                node = node[char]
-            ans.append(node["$"][1])
-        return ans     
+                if char in node: 
+                    node = node[char]
+                else: 
+                    ans.append(node["$"][1])
+                    break
+            else:
+                ans.append(node["$"][1])
+        return ans
+
+
+        
