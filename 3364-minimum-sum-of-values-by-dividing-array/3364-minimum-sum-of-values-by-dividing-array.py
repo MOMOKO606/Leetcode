@@ -1,5 +1,6 @@
 class Solution:
     def minimumValueSum(self, nums: List[int], andValues: List[int]) -> int:
+        @cache
         def helper(i=0, j=0, _AND=-1):
             if i == len(nums) and j == len(andValues): return 0
             if i == len(nums) or j == len(andValues): return inf
