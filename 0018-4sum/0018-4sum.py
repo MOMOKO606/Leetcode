@@ -1,29 +1,26 @@
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
-        def helper(pos=0, n=4, target=target, seq=[]):
-            if n == 2: 
-                i, j = pos, len(nums) - 1
-                while i < j:
-                    key = nums[i] + nums[j]
+        def helper(start, n, target, seq):
+            if n == 2:
+                l, r = start, len(nums) - 1
+                while l < r:
+                    key = nums[l] + nums[r]
                     if key == target:
-                        ans.append(seq + [nums[i], nums[j]])
-                        i += 1
-                        while i < len(nums) and nums[i] == nums[i - 1]:
-                            i += 1
-                        j -= 1
-                        while j >= 0 and nums[j] == nums[j + 1]:
-                            j -= 1 
-                    elif key < target:
-                        i += 1
-                    else:
-                        j -= 1
+                        ans.append(seq + [nums[l], nums[r]])
+                        l += 1
+                        while l < len(nums) and nums[l] == nums[l - 1]:
+                            l += 1
+                        r -= 1
+                        while r >= 0 and nums[r] == nums[r + 1]:
+                            r -= 1
+                    elif key < target: l += 1
+                    else: r -= 1
                 return 
-            for k in range(pos, len(nums) - n + 1):
-                if k > pos and nums[k] == nums[k - 1]: continue
+            for k in range(start, len(nums) - n + 1):
+                if k > start and nums[k] == nums[k - 1]: continue
                 helper(k + 1, n - 1, target - nums[k], seq + [nums[k]])
         
         ans, nums = [], sorted(nums)
-        helper()
+        helper(0, 4, target, [])
         return ans
-
         
