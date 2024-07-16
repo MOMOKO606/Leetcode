@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/MOMOKO606/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0018-4sum](https://github.com/MOMOKO606/Leetcode/tree/master/0018-4sum) |
 | [0039-combination-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0040-combination-sum-ii) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/MOMOKO606/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 ## Tree
 |  |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/MOMOKO606/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Segment Tree
 |  |
