@@ -11,9 +11,8 @@ class Solution:
             if node: heapq.heappush(min_heap, [node.val, i])
         
         while min_heap:
-            value, i = heapq.heappop(min_heap)
-            cur = ListNode(val=value)
-            prev.next = cur
+            _, i = heapq.heappop(min_heap)
+            prev.next = lists[i]
             lists[i], prev = lists[i].next, prev.next
             if lists[i]:
                 heapq.heappush(min_heap, [lists[i].val, i])
