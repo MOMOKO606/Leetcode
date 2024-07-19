@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/MOMOKO606/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/MOMOKO606/Leetcode/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MOMOKO606/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/MOMOKO606/Leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0032-longest-valid-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
@@ -341,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0032-longest-valid-parentheses) |
 ## Merge Sort
 |  |
 | ------- |
