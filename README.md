@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/MOMOKO606/Leetcode/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/MOMOKO606/Leetcode/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
+| [0050-powx-n](https://github.com/MOMOKO606/Leetcode/tree/master/0050-powx-n) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0024-swap-nodes-in-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/MOMOKO606/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/MOMOKO606/Leetcode/tree/master/0044-wildcard-matching) |
+| [0050-powx-n](https://github.com/MOMOKO606/Leetcode/tree/master/0050-powx-n) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 ## String
 |  |
