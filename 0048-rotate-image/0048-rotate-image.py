@@ -3,21 +3,22 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        n = len(matrix)
-        top, bottom, left, right = 0, n - 1, 0, n - 1
-        backup = [matrix[i][:] for i in range(n) ]
-        while left < right:
+        rows, cols = len(matrix), len(matrix[0])
+        backup = [[0] * cols for _ in range(rows)]
+        for i in range(rows):
+            for j in range(cols):
+                backup[i][j] = matrix[i][j]
+
+        top, bottom, left, right = 0, rows - 1, 0, cols - 1
+        while top < bottom:
             for j in range(left, right + 1):
                 matrix[j][right] = backup[top][j]
-
             for i in range(top, bottom + 1):
-                matrix[bottom][bottom + top - i] = backup[i][right]
-
+                matrix[bottom][top + bottom - i] = backup[i][right]
             for j in range(left, right + 1):
                 matrix[j][left] = backup[bottom][j]
-
             for i in range(top, bottom + 1):
-                matrix[top][bottom + top - i] = backup[i][left]
+                matrix[top][top + bottom - i] = backup[i][left]
+            top, bottom, left, right = top + 1, bottom - 1, left + 1, right - 1
 
-            left, right, top, bottom = left + 1, right - 1, top + 1, bottom - 1
-   
+        
