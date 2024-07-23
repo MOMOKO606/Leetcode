@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/MOMOKO606/Leetcode/tree/master/0051-n-queens) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MOMOKO606/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/MOMOKO606/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/MOMOKO606/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0052-n-queens-ii) |
 ## Simulation
 |  |
