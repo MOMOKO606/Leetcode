@@ -1,7 +1,7 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         minHeap, nums, seen = [1], [], {1,}
-        for _ in range(1690):
+        for _ in range(n):
             num = heapq.heappop(minHeap)
             nums.append(num)
             for factor in [2, 3, 5]:
