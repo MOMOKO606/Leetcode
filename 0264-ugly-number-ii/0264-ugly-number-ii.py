@@ -1,14 +1,15 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
-        minHeap, nums, seen = [1], [], {1,}
-        for _ in range(n):
-            num = heapq.heappop(minHeap)
+        nums, p2, p3, p5 = [1], 0, 0, 0
+        for i in range(n):
+            num = min(nums[p2] * 2, nums[p3] * 3, nums[p5] * 5)
             nums.append(num)
-            for factor in [2, 3, 5]:
-                tmp = factor * num
-                if tmp not in seen:
-                    heapq.heappush(minHeap, tmp)
-                    seen.add(tmp)
+            if num == nums[p2] * 2:
+                p2 += 1
+            if num == nums[p3] * 3:
+                p3 += 1
+            if num == nums[p5] * 5:
+                p5 += 1
         return nums[n - 1]
-
+        
         
