@@ -5,5 +5,3 @@ class Solution:
             if i > reach: return False
             if reach >= len(nums) - 1: return True
             reach = max(reach, i + num)
-        return reach >= len(nums) - 1
-        
