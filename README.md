@@ -163,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/MOMOKO606/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/MOMOKO606/Leetcode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0062-unique-paths) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/MOMOKO606/Leetcode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0062-unique-paths) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
@@ -459,4 +461,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
