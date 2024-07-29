@@ -2,7 +2,7 @@ class Solution:
     def isNumber(self, s: str) -> bool:
         # Ee只能出现1次，且不能在最前和最后
         # Ee之前可以写一个带符号的整数 / 实数
-        # Ee之后也可以写一个带符号的整数 / 实数
+        # Ee之后也可以写一个带符号的整数
         # 所以Ee可以看作一个分隔符，当碰到valid的Ee之后，状态重制
         hasDigit, hasDec, hasE, hasSymbol = False, False, False, False
         for char in s:
