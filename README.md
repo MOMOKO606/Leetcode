@@ -228,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/MOMOKO606/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
+| [0065-valid-number](https://github.com/MOMOKO606/Leetcode/tree/master/0065-valid-number) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
