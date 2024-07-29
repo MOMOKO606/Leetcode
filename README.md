@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0275-h-index-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0275-h-index-ii) |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
@@ -320,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0059-spiral-matrix-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 ## Depth-First Search
 |  |
@@ -327,23 +330,27 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/MOMOKO606/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Graph
 |  |
 | ------- |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Topological Sort
 |  |
 | ------- |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Counting
 |  |
 | ------- |
@@ -493,4 +500,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/MOMOKO606/Leetcode/tree/master/0319-bulb-switcher) |
+## Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
