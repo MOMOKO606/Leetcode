@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0060-permutation-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/MOMOKO606/Leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
@@ -231,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/MOMOKO606/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
 | [0065-valid-number](https://github.com/MOMOKO606/Leetcode/tree/master/0065-valid-number) |
+| [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
@@ -350,6 +352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/MOMOKO606/Leetcode/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0260-single-number-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0260-single-number-iii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -391,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0059-spiral-matrix-ii) |
+| [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0258-add-digits) |
 ## Binary Search
 |  |
