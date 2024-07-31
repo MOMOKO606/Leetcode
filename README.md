@@ -178,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0319-bulb-switcher](https://github.com/MOMOKO606/Leetcode/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/MOMOKO606/Leetcode/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
 | [1070-convert-to-base-2](https://github.com/MOMOKO606/Leetcode/tree/master/1070-convert-to-base-2) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
@@ -216,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0060-permutation-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/0060-permutation-sequence) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0326-power-of-three](https://github.com/MOMOKO606/Leetcode/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
 ## String
 |  |
 | ------- |
@@ -368,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0260-single-number-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0260-single-number-iii) |
+| [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Sliding Window
