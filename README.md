@@ -120,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/MOMOKO606/Leetcode/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/MOMOKO606/Leetcode/tree/master/0068-text-justification) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MOMOKO606/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/MOMOKO606/Leetcode/tree/master/0049-group-anagrams) |
 | [0065-valid-number](https://github.com/MOMOKO606/Leetcode/tree/master/0065-valid-number) |
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/MOMOKO606/Leetcode/tree/master/0068-text-justification) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
@@ -406,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/MOMOKO606/Leetcode/tree/master/0068-text-justification) |
 | [0258-add-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0258-add-digits) |
 ## Binary Search
 |  |
