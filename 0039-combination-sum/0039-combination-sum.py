@@ -1,6 +1,6 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        def helper(i, seq, target):
+        def helper(i=0, seq=[], target=target):
             if not target:
                 ans.append(seq[:])
                 return 
@@ -9,6 +9,6 @@ class Solution:
             helper(i, seq + [candidates[i]], target - candidates[i])
 
         ans = []
-        helper(0, [], target)
+        helper()
         return ans
         
