@@ -1,17 +1,13 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
-        nums, p2, p3, p5 = [1], 0, 0, 0
-        while n - 1:
-            target = min(2 * nums[p2], 3 * nums[p3], 5 * nums[p5])
-            if 2 * nums[p2] == target:
-                p2 += 1
-            if 3 * nums[p3] == target:
-                p3 += 1
-            if 5 * nums[p5] == target:
-                p5 += 1
-            nums.append(target)
-            n -= 1
+        nums, min_heap, seen = [], [1], set([1])
+        for _ in range(n):
+            nums.append(heapq.heappop(min_heap))
+            for factor in [2, 3, 5]:
+                node = nums[-1] * factor
+                if node not in seen:
+                    heapq.heappush(min_heap, node)
+                    seen.add(node)
         return nums[-1]
 
- 
         
