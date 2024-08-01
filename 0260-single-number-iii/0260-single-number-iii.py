@@ -3,8 +3,12 @@ class Solution:
         xor, first, second = 0, 0, 0
         for num in nums:
             xor ^= num
-        target = xor & -xor
+        xor &= -xor
         for num in nums:
-            if num & target: first ^= num
+            if num & xor: first ^= num
             else: second ^= num
         return [first, second]
+
+
+
+        
