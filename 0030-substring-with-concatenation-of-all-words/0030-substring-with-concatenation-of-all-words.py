@@ -1,14 +1,15 @@
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
-        ans, word_length, window_length, target = [], len(words[0]), len(words) * len(words[0]), Counter(words)
+        window_length, word_length, target, ans = len(words) * len(words[0]), len(words[0]), Counter(words), []
         for i in range(len(s) - window_length + 1):
-            seen = collections.defaultdict(int)
+            cur_words = {}
             for j in range(i, i + window_length, word_length):
-                word = s[j: j + word_length]
-                seen[word] += 1
-                if word not in target or seen[word] > target[word]: break
+                cur_word = s[j: j + word_length]
+                if cur_word not in target: break
+                cur_words[cur_word] = cur_words.get(cur_word, 0) + 1
+                if cur_words[cur_word] > target[cur_word]: break
             else:
-                ans.append(i)
-        return ans 
+                if target == cur_words: ans.append(i)
+        return ans
 
         
