@@ -244,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0065-valid-number](https://github.com/MOMOKO606/Leetcode/tree/master/0065-valid-number) |
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/MOMOKO606/Leetcode/tree/master/0068-text-justification) |
+| [0071-simplify-path](https://github.com/MOMOKO606/Leetcode/tree/master/0071-simplify-path) |
 | [0087-scramble-string](https://github.com/MOMOKO606/Leetcode/tree/master/0087-scramble-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
@@ -468,6 +469,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/MOMOKO606/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/MOMOKO606/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/MOMOKO606/Leetcode/tree/master/0071-simplify-path) |
 | [0316-remove-duplicate-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 ## Merge Sort
