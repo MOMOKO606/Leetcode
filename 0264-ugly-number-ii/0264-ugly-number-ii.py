@@ -1,15 +1,17 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         nums, p2, p3, p5 = [1], 0, 0, 0
-        for i in range(n):
-            num = min(nums[p2] * 2, nums[p3] * 3, nums[p5] * 5)
-            nums.append(num)
-            if num == nums[p2] * 2:
+        while n - 1:
+            target = min(2 * nums[p2], 3 * nums[p3], 5 * nums[p5])
+            if 2 * nums[p2] == target:
                 p2 += 1
-            if num == nums[p3] * 3:
+            if 3 * nums[p3] == target:
                 p3 += 1
-            if num == nums[p5] * 5:
+            if 5 * nums[p5] == target:
                 p5 += 1
-        return nums[n - 1]
-        
+            nums.append(target)
+            n -= 1
+        return nums[-1]
+
+ 
         
