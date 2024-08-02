@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0275-h-index-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0275-h-index-ii) |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -444,6 +445,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Two Pointers
 |  |
@@ -510,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
+| [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 ## Iterator
 |  |
 | ------- |
@@ -531,4 +534,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/MOMOKO606/Leetcode/tree/master/0332-reconstruct-itinerary) |
+## Data Stream
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 <!---LeetCode Topics End-->
