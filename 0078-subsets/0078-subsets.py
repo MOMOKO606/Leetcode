@@ -1,7 +1,7 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        ans = [[]]
+        all_sets = [[]]
         for num in nums:
-            ans += [[num] + subset for subset in ans]
-        return ans
+            all_sets += [[num] + s for s in all_sets]
+        return all_sets
         
