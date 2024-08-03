@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/MOMOKO606/Leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/MOMOKO606/Leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/MOMOKO606/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/MOMOKO606/Leetcode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MOMOKO606/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -386,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0029-divide-two-integers](https://github.com/MOMOKO606/Leetcode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
+| [0078-subsets](https://github.com/MOMOKO606/Leetcode/tree/master/0078-subsets) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0260-single-number-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0260-single-number-iii) |
 | [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
@@ -422,6 +424,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/MOMOKO606/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0052-n-queens-ii) |
+| [0078-subsets](https://github.com/MOMOKO606/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/MOMOKO606/Leetcode/tree/master/0079-word-search) |
 ## Simulation
 |  |
