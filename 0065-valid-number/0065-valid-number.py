@@ -15,6 +15,9 @@ class Solution:
                 if hasDec or hasEe: return False
                 hasDec = True
             elif char in "Ee":
+                # 不能存在2个Ee
+                # Ee前面必须有数字
+                # Ee后重制状态
                 if hasEe or not hasDigit: return False
                 hasEe, hasSign, hasDigit, hasDec = True, False, False, False
             else:
