@@ -2,7 +2,6 @@ class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
         @cache
         def dfsHelper(i, j):
-            if not (0 <= i < rows and 0 <= j < cols) or matrix[i][j] == "#": return 0
             ans = 0
             ori = matrix[i][j]
             matrix[i][j] = "#"
