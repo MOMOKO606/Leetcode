@@ -1,13 +1,3 @@
-# """
-# This is HtmlParser's API interface.
-# You should not implement it, or speculate about its implementation
-# """
-#class HtmlParser(object):
-#    def getUrls(self, url):
-#        """
-#        :type url: str
-#        :rtype List[str]
-#        """
 import threading, queue
 
 class Solution:
@@ -34,5 +24,3 @@ class Solution:
                 running += 1
             running -= 1
         return list(visited)
-
-        
