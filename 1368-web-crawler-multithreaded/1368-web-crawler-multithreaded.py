@@ -1,57 +1,52 @@
-# """
-# This is HtmlParser's API interface.
-# You should not implement it, or speculate about its implementation
-# """
-#class HtmlParser(object):
-#    def getUrls(self, url):
-#        """
-#        :type url: str
-#        :rtype List[str]
-#        """
-
-from concurrent.futures import ThreadPoolExecutor
-from threading import Condition
+import threading
+import queue
+from typing import List
 
 class Solution:
-    def __init__(self) -> None:
-        self._queue = list()
-        self._lock = Condition()
-        self._visited = set()
-
-    def get_hostname(self, url: str):
-        hostname = '.'.join(url.split('/')[2].split('.')[1:]) 
-        return hostname
-
-    def visit_url(self, url: str):
-        next_urls: List[str] = self._parser.getUrls(url)
-
-        with self._lock:
-            for next_url in next_urls:
-                if next_url not in self._visited and self.current_hostname == self.get_hostname(next_url) :
-                    self._visited.add(next_url)
-                    self._queue.insert(0,next_url)
-
-
-
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
-        self._queue.insert(0,startUrl)
-        self._visited.add(startUrl)
-        self.current_hostname = self.get_hostname(startUrl)
-        self._parser = htmlParser
-        
-        executor = ThreadPoolExecutor()
+        def _crawl():
+            nonlocal running
+            while True:
+                url = curQueue.get()
+                if url is None:  # Sentinel value to stop the thread
+                    break
+                tmp = []
+                for newUrl in htmlParser.getUrls(url):
+                    if newUrl.split("http://")[1].split("/")[0] == domain and newUrl not in visited:
+                        tmp.append(newUrl)
+                        visited.add(newUrl)
+                
+                # Lock for modifying running count
+                with lock:
+                    # Add new URLs to the queue and increment running count
+                    for newUrl in tmp:
+                        curQueue.put(newUrl)
+                        running += 1
+                    # Decrement running count after processing
+                    running -= 1
+                nextQueue.put(tmp)
 
-        while self._queue:
-            urls = [self._queue.pop(), ]
+        curQueue, nextQueue, visited, domain = queue.Queue(), queue.Queue(), set([startUrl]), startUrl.split("http://")[1].split("/")[0]
+        curQueue.put(startUrl)
+        lock = threading.Lock()
+        running = 1
 
-            while self._queue:
-                urls.append(self._queue.pop())
+        # Start worker threads
+        threads = []
+        for _ in range(5):
+            thread = threading.Thread(target=_crawl, daemon=True)
+            thread.start()
+            threads.append(thread)
 
-            excecutor_list = [executor.submit(self.visit_url, (url)) for url in urls]
-            for future in excecutor_list:
-                future.result()
-        
-        executor.shutdown()
+        # Wait for threads to finish
+        while running > 0:
+            # No need to use nextQueue here, it was only used to count running threads
+            pass
 
-        return list(self._visited)
-        
+        # Stop worker threads
+        for _ in range(5):
+            curQueue.put(None)  # Sentinel values to stop the threads
+        for thread in threads:
+            thread.join()
+
+        return list(visited)
