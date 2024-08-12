@@ -1,14 +1,14 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        def helper(i, seq, target):
-            if not target:
+        def helper(i, target, seq):
+            if not target: 
                 ans.append(seq[:])
-                return 
-            if i == len(candidates) or target < 0: return 
+                return
+            if target < 0 or i == len(candidates): return 
             for j in range(i, len(candidates)):
-                helper(j, seq + [candidates[j]], target - candidates[j])
+                helper(j, target - candidates[j], seq + [candidates[j]])
 
         ans = []
-        helper(0, [], target)
-        return ans 
+        helper(0, target, [])
+        return ans
         
