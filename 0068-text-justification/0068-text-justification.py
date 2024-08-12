@@ -3,9 +3,15 @@ class Solution:
         cur_words_length, line, ans = 0, [], []
         for word in words:
             if cur_words_length + len(line) + len(word) > maxWidth:
-                for i in range(maxWidth - cur_words_length):
+                remain_spaces = maxWidth - cur_words_length
+                for i in range(remain_spaces):
                     line[i % max(len(line) - 1, 1)] += " "
                 ans.append("".join(line))
-                line, cur_words_length = [], 0
-            line, cur_words_length = line + [word], cur_words_length + len(word)
-        return ans + [" ".join(line).ljust(maxWidth)]
+                cur_words_length, line = 0, []
+            line.append(word)
+            cur_words_length += len(word)
+        ans.append(" ".join(line).ljust(maxWidth))
+        return ans
+
+
+        
