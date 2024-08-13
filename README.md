@@ -493,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/MOMOKO606/Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/MOMOKO606/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0086-partition-list](https://github.com/MOMOKO606/Leetcode/tree/master/0086-partition-list) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Linked List
 |  |
@@ -505,6 +506,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/MOMOKO606/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/MOMOKO606/Leetcode/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/MOMOKO606/Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0086-partition-list](https://github.com/MOMOKO606/Leetcode/tree/master/0086-partition-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 ## Stack
 |  |
