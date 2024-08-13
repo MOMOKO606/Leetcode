@@ -3,11 +3,12 @@ class Solution:
         @cache
         def helper(i, prev):
             if i == len(nums): return []
-            ans, possible = helper(i + 1, prev), []
+            ans, potential = helper(i + 1, prev), []
             if not nums[i] % prev:
-                possible = [nums[i]] + helper(i + 1, nums[i])
-            return ans if len(ans) > len(possible) else possible
-
-        nums = sorted(nums)
+                potential = [nums[i]] + helper(i + 1, nums[i])
+            return ans if len(ans) > len(potential) else potential
+        
+        nums.sort()
         return helper(0, 1)
+
         
