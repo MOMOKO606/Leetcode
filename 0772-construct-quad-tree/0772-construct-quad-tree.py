@@ -18,6 +18,7 @@ class Solution:
                     if grid[i][j] != grid[r][c]: return False
             return True
 
+
         def helper(r, c, n):
             if isLeaf(r, c, n): return Node(grid[r][c], True, None, None, None, None)
             n //= 2
@@ -26,4 +27,6 @@ class Solution:
             bottomLeft = helper(r + n, c, n)
             bottomRight = helper(r + n, c + n, n)
             return Node(1, False, topLeft, topRight, bottomLeft, bottomRight)
+
         return helper(0, 0, len(grid))
+        
