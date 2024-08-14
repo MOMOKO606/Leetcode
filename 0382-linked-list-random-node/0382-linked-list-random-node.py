@@ -6,15 +6,18 @@
 class Solution:
 
     def __init__(self, head: Optional[ListNode]):
-        nums = []
-        while head:
-            nums.append(head.val)
-            head = head.next
-        self.nums = nums
+        self.head = head
         
 
     def getRandom(self) -> int:
-        return random.choice(self.nums)
+        cur, count, ans = self.head, 0, 0
+        while cur:
+            count += 1
+            if random.random() <= 1 / count:
+                ans = cur.val
+            cur = cur.next
+        return ans
+
         
 
 
