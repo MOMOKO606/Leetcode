@@ -188,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/MOMOKO606/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/MOMOKO606/Leetcode/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/MOMOKO606/Leetcode/tree/master/0089-gray-code) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
@@ -408,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0029-divide-two-integers](https://github.com/MOMOKO606/Leetcode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/MOMOKO606/Leetcode/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/MOMOKO606/Leetcode/tree/master/0089-gray-code) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0260-single-number-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0260-single-number-iii) |
 | [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
@@ -448,6 +450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0077-combinations](https://github.com/MOMOKO606/Leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/MOMOKO606/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/MOMOKO606/Leetcode/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/MOMOKO606/Leetcode/tree/master/0089-gray-code) |
 ## Simulation
 |  |
 | ------- |
