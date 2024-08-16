@@ -282,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
 | [0316-remove-duplicate-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -321,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
@@ -347,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/MOMOKO606/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/MOMOKO606/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0053-maximum-subarray) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 ## Tree
 |  |
@@ -430,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/MOMOKO606/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0220-contains-duplicate-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0220-contains-duplicate-iii) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 ## Rolling Hash
 |  |
 | ------- |
