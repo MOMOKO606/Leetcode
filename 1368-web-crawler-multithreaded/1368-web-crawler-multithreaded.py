@@ -8,37 +8,32 @@
 #        :type url: str
 #        :rtype List[str]
 #        """
-import queue, threading
-from concurrent.futures import ThreadPoolExecutor
+import threading, queue
+
 
 
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
-        def _crawl(url):
-            tmp = []
-            for new_url in htmlParser.getUrls(url):
-                if new_url.split("http://")[1].split("/")[0] == domain and new_url not in visited:
-                    tmp.append(new_url)
-                    visited.add(new_url)
-            return tmp
-        
-        curQueue, visited, domain = queue.Queue(), set([startUrl]), startUrl.split("http://")[1].split("/")[0]
+        def _crawl():
+            while True:
+                tmp = []
+                for new_url in htmlParser.getUrls(curQueue.get()):
+                    if new_url not in visited and new_url.split("http://")[1].split("/")[0] == domain:
+                        visited.add(new_url)
+                        tmp.append(new_url)
+                nextQueue.put(tmp)
+
+        curQueue, nextQueue, domain, running, visited = queue.Queue(), queue.Queue(), startUrl.split("http://")[1].split("/")[0], 1, set([startUrl])
         curQueue.put(startUrl)
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            while not curQueue.empty():
-                futures = []
-                while not curQueue.empty():
-                    url = curQueue.get()
-                    futures.append(executor.submit(_crawl, url))
+        for _ in range(5):
+            thread = threading.Thread(target=_crawl, daemon=True)
+            thread.start()
 
-                for future in futures:
-                    result = future.result()
-                    for url in result:
-                        curQueue.put(url)
+        while running:
+            for url in nextQueue.get():
+                curQueue.put(url)
+                running += 1
+            running -= 1
         return list(visited)
-
-
 
         
-
-        return list(visited)
