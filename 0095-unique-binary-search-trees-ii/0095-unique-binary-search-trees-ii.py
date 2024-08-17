@@ -10,9 +10,7 @@ class Solution:
             if left > right: return [None]
             ans = []
             for val in range(left, right + 1):
-                for l in helper(left, val - 1):
-                    for r in helper(val + 1, right):
-                        ans.append(TreeNode(val=val, left=l, right=r))
+                ans += [TreeNode(val=val, left=l, right=r) for l in helper(left, val - 1) for r in helper(val + 1, right)]
             return ans
         return helper(1, n)
 
