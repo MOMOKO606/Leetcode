@@ -7,14 +7,12 @@
 class Solution:
     def generateTrees(self, n: int) -> List[Optional[TreeNode]]:
         @cache
-        def helper(i, j):
-            if i > j: return [None]
+        def helper(left, right):
+            if left > right: return [None]
             ans = []
-            for k in range(i, j + 1):
-                for l in helper(i, k - 1):
-                    for r in helper(k + 1, j):
-                        ans.append(TreeNode(k, l, r))                
+            for val in range(left, right + 1):
+                ans += [TreeNode(val=val, left=l, right=r) for l in helper(left, val - 1) for r in helper(val + 1, right)]
             return ans
         return helper(1, n)
-                
+
         
