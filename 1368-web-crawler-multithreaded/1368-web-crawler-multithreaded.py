@@ -8,35 +8,33 @@
 #        :type url: str
 #        :rtype List[str]
 #        """
-import threading, queue
-from concurrent.futures import ThreadPoolExecutor
-
-
+import threading
+import queue
 
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
-        def _crawl(url):
-            tmp = []
-            for new_url in htmlParser.getUrls(url):
-                if new_url not in visited and new_url.split("http://")[1].split("/")[0] == domain:
-                    tmp.append(new_url)
-                    visited.add(new_url)
-            return tmp
+        def _crawl():
+            while True:
+                tmp = []
+                for new_url in htmlParser.getUrls(curQueue.get()):
+                    if new_url.split("http://")[1].split("/")[0] == domain and new_url not in visited:
+                        tmp.append(new_url)
+                        visited.add(new_url)
+                nextQueue.put(tmp)
 
-        curQueue, visited, domain = queue.Queue(), set([startUrl]), startUrl.split("http://")[1].split("/")[0]
+        
+
+        curQueue, nextQueue, running, domain, visited = queue.Queue(), queue.Queue(), 1, startUrl.split("http://")[1].split("/")[0], set([startUrl])
         curQueue.put(startUrl)
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            while not curQueue.empty():
-                futures = []
-                while not curQueue.empty():
-                    url = curQueue.get()
-                    futures.append(executor.submit(_crawl, url))
-                
-                for future in futures:
-                    result = future.result()
-                    for url in result:
-                        curQueue.put(url)
 
+        for _ in range(5):
+            thread = threading.Thread(target=_crawl, daemon=True)
+            thread.start()
+
+        while running:
+            for url in nextQueue.get():
+                curQueue.put(url)
+                running += 1
+            running -= 1
         return list(visited)
-
         
