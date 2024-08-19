@@ -1,13 +1,14 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
-        minHeap, generated = [1], set()
-        for _ in range(n):
-            cur_num = heapq.heappop(minHeap)
-            for prime in [2, 3, 5]:
-                potential = prime * cur_num
-                if potential not in generated:
-                    heapq.heappush(minHeap, potential)
-                    generated.add(potential)
-        return cur_num
-
+        p2, p3, p5, ans = 0, 0, 0, [1]
+        for _ in range(n - 1):
+            num2 = 2 * ans[p2]
+            num3 = 3 * ans[p3]
+            num5 = 5 * ans[p5]
+            key = min(num2, num3, num5)
+            ans.append(key)
+            if key == num2: p2 += 1
+            if key == num3: p3 += 1
+            if key == num5: p5 += 1
+        return ans[-1]
         
