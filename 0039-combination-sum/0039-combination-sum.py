@@ -5,8 +5,10 @@ class Solution:
                 ans.append(seq[:])
                 return
             if target < 0 or i == len(candidates): return
-            helper(i, seq + [candidates[i]], target - candidates[i])
-            helper(i + 1, seq, target)
+            for j in range(i, len(candidates)):
+                helper(j, seq + [candidates[j]], target - candidates[j])
+
+        
         ans = []
         helper(0, [], target)
         return ans
