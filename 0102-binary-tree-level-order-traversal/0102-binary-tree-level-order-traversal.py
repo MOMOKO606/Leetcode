@@ -9,12 +9,11 @@ class Solution:
         if not root: return []
         queue, ans = [root], []
         while queue:
-            nextQueue, level = [], []
+            nextQueue = []
+            ans.append([node.val for node in queue])
             for node in queue:
-                level.append(node.val)
                 if node.left: nextQueue.append(node.left)
                 if node.right: nextQueue.append(node.right)
-            ans.append(level)
             queue = nextQueue
         return ans
 
