@@ -1,18 +1,23 @@
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         def dfsHelper(node):
-            neighbors = graph[node]
-            while neighbors:
-                dfsHelper(neighbors.pop(0))
+            while graph[node]:
+                neighbor = graph[node].pop(0)
+                dfsHelper(neighbor)
             ans.append(node)
 
+
         # Build the graph
+        tickets.sort()
         graph = collections.defaultdict(list)
-        for u, v in sorted(tickets):
+        for u, v in tickets:
             graph[u].append(v)
-        
-        
+
         ans = []
         dfsHelper("JFK")
         return ans[::-1]
+        
+        
+        
+        
         
