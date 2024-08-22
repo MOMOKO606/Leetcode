@@ -8,9 +8,7 @@ class Solution:
             else:
                 intervals.append([cur_start, cur_end])
                 cur_start, cur_end = ranges[i][0], ranges[i][1]
-        intervals.append([cur_start, cur_end])
-        n = len(intervals)
-        return (2 ** n) % (10 ** 9 + 7)
+        return (2 ** (len(intervals) + 1)) % (10 ** 9 + 7)
     
 
 
