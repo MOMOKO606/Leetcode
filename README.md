@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0382-linked-list-random-node](https://github.com/MOMOKO606/Leetcode/tree/master/0382-linked-list-random-node) |
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
 | [1070-convert-to-base-2](https://github.com/MOMOKO606/Leetcode/tree/master/1070-convert-to-base-2) |
+| [1585-the-kth-factor-of-n](https://github.com/MOMOKO606/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 ## Dynamic Programming
@@ -607,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0258-add-digits) |
+| [1585-the-kth-factor-of-n](https://github.com/MOMOKO606/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 ## String Matching
 |  |
 | ------- |
