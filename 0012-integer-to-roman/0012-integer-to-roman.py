@@ -1,18 +1,30 @@
 class Solution:
     def intToRoman(self, num: int) -> str:
-        ans = ""
-        while num:
-            if num >= 1000: ans, num = ans + "M", num - 1000
-            elif num >= 900: ans, num = ans + "CM", num - 900
-            elif num >= 500: ans, num = ans + "D", num - 500
-            elif num >= 400: ans, num = ans + "CD", num - 400
-            elif num >= 100: ans, num = ans + "C", num - 100
-            elif num >= 90: ans, num = ans + "XC", num - 90
-            elif num >= 50: ans, num = ans + "L", num - 50
-            elif num >= 40: ans, num = ans + "XL", num - 40
-            elif num >= 10: ans, num = ans + "X", num - 10
-            elif num >= 9: ans, num = ans + "IX", num - 9
-            elif num >= 5: ans, num = ans + "V", num - 5
-            elif num >= 4: ans, num = ans + "IV", num - 4
-            elif num >= 1: ans, num = ans + "I", num - 1
-        return ans
+        if not num: return ""
+        if num >= 1000:
+            return "M" + self.intToRoman(num - 1000)
+        elif 1000 > num >= 900:
+            return "CM" + self.intToRoman(num - 900)
+        elif 900 > num >= 500:
+            return "D" + self.intToRoman(num - 500)
+        elif 500 > num >= 400:
+            return "CD" + self.intToRoman(num - 400)
+        elif 400 > num >= 100:
+            return "C" + self.intToRoman(num - 100)
+        elif 100 > num >= 90:
+            return "XC" + self.intToRoman(num - 90)
+        elif 90 > num >= 50:
+            return "L" + self.intToRoman(num - 50)
+        elif 50 > num >= 40:
+            return "XL" + self.intToRoman(num - 40)
+        elif 40 > num >= 10:
+            return "X" + self.intToRoman(num - 10)
+        elif 10 > num >= 9:
+            return "IX" + self.intToRoman(num - 9)
+        elif 9 > num >= 5:
+            return "V" + self.intToRoman(num - 5)
+        elif 5 > num >= 4:
+            return "IV" + self.intToRoman(num - 4)
+        elif 4 > num >= 1:
+            return "I" + self.intToRoman(num - 1)
+        
