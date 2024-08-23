@@ -7,8 +7,6 @@ class Solution:
             if not nums[i] % prev:
                 potential = [nums[i]] + helper(i + 1, nums[i])
             return ans if len(ans) > len(potential) else potential
-        
         nums.sort()
         return helper(0, 1)
-
         
