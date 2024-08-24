@@ -8,3 +8,6 @@ class Solution:
                 i += 1
             ans += j - i + 1
         return ans
+        
+
+        
