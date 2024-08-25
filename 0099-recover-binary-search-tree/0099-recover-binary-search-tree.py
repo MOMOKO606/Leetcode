@@ -10,28 +10,15 @@ class Solution:
         Do not return anything, modify root in-place instead.
         """
         def helper(node):
-            if not node: return []
-            return helper(node.left) + [node.val] + helper(node.right)
-
-        def helper2(node):
             if not node: return
-            helper2(node.left)
-            if node.val == left: node.val = right
-            elif node.val == right: node.val = left
-            helper2(node.right)
-      
-        nums = helper(root)
-        sorted_nums = sorted(nums)
-        for num1, num2 in zip(nums, sorted_nums):
-            if num1 != num2: 
-                left = num1
-                break
-        for num1, num2 in zip(reversed(nums), reversed(sorted_nums)):
-            if num1 != num2: 
-                right = num1
-                break
-        helper2(root)
+            helper(node.left)
+            if self.prev and self.prev.val > node.val:
+                if self.left: self.right = node
+                else: self.left, self.right = self.prev, node
+            self.prev = node
+            helper(node.right)
 
+        self.left, self.right, self.prev = None, None, None
+        helper(root)
+        self.left.val, self.right.val = self.right.val, self.left.val
         
- 
-
