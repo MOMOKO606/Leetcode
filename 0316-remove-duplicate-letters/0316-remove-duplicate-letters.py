@@ -1,15 +1,14 @@
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
-        boundries, stack, exist = {}, [], set()
-        for i, char in enumerate(s):
-            boundries[char] = i
+        stack, boundaries, exist = [], {char: i for i, char in enumerate(s)}, set()
         for i, char in enumerate(s):
             if char in exist: continue
-            while stack and char < stack[-1] and i < boundries[stack[-1]]:
-                node = stack.pop()
-                exist.remove(node)
+            while stack and stack[-1] > char and i < boundaries[stack[-1]]:
+                exist.remove(stack.pop())
             stack.append(char)
             exist.add(char)
         return "".join(stack)
-        
+
+
+
         
