@@ -1,9 +1,17 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        stack, match, s = [], {"(": ")", "[": "]", "{": "}"}, list(s)
-        while s:
-            sign = s.pop()
-            if sign in [")", "]", "}"]: stack.append(sign)
-            elif not stack or match[sign] != stack.pop(): return False
-        return not stack 
+        pairs = {
+            "(": ")",
+            "[": "]",
+            "{": "}",
+            }
+        stack = []
+        for char in s:
+            if char in "([{": stack.append(char)
+            elif not stack or pairs[stack.pop()] != char: return False
+        return not stack
+        
+
+
+
         
