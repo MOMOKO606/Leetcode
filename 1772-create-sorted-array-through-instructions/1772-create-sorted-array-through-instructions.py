@@ -23,11 +23,11 @@ class Solution:
     def createSortedArray(self, instructions: List[int]) -> int:
         indices = {num: i + 1 for i, num in enumerate(sorted(set(instructions)))}
         ft = FenwickTree(len(indices) + 1, 0)
-        ans, max_num = 0, max(instructions)
-        for num in instructions:
+        ans = 0
+        for i, num in enumerate(instructions):
             k = indices[num]
+            ans += min(ft.query(k - 1), i - ft.query(k))
             ft.update(k, 1)
-            ans += min(ft.query(k - 1), ft.query(indices[max_num]) - ft.query(k))
         return ans % (10 ** 9 + 7)
 
 
