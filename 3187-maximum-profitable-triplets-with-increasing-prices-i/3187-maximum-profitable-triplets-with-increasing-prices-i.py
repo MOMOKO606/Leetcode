@@ -24,6 +24,9 @@ class Solution:
         single = FenwickTree(max_price + 1, 0)
         double = FenwickTree(max_price * 2 + 1 + 1, 0)
         for price, profit in zip(prices, profits):
+            # Update single
+            single.update(price, profit)
+            
             # Update double
             single_max = single.query(price - 1)
             if single_max:
@@ -33,8 +36,7 @@ class Solution:
             double_max = double.query(price - 1)
             if double_max: ans = max(ans, double_max + profit)
 
-            # Update single
-            single.update(price, profit)
+            
         return ans
 
 
