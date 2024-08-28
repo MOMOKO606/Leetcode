@@ -21,17 +21,17 @@ class FenwickTree:
 class Solution:
     def maxProfit(self, prices: List[int], profits: List[int]) -> int:
         max_price, ans = max(prices), -1
-        single = FenwickTree(max_price + 1, -1)
-        double = FenwickTree(max_price * 2 + 1 + 1, -1)
+        single = FenwickTree(max_price + 1, 0)
+        double = FenwickTree(max_price * 2 + 1 + 1, 0)
         for price, profit in zip(prices, profits):
             # Update double
             single_max = single.query(price - 1)
-            if single_max > 0:
+            if single_max:
                 double.update(price, profit + single_max)
             
             # Update ans
             double_max = double.query(price - 1)
-            if double_max > 0: ans = max(ans, double_max + profit)
+            if double_max: ans = max(ans, double_max + profit)
 
             # Update single
             single.update(price, profit)
