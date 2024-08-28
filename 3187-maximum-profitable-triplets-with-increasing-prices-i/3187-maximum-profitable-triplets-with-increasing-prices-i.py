@@ -12,7 +12,7 @@ class FenwickTree:
             index += self.__lowbit(index)
 
     def query(self, index):
-        ans = -inf
+        ans = 0
         while index:
             ans = max(ans, self.tree[index])
             index -= self.__lowbit(index)
