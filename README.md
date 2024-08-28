@@ -347,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Greedy
 |  |
 | ------- |
@@ -399,6 +400,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3254-number-of-divisible-triplet-sums](https://github.com/MOMOKO606/Leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -522,6 +524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
 |  |
 | ------- |
