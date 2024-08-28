@@ -1,13 +1,43 @@
+class FenwickTree:
+    def __init__(self, size, original_value):
+        self.size = size
+        self.tree = [original_value] * size
+
+    def __lowbit(self, index):
+        return index & -index
+
+    def update(self, index, num):
+        while index < self.size:
+            self.tree[index] = max(self.tree[index], num)
+            index += self.__lowbit(index)
+
+    def query(self, index):
+        ans = -inf
+        while index:
+            ans = max(ans, self.tree[index])
+            index -= self.__lowbit(index)
+        return ans
+
 class Solution:
     def maxProfit(self, prices: List[int], profits: List[int]) -> int:
-        pre_max, post_max, ans = [-inf] * len(prices), [-inf] * len(prices), -1
-        for i in range(len(prices) - 1):
-            for j in range(i + 1, len(prices)):
-                if prices[i] < prices[j]:
-                    pre_max[j] = max(pre_max[j], profits[i])
-                    post_max[i] = max(post_max[i], profits[j])
+        max_price, ans = max(prices), -1
+        single = FenwickTree(max_price + 1, -1)
+        double = FenwickTree(max_price * 2 + 1 + 1, -1)
+        for price, profit in zip(prices, profits):
+            # Update double
+            single_max = single.query(price - 1)
+            if single_max > 0:
+                double.update(price, profit + single_max)
+            
+            # Update ans
+            double_max = double.query(price - 1)
+            if double_max > 0: ans = max(ans, double_max + profit)
 
-        for j in range(len(profits)):
-            ans = max(ans, pre_max[j] + profits[j] + post_max[j])
+            # Update single
+            single.update(price, profit)
         return ans
+
+
+
+
         
