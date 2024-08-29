@@ -8,28 +8,32 @@
 #        :type url: str
 #        :rtype List[str]
 #        """
-import threading, queue
+import queue, threading
+from concurrent.futures import ThreadPoolExecutor 
+
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
-        def _crawl():
-            while True:
-                tmp = []
-                for new_url in htmlParser.getUrls(curQueue.get()):
-                    if new_url.split("http://")[1].split("/")[0] == domain and new_url not in visited:
-                        tmp.append(new_url)
-                        visited.add(new_url)
-                nextQueue.put(tmp)
+        def _crawl(url):
+            tmp = []
+            for new_url in htmlParser.getUrls(url):
+                if new_url.split("http://")[1].split("/")[0] == domain and new_url not in visited:
+                    tmp.append(new_url)
+                    visited.add(new_url)
+            return tmp
 
-        curQueue, nextQueue, running, visited, domain = queue.Queue(), queue.Queue(), 1, set([startUrl]), startUrl.split("http://")[1].split("/")[0]
-        curQueue.put(startUrl)
-        for _ in range(5):
-            thread = threading.Thread(target=_crawl, daemon=True)
-            thread.start()
-        while running:
-            for url in nextQueue.get():
-                curQueue.put(url)
-                running += 1
-            running -= 1
+        cur_queue, domain, visited = queue.Queue(), startUrl.split("http://")[1].split("/")[0], set([startUrl])
+        cur_queue.put(startUrl)
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            while not cur_queue.empty():
+                futures = []
+                while not cur_queue.empty():
+                    futures.append(executor.submit(_crawl, cur_queue.get()))
+
+                for future in futures:
+                    result = future.result()
+                    for url in result:
+                        cur_queue.put(url)
         return list(visited)
+                    
 
         
