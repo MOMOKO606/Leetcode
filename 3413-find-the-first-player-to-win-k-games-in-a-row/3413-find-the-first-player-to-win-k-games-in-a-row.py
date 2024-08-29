@@ -1,0 +1,14 @@
+class Solution:
+    def findWinningPlayer(self, skills: List[int], k: int) -> int:
+        if k > len(skills): return skills.index(max(skills))
+        queue, count = deque([(skill, i) for i, skill in enumerate(skills)]), 0
+        while queue:
+            if queue[0][0] > queue[1][0]:
+                count += 1
+                queue[0], queue[1] = queue[1], queue[0]
+            else: count = 1
+            queue.append(queue.popleft())
+            if count == k: return queue[0][1]
+            
+
+        
