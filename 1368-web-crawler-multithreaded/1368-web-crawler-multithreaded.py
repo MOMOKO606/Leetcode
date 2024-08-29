@@ -8,7 +8,7 @@
 #        :type url: str
 #        :rtype List[str]
 #        """
-import queue, threading
+import queue
 from concurrent.futures import ThreadPoolExecutor 
 
 class Solution:
