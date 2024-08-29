@@ -13,12 +13,13 @@ class Solution:
             if not node: return
             helper(node.left)
             if self.prev and self.prev.val > node.val:
-                if self.left: self.right = node
-                else: self.left, self.right = self.prev, node
+                if not self.first: self.first = self.prev
+                self.second = node
             self.prev = node
             helper(node.right)
-
-        self.left, self.right, self.prev = None, None, None
+        
+        
+        self.first, self.second, self.prev = None, None, None
         helper(root)
-        self.left.val, self.right.val = self.right.val, self.left.val
+        self.first.val, self.second.val = self.second.val, self.first.val
         
