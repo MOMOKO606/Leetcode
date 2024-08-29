@@ -6,18 +6,12 @@ class Solution:
                 dfsHelper(neighbor)
             ans.append(node)
 
-
         # Build the graph
-        tickets.sort()
-        graph = collections.defaultdict(list)
+        graph, tickets = collections.defaultdict(list), sorted(tickets)
         for u, v in tickets:
             graph[u].append(v)
 
         ans = []
         dfsHelper("JFK")
         return ans[::-1]
-        
-        
-        
-        
         
