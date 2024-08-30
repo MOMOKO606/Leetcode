@@ -5,5 +5,4 @@ class Solution:
             ans += [head + prev for prev in reversed(ans)]
             head <<= 1
         return ans
-
         
