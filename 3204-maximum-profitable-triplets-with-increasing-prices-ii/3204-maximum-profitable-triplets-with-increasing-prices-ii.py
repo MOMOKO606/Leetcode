@@ -18,10 +18,13 @@ class FenwickTree:
             index -= self.__lowbit(index)
         return ans
 
+
 class Solution:
     def maxProfit(self, prices: List[int], profits: List[int]) -> int:
-        n = max(prices)
-        ans, single, double = -1, FenwickTree(n + 1, 0), FenwickTree(2 * n + 1, 0)
+        max_price, ans = max(prices), -1
+        single = FenwickTree(max_price + 1, 0)
+        double = FenwickTree(2 * max_price + 1, 0)
+
         for price, profit in zip(prices, profits):
             single.update(price, profit)
 
@@ -32,5 +35,5 @@ class Solution:
             if double_max: ans = max(ans, double_max + profit)
 
         return ans
-        
+
         
