@@ -25,10 +25,8 @@ class Solution:
         ft = FenwickTree(len(transfer) + 1, 0)
         ans = 0
         for i, num in enumerate(instructions):
-            left = ft.query(transfer[num] - 1)
             ft.update(transfer[num], 1)
-            right = i - ft.query(transfer[num]) + 1
-            ans += min(left, right)
+            ans += min(ft.query(transfer[num] - 1), i - ft.query(transfer[num]) + 1)
         return ans % (10 ** 9 + 7)
 
         
