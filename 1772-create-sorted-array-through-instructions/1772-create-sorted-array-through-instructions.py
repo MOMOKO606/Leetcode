@@ -21,14 +21,14 @@ class FenwickTree:
 
 class Solution:
     def createSortedArray(self, instructions: List[int]) -> int:
-        indices = {num: i + 1 for i, num in enumerate(sorted(set(instructions)))}
-        ft = FenwickTree(len(indices) + 1, 0)
+        transfer = {num: i + 1 for i, num in enumerate(sorted(set(instructions)))}
+        ft = FenwickTree(len(transfer) + 1, 0)
         ans = 0
         for i, num in enumerate(instructions):
-            k = indices[num]
-            ans += min(ft.query(k - 1), i - ft.query(k))
-            ft.update(k, 1)
+            left = ft.query(transfer[num] - 1)
+            ft.update(transfer[num], 1)
+            right = i - ft.query(transfer[num]) + 1
+            ans += min(left, right)
         return ans % (10 ** 9 + 7)
-
 
         
