@@ -9,16 +9,17 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        def helper(root):
-            if not root: return
-            
-            self.cur, left, right = root, root.left, root.right
-            if self.prev: self.prev.left, self.prev.right = None, self.cur
-            self.prev = self.cur
-
+        def helper(node):
+            if not node: return
+            left, right = node.left, node.right
+            if self.prev:
+                self.prev.left, self.prev.right = None, node
+            self.prev = node
             helper(left)
             helper(right)
 
-        self.prev, self.cur = None, None
+        self.prev = None
         helper(root)
+
+        
         
