@@ -1,10 +1,11 @@
 class Solution:
-    @cache
     def numDistinct(self, s: str, t: str) -> int:
-        if not t: return 1
-        if len(s) < len(t): return 0
-        ans = self.numDistinct(s[:-1], t)
-        if s[-1] == t[-1]:
-            ans += self.numDistinct(s[:-1], t[:-1])
-        return ans
+        rows, cols = len(t) + 1, len(s) + 1
+        dp = [[0] * cols for _ in range(rows)]
+        for j in range(cols): dp[0][j] = 1
+        for i in range(1, rows):
+            for j in range(1, cols):
+                dp[i][j] = dp[i][j - 1]
+                if t[i - 1] == s[j - 1]: dp[i][j] += dp[i - 1][j - 1]
+        return dp[-1][-1]
         
