@@ -11,8 +11,11 @@ class Solution:
             if not node.left and not node.right and node.val == targetSum:
                 self.ans.append(seq + [node.val])
                 return
-            helper(node.left, seq + [node.val], targetSum - node.val)
-            helper(node.right, seq + [node.val], targetSum - node.val)
+            seq, targetSum = seq + [node.val], targetSum - node.val
+            helper(node.left, seq, targetSum)
+            helper(node.right, seq, targetSum)
+            seq.pop()
+            targetSum += node.val
 
         self.ans = []
         helper(root, [], targetSum)
