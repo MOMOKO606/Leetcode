@@ -12,6 +12,5 @@ class Solution:
             is_right_balanced, right_height = helper(node.right)
             return is_left_balanced and is_right_balanced and abs(left_height - right_height) < 2, 1 + max(left_height, right_height)
 
-        ans = helper(root)
-        return ans[0]
+        return helper(root)[0]
         
