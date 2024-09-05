@@ -1,16 +1,15 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        def isPalind(s):
-            i, j = 0, len(s) - 1
-            while i <= j and s[i] == s[j]:
-                i, j = i + 1, j - 1
-            return i >= j
+        def helper(s, seq):
+            if not s: 
+                self.ans.append(seq[:])
+                return 
+            for i in range(1, len(s) + 1):
+                if s[:i] == s[:i][::-1]:
+                    helper(s[i:], seq + [s[:i]])
 
-        if not s: return [[]]
-        ans = []
-        for i in range(len(s)):
-            if not isPalind(s[:i + 1]): continue
-            ans += [[s[:i + 1]] + seq for seq in self.partition(s[i + 1:])]
-        return ans
+        self.ans = []
+        helper(s, [])
+        return self.ans
 
         
