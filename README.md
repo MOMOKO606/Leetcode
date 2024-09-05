@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/MOMOKO606/Leetcode/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/MOMOKO606/Leetcode/tree/master/0135-candy) |
+| [0136-single-number](https://github.com/MOMOKO606/Leetcode/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MOMOKO606/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
@@ -593,6 +594,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/MOMOKO606/Leetcode/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/MOMOKO606/Leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/MOMOKO606/Leetcode/tree/master/0136-single-number) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0260-single-number-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
