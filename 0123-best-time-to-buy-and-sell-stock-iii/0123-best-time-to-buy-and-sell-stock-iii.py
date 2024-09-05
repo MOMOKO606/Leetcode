@@ -7,4 +7,5 @@ class Solution:
             buy2 = max(buy2, sell1 - price)
             sell2 = max(sell2, buy2 + price)
         return sell2
+
         
