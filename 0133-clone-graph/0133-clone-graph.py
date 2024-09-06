@@ -10,17 +10,17 @@ from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if not node: return node
-        clones, queue= {node.val: Node(val=node.val, neighbors=[])}, [node]
+        clones, queue= {node: Node(val=node.val, neighbors=[])}, [node]
         while queue:
             next_queue = []
             for cur_node in queue:
                 for neighbor in cur_node.neighbors:
-                    if neighbor.val not in clones:
-                        clones[neighbor.val] = Node(val=neighbor.val, neighbors=[])
+                    if neighbor not in clones:
+                        clones[neighbor] = Node(val=neighbor.val, neighbors=[])
                         next_queue.append(neighbor)
-                    clones[cur_node.val].neighbors.append(clones[neighbor.val])
+                    clones[cur_node].neighbors.append(clones[neighbor])
             queue = next_queue
-        return clones[node.val]
+        return clones[node]
 
 
         
