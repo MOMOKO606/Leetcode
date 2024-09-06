@@ -9,18 +9,18 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        if not node: return
-        clones, queue = {node.val: Node(node.val, [])}, [node]
+        if not node: return node
+        clones, queue= {node.val: Node(val=node.val, neighbors=[])}, [node]
         while queue:
-            nextQueue = []
-            for curNode in queue:
-                for neighbor in curNode.neighbors:
+            next_queue = []
+            for cur_node in queue:
+                for neighbor in cur_node.neighbors:
                     if neighbor.val not in clones:
-                        clones[neighbor.val] = Node(neighbor.val, [])
-                        nextQueue.append(neighbor)
-                    clones[curNode.val].neighbors.append(clones[neighbor.val])
-            queue = nextQueue
-        return clones[node.val]        
-        
+                        clones[neighbor.val] = Node(val=neighbor.val, neighbors=[])
+                        next_queue.append(neighbor)
+                    clones[cur_node.val].neighbors.append(clones[neighbor.val])
+            queue = next_queue
+        return clones[node.val]
+
 
         
