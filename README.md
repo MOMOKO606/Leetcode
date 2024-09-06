@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0135-candy](https://github.com/MOMOKO606/Leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/MOMOKO606/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/MOMOKO606/Leetcode/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MOMOKO606/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/MOMOKO606/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/MOMOKO606/Leetcode/tree/master/0139-word-break) |
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0322-coin-change](https://github.com/MOMOKO606/Leetcode/tree/master/0322-coin-change) |
@@ -359,6 +361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/MOMOKO606/Leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/MOMOKO606/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/MOMOKO606/Leetcode/tree/master/0139-word-break) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
@@ -422,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/MOMOKO606/Leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/MOMOKO606/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/MOMOKO606/Leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/MOMOKO606/Leetcode/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
@@ -460,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/MOMOKO606/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/MOMOKO606/Leetcode/tree/master/0139-word-break) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 ## Divide and Conquer
 |  |
@@ -852,6 +857,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/MOMOKO606/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/MOMOKO606/Leetcode/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Eulerian Circuit
 |  |
