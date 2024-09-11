@@ -1,11 +1,11 @@
 class Solution:
     def smallestSubsequence(self, s: str) -> str:
-        boundaries, stack, visited = {char: i for i, char in enumerate(s)}, [], set()
+        visited, boundaries, stack = set(), {char: i for i, char in enumerate(s)}, []
         for i, char in enumerate(s):
             if char in visited: continue
-            while stack and stack[-1] > char and boundaries[stack[-1]] > i:
+            while stack and char < stack[-1] and boundaries[stack[-1]] > i:
                 visited.remove(stack.pop())
-            stack.append(char)
             visited.add(char)
+            stack.append(char)
         return "".join(stack)
         
