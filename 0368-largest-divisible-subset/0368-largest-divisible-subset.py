@@ -1,7 +1,7 @@
 class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         @cache
-        def helper(i=0, prev=1):
+        def helper(i, prev):
             if i == len(nums): return []
             ans = helper(i + 1, prev)
             if not nums[i] % prev:
@@ -9,5 +9,8 @@ class Solution:
             return ans
 
         nums = sorted(nums)
-        return helper()
+        return helper(0, 1)
+
+
+        
         
