@@ -9,17 +9,18 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        def helper(node):
+        def helper(node=root):
             if not node: return
             helper(node.left)
             if self.prev and self.prev.val > node.val:
-                if not self.first: self.first = self.prev
                 self.second = node
+                if not self.first: self.first = self.prev
             self.prev = node
+            if self.first and self.second: print(self.first.val, self.second.val, self.prev.val)
             helper(node.right)
-        
-        
+
+
         self.first, self.second, self.prev = None, None, None
-        helper(root)
+        helper()
         self.first.val, self.second.val = self.second.val, self.first.val
         
