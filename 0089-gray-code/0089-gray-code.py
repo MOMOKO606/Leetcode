@@ -1,8 +1,9 @@
 class Solution:
     def grayCode(self, n: int) -> List[int]:
-        head, ans = 1, [0]
+        ans, one = [0], 1
         for _ in range(n):
-            ans += [head + prev for prev in reversed(ans)]
-            head <<= 1
+            ans += [one + digit for digit in reversed(ans)]
+            one <<= 1
         return ans
+
         
