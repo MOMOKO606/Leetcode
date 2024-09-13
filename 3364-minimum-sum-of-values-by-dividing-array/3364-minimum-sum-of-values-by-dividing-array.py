@@ -10,6 +10,8 @@ class Solution:
             if _AND == andValues[j]:
                 ans = min(ans, nums[i] + helper(i + 1, j + 1, -1))
             return ans
+
         ans = helper()
         return ans if ans != inf else -1
+
         
