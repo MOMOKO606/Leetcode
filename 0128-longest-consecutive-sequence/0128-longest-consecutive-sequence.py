@@ -3,9 +3,9 @@ class Solution:
         numSet, ans = set(nums), 0
         for num in nums:
             if num - 1 in numSet: continue
-            count = 1
-            while num + 1 in numSet:
-                num, count = num + 1, count + 1
-            ans = max(ans, count)
+            end = num
+            while end + 1 in numSet:
+                end += 1
+            ans = max(ans, end - num + 1)
         return ans
         
