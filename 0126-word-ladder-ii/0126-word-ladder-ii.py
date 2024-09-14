@@ -1,18 +1,20 @@
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
-        def printPaths(word=endWord, seq=[]):
+        def printPath(word, seq):
             if word == beginWord:
-                ans.append([word] + seq)
+                seq = [beginWord] + seq
+                self.ans.append(seq[:])
                 return
             if word not in paths: return
             for neighbor in paths[word]:
-                printPaths(neighbor, [word] + seq)
+                printPath(neighbor, [word] + seq)
+            
 
 
         wordList = set(wordList)
         if endWord not in wordList: return []
         if beginWord in wordList: wordList.remove(beginWord)
-        queue, paths, ans = [beginWord], {}, []
+        queue, paths = [beginWord], {}
         while queue:
             localVisited = set()
             for word in queue:
@@ -22,9 +24,11 @@ class Solution:
                         if newWord in wordList:
                             localVisited.add(newWord)
                             paths[newWord] = paths.get(newWord, []) + [word]
-            for word in localVisited:
-                wordList.remove(word)
+            if endWord in localVisited: break
             queue = list(localVisited)
-       
-        printPaths()
-        return ans
+            for word in queue:
+                wordList.remove(word)
+        
+        self.ans = []
+        printPath(endWord, [])
+        return self.ans
