@@ -1,12 +1,12 @@
 class Solution:
     def findSmallestInteger(self, nums: List[int], value: int) -> int:
-        reminders = {}
+        visited = collections.defaultdict(int)
         for num in nums:
-            reminder = num % value
-            reminders[reminder] = reminders.get(reminder, 0) + 1
-
+            visited[num % value] += 1
+    
         ans = 0
-        while True:
-            if ans % value not in reminders or not reminders[ans % value]: return ans
-            reminders[ans % value] -= 1
+        while ans % value  in visited and visited[ans % value] > 0:
+            visited[ans % value] -= 1
             ans += 1
+        return ans
+        
