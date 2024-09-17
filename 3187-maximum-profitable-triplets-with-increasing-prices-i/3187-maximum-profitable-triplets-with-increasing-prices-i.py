@@ -7,7 +7,6 @@ class Solution:
                     pre_max[j] = max(pre_max[j], profits[i])
                     post_max[i] = max(post_max[i], profits[j])
         for i in range(len(prices)):
-            ans = max(ans, pre_max[i] + post_max[i] + profits[i])
-        return ans 
-
+            ans = max(ans, pre_max[i] + profits[i] + post_max[i])
+        return ans
         
