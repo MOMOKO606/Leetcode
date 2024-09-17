@@ -6,13 +6,13 @@ class FenwickTree:
     def __lowbit(self, index):
         return index & -index
 
-    def update(self, index, num):
+    def update(self, index, value):
         while index < self.size:
-            self.tree[index] = max(self.tree[index], num)
+            self.tree[index] = max(self.tree[index], value)
             index += self.__lowbit(index)
 
     def query(self, index):
-        ans = -inf
+        ans = 0
         while index:
             ans = max(ans, self.tree[index])
             index -= self.__lowbit(index)
@@ -22,9 +22,7 @@ class FenwickTree:
 class Solution:
     def maxProfit(self, prices: List[int], profits: List[int]) -> int:
         max_price, ans = max(prices), -1
-        single = FenwickTree(max_price + 1, 0)
-        double = FenwickTree(2 * max_price + 1, 0)
-
+        single, double = FenwickTree(max_price + 1, 0), FenwickTree(2 * max_price + 1, 0)
         for price, profit in zip(prices, profits):
             single.update(price, profit)
 
@@ -33,7 +31,5 @@ class Solution:
 
             double_max = double.query(price - 1)
             if double_max: ans = max(ans, double_max + profit)
-
         return ans
-
         
