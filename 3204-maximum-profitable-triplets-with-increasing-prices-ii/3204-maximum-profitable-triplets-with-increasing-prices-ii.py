@@ -1,28 +1,28 @@
 class FenwickTree:
-    def __init__(self, size, original_value):
+    def __init__(self, size, value):
         self.size = size
-        self.tree = [original_value] * size
+        self.tree = [value] * size
 
-    def __lowbit(self, index):
+    def _lowbit(self, index):
         return index & -index
 
     def update(self, index, value):
         while index < self.size:
             self.tree[index] = max(self.tree[index], value)
-            index += self.__lowbit(index)
+            index += self._lowbit(index)
 
     def query(self, index):
-        ans = 0
+        ans = -inf
         while index:
             ans = max(ans, self.tree[index])
-            index -= self.__lowbit(index)
+            index -= self._lowbit(index)
         return ans
 
 
 class Solution:
     def maxProfit(self, prices: List[int], profits: List[int]) -> int:
-        max_price, ans = max(prices), -1
-        single, double = FenwickTree(max_price + 1, 0), FenwickTree(2 * max_price + 1, 0)
+        max_price = max(prices)
+        single, double, ans = FenwickTree(max_price + 1, 0), FenwickTree(max_price * 2 + 1, 0), -1
         for price, profit in zip(prices, profits):
             single.update(price, profit)
 
