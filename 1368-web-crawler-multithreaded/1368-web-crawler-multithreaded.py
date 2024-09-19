@@ -14,13 +14,12 @@ from concurrent.futures import ThreadPoolExecutor
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
         def _crawl(url):
-            nextQueue = []
+            urls = []
             for newUrl in htmlParser.getUrls(url):
                 if newUrl.split("http://")[1].split("/")[0] == domain and newUrl not in visited:
-                    nextQueue.append(newUrl)
                     visited.add(newUrl)
-            return nextQueue
-
+                    urls.append(newUrl)
+            return urls
 
         curQueue, domain, visited = queue.Queue(), startUrl.split("http://")[1].split("/")[0], set([startUrl])
         curQueue.put(startUrl)
@@ -32,4 +31,5 @@ class Solution:
                 for future in futures:
                     for url in future.result():
                         curQueue.put(url)
-        return list(visited)        
+        return list(visited)
+        
