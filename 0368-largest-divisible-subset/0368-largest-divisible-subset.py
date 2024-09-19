@@ -7,7 +7,7 @@ class Solution:
             if not nums[i] % prev:
                 ans = max(ans, [nums[i]] + helper(i + 1, nums[i]), key=len)
             return ans
-        nums = sorted(nums)
+            
+        nums.sort()
         return helper()
-
         
