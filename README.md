@@ -378,6 +378,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0140-word-break-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/MOMOKO606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
+| [0161-one-edit-distance](https://github.com/MOMOKO606/Leetcode/tree/master/0161-one-edit-distance) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
@@ -769,6 +770,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/MOMOKO606/Leetcode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/MOMOKO606/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MOMOKO606/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0161-one-edit-distance](https://github.com/MOMOKO606/Leetcode/tree/master/0161-one-edit-distance) |
 | [0253-meeting-rooms-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
