@@ -152,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MOMOKO606/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0157-read-n-characters-given-read4](https://github.com/MOMOKO606/Leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
 | [0216-combination-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0220-contains-duplicate-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0220-contains-duplicate-iii) |
@@ -701,6 +702,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0059-spiral-matrix-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0067-add-binary](https://github.com/MOMOKO606/Leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/MOMOKO606/Leetcode/tree/master/0068-text-justification) |
+| [0157-read-n-characters-given-read4](https://github.com/MOMOKO606/Leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0258-add-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0258-add-digits) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/MOMOKO606/Leetcode/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 ## Binary Search
@@ -951,4 +953,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/MOMOKO606/Leetcode/tree/master/0149-max-points-on-a-line) |
+## Interactive
+|  |
+| ------- |
+| [0157-read-n-characters-given-read4](https://github.com/MOMOKO606/Leetcode/tree/master/0157-read-n-characters-given-read4) |
 <!---LeetCode Topics End-->
