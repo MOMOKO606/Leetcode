@@ -13,7 +13,4 @@ class Solution:
 
         ans = helper()
         return ans if ans != inf else -1
-
-
-
         
