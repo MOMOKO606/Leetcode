@@ -20,9 +20,11 @@ class Solution:
         :type n: Number of characters to read (int)
         :rtype: The number of actual characters read (int)
         """
-        i, count, buf4 = 0, 0, [""] * 4 
+        i, count, buf4 = 0, 0, [" "] * 4
         while n:
-            count = min(n, read4(buf4))
+            count = min(read4(buf4), n)
             if not count: return i
-            buf[i: i + count], i, n = buf4[:count], i + count, n - count
+            buf[i: i + count] = buf4[:count]
+            n, i = n - count, i + count
         return i
+        
