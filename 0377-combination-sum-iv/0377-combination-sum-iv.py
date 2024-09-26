@@ -4,7 +4,11 @@ class Solution:
         def helper(target=target):
             if not target: return 1
             if target < 0: return 0
-            return sum(helper(target - num) for num in nums)
+            ans = 0
+            for num in nums:
+                ans += helper(target - num)
+            return ans
 
         return helper()
+        
         
