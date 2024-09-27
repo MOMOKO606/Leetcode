@@ -28,11 +28,8 @@ class Solution:
                 futures = []
                 while not curQueue.empty():
                     futures.append(executor.submit(_crawl, curQueue.get()))
-
                 for future in futures:
                     for url in future.result():
                         curQueue.put(url)
         return list(visited)
-
-
         
