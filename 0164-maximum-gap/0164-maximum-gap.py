@@ -3,7 +3,7 @@ class Solution:
         largest, smallest, n = max(nums), min(nums), len(nums)
         if largest == smallest: return 0
         l = math.ceil((largest - smallest) / (n - 1))
-        buckets = [[None, None] for _ in range((largest - smallest) // l + 1)]
+        buckets = [[None, None] for _ in range((largest - smallest) // l + 2)]
         for num in nums:
             bucket = buckets[(num - smallest) // l]
             bucket[0] = min(bucket[0], num) if bucket[0] else num
