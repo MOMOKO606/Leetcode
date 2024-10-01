@@ -4,9 +4,12 @@ class Solution:
         for num in nums:
             xor ^= num
         
-        xor &= -xor
+        target = 1
+        while not target & xor:
+            target <<= 1
+
         for num in nums:
-            if num & xor:
+            if num & target:
                 first ^= num
             else:
                 second ^= num
