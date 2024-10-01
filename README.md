@@ -503,6 +503,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/MOMOKO606/Leetcode/tree/master/0148-sort-list) |
+| [0191-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/MOMOKO606/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
@@ -645,6 +646,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0136-single-number](https://github.com/MOMOKO606/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0137-single-number-ii) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0191-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/MOMOKO606/Leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
