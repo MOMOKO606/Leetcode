@@ -5,5 +5,5 @@ class Solution:
             ans += [one + digit for digit in reversed(ans)]
             one <<= 1
         return ans
-
+        
         
