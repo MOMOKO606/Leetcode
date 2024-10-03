@@ -6,4 +6,3 @@ class Solution:
             one <<= 1
         return ans
         
-        
