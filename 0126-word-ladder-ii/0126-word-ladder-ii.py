@@ -21,6 +21,7 @@ class Solution:
                         if newWord in wordList:
                             localVisited.add(newWord)
                             paths[newWord] = paths.get(newWord, []) + [word]
+            if endWord in localVisited: break
             for word in localVisited: wordList.remove(word)
             queue = list(localVisited)
 
