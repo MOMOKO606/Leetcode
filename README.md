@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0163-missing-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/0163-missing-ranges) |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MOMOKO606/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0220-contains-duplicate-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0220-contains-duplicate-iii) |
 | [0253-meeting-rooms-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -564,6 +565,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/MOMOKO606/Leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/MOMOKO606/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/MOMOKO606/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MOMOKO606/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
@@ -592,6 +594,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0156-binary-tree-upside-down](https://github.com/MOMOKO606/Leetcode/tree/master/0156-binary-tree-upside-down) |
+| [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/MOMOKO606/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
@@ -617,6 +620,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/MOMOKO606/Leetcode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/MOMOKO606/Leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/MOMOKO606/Leetcode/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/MOMOKO606/Leetcode/tree/master/0322-coin-change) |
@@ -694,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/MOMOKO606/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Backtracking
