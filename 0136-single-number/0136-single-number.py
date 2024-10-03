@@ -4,4 +4,5 @@ class Solution:
         for num in nums:
             xor ^= num
         return xor
+
         
