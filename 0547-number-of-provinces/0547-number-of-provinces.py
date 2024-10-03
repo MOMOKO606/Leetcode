@@ -18,5 +18,5 @@ class Solution:
             for j in range(n):
                 if not isConnected[i][j]: continue
                 connect(i, j)
-        return len(set([parent(i) for i in range(n)]))
+        return len({parent(i): i for i in range(n)})
         
