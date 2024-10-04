@@ -1,28 +1,28 @@
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
-        def dfsHelper(node):
-            if node in visited: return visited[node]
-            visited[node] = True
-            for neigbhor in graph[node]:
-                if dfsHelper(neigbhor): return True
-            visited[node] = False
-            ans.append(node)
-
         # Build the graph
-        graph = collections.defaultdict(set)
+        graph, indegs = collections.defaultdict(list), {char: 0 for word in words for char in word}
         for word1, word2 in zip(words[:-1], words[1:]):
             for char1, char2 in zip(word1, word2):
                 if char1 != char2:
-                    graph[char1].add(char2)
+                    if char2 not in graph[char1]:
+                        indegs[char2] += 1
+                        graph[char1].append(char2)
                     break
             else:
                 if len(word1) > len(word2): return ""
 
-        ans, visited = [], {}
-        for word in words:
-            for char in word:
-                if dfsHelper(char): return "" 
-        return "".join(ans[::-1])
+        queue, ans = [char for char in indegs.keys() if not indegs[char]], ""
+        while queue:
+            nextQueue = []
+            for node in queue:
+                ans += node
+                for neighbor in graph[node]:
+                    indegs[neighbor] -= 1
+                    if not indegs[neighbor]:
+                        nextQueue.append(neighbor)
+            queue = nextQueue
+        return ans if len([value for value in indegs.values() if not value]) == len(indegs) else ""
 
-        
+
         
