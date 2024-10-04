@@ -8,6 +8,7 @@
 #        :type url: str
 #        :rtype List[str]
 #        """
+
 import queue
 from concurrent.futures import ThreadPoolExecutor
 
@@ -21,7 +22,7 @@ class Solution:
                     nextQueue.append(newUrl)
             return nextQueue
 
-        domain, curQueue, visited = startUrl.split("http://")[1].split("/")[0], queue.Queue(), set([startUrl])
+        curQueue, domain, visited = queue.Queue(), startUrl.split("http://")[1].split("/")[0], set([startUrl])
         curQueue.put(startUrl)
         with ThreadPoolExecutor(max_workers=5) as executor:
             while not curQueue.empty():
@@ -32,5 +33,4 @@ class Solution:
                     for url in future.result():
                         curQueue.put(url)
         return list(visited)
-
         
