@@ -1,14 +1,11 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        stack, ans = [], 0
-        for j, h in enumerate(height):
-            while stack and h > height[stack[-1]]:
-                k = stack.pop()
-                if stack: 
-                    i = stack[-1]
-                    ans += max(0, min(h, height[i]) - height[k]) * (j - i - 1)
-            stack.append(j)
+        left, right, ans = [0] * len(height), [0] * len(height), 0
+        for i in range(1, len(height)):
+            left[i] = max(left[i - 1], height[i - 1])
+        for j in range(len(height) - 2, -1, -1):
+            right[j] = max(right[j + 1], height[j + 1])
+        for i in range(1, len(height) - 1):
+            ans += max(min(left[i], right[i]) - height[i], 0)
         return ans
-
-
         
