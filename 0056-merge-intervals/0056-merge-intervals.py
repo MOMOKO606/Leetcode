@@ -3,11 +3,11 @@ class Solution:
         intervals = sorted(intervals)
         cur_start, cur_end, ans = intervals[0][0], intervals[0][1], []
         for i in range(1, len(intervals)):
-            left, right = intervals[i][0], intervals[i][1]
-            if cur_start <= left <= cur_end or cur_start <= right <= cur_end:
-                cur_start, cur_end = min(cur_start, left), max(cur_end, right)
+            if intervals[i][0] <= cur_end:
+                cur_end = max(cur_end, intervals[i][1])
             else:
                 ans.append([cur_start, cur_end])
-                cur_start, cur_end = left, right
+                cur_start, cur_end = intervals[i][0], intervals[i][1]
         return ans + [[cur_start, cur_end]]
+
         
