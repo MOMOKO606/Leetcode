@@ -1,7 +1,7 @@
 class FenwickTree:
-    def __init__(self, size, value):
-        self.tree = [value] * size
+    def __init__(self, value, size):
         self.size = size
+        self.tree = [value] * size
 
     def __lowbit(self, index):
         return index & -index
@@ -10,7 +10,7 @@ class FenwickTree:
         while index < self.size:
             self.tree[index] += delta
             index += self.__lowbit(index)
-    
+
     def query(self, index):
         ans = 0
         while index:
@@ -22,12 +22,11 @@ class FenwickTree:
 class Solution:
     def createSortedArray(self, instructions: List[int]) -> int:
         transfer = {num: i + 1 for i, num in enumerate(sorted(set(instructions)))}
-        ft, ans = FenwickTree(len(transfer) + 1, 0), 0
+        ft, ans = FenwickTree(0, len(transfer) + 1), 0
         for i, num in enumerate(instructions):
             k = transfer[num]
             ans += min(ft.query(k - 1), i - ft.query(k))
             ft.update(k, 1)
         return ans % (10 ** 9 + 7)
-
 
         
