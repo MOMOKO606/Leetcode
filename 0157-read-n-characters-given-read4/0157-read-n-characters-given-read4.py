@@ -19,14 +19,12 @@ class Solution:
         :type buf: Destination buffer (List[str])
         :type n: Number of characters to read (int)
         :rtype: The number of actual characters read (int)
-        """ 
-        i, count, buf4 = 0, 0, [" "] * 4 
+        """
+        i, count, buf4 = 0, 0, [""] * 4
         while n:
             count = min(n, read4(buf4))
             if not count: return i
-            buf[i: i + count] = buf4[: count]
-            i += count
-            n -= count
+            buf[i: i + count] = buf4[:count]
+            i, n = i + count, n - count
         return i
-        
         
