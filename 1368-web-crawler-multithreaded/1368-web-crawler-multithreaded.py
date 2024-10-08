@@ -11,6 +11,7 @@
 from queue import Queue
 from threading import Thread
 
+
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
         def _crawl():
@@ -22,7 +23,7 @@ class Solution:
                         tmp.append(url)
                 nextQueue.put(tmp)
 
-        curQueue, nextQueue, domain, running, visited = Queue(), Queue(), startUrl.split("http://")[1].split("/")[0], 1, set([startUrl])
+        curQueue, nextQueue, visited, domain, running = Queue(), Queue(), set([startUrl]), startUrl.split("http://")[1].split("/")[0], 1
         curQueue.put(startUrl)
         for _ in range(5):
             thread = Thread(target=_crawl, daemon=True)
@@ -33,6 +34,6 @@ class Solution:
                 curQueue.put(url)
                 running += 1
             running -= 1
-
         return list(visited)
+
         
