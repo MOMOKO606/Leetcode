@@ -1,11 +1,8 @@
 class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
-        alphabet, ans = "ABCDEFGHIJKLMNOPQRSTUVWXYZ", ""
+        ans, transfer = "", "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         while columnNumber:
             columnNumber -= 1
-            ans = alphabet[columnNumber % 26] + ans
+            ans = transfer[columnNumber % 26] + ans
             columnNumber //= 26
         return ans
-
-
-        
