@@ -1,16 +1,23 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        trans = {
-            "2": "abc", 
-            "3": "def", 
+        def helper(i=0):
+            if i == len(digits): return [""]
+            return [char + seq for char in transfer[digits[i]] for seq in helper(i + 1)]
+
+        transfer = {
+            "2": "abc",
+            "3": "def",
             "4": "ghi",
             "5": "jkl",
             "6": "mno",
             "7": "pqrs",
             "8": "tuv",
             "9": "wxyz",
-            }
-        ans = [""]
-        for digit in digits:
-            ans = [seq + char for char in trans[digit] for seq in ans]
-        return ans if digits else []
+        }
+
+        return helper() if digits else []
+        
+        
+
+
+        
