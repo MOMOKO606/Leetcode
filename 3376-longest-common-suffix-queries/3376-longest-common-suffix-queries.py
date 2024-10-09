@@ -4,24 +4,21 @@ class Solution:
         trie = {}
         for i, word in enumerate(wordsContainer):
             node = trie
-            for char in word[::-1]:
-                if "$" not in node or len(word) < node["$"][0]: node["$"] = [len(word), i]
+            if "$" not in node or len(word) < len(wordsContainer[node["$"]]):
+                node["$"] = i
+            for char in reversed(word):
                 node[char] = node.get(char, {})
                 node = node[char]
-            if "$" not in node or len(word) < node["$"][0]: node["$"] = [len(word), i]
-        
+                if "$" not in node or len(word) < len(wordsContainer[node["$"]]):
+                    node["$"] = i
         ans = []
         for word in wordsQuery:
             node = trie
-            for char in word[::-1]:
-                if char in node: 
-                    node = node[char]
-                else: 
-                    ans.append(node["$"][1])
+            for char in reversed(word):
+                if char not in node: 
+                    ans.append(node["$"])
                     break
+                node = node[char]
             else:
-                ans.append(node["$"][1])
+                ans.append(node["$"])
         return ans
-
-
-        
