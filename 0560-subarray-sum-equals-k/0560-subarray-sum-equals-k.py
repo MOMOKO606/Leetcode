@@ -3,9 +3,7 @@ class Solution:
         preSums, preSum, ans = {0: 1}, 0, 0
         for num in nums:
             preSum += num
-            if preSum - k in preSums: ans += preSums[preSum - k]
+            ans += preSums.get(preSum - k, 0)
             preSums[preSum] = preSums.get(preSum, 0) + 1
         return ans
-
-
         
