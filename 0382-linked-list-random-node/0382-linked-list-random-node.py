@@ -10,14 +10,13 @@ class Solution:
         
 
     def getRandom(self) -> int:
-        cur, count, ans = self.head, 0, 0
+        count, cur, ans = 0, self.head, 0
         while cur:
             count += 1
             if random.random() <= 1 / count:
                 ans = cur.val
             cur = cur.next
         return ans
-
         
 
 
