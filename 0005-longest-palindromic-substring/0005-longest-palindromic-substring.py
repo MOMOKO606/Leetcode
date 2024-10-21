@@ -1,12 +1,15 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        ans = s[0]
-        for j in range(1, len(s)):
-            l = len(ans)
-            if s[j - l: j + 1] == s[j - l: j + 1][::-1]:
-                ans = max(ans, s[j - l: j + 1], key=len)
-            if s[j - l - 1: j + 1] == s[j - l - 1: j + 1][::-1]:
-                ans = max(ans, s[j - l - 1: j + 1], key=len)
+        def palindromeLenght(i, j):
+            while 0 <= i and j < len(s) and s[i] == s[j]:
+                i, j = i - 1, j + 1
+            return s[i + 1: j]
+        
+        ans = ""
+        for i in range(len(s)):
+            ans = max(ans, palindromeLenght(i, i), key=len)
+            ans = max(ans, palindromeLenght(i, i + 1), key=len)
         return ans
+
 
         
