@@ -1,5 +1,6 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
+        if not s: return 0
         digits = {
             "M": 1000,
             "CM": 900,
@@ -15,7 +16,5 @@ class Solution:
             "IV": 4,
             "I": 1,
         }
-        if not s: return 0
         if s[:2] in digits: return digits[s[:2]] + self.romanToInt(s[2:])
-        else: return digits[s[:1]] + self.romanToInt(s[1:])
-        
+        elif s[:1] in digits: return digits[s[:1]] + self.romanToInt(s[1:])
