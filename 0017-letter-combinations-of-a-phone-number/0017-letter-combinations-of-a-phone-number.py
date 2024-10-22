@@ -12,10 +12,9 @@ class Solution:
         }
         ans = [""]
         for digit in digits:
-            ans = [seq + char for char in transfer[digit] for seq in ans]
-
+            ans = [seq +char for char in transfer[digit] for seq in ans]
         return ans if digits else []
-        
+
         
 
 
