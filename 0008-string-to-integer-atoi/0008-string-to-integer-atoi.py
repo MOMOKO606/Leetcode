@@ -1,32 +1,32 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        # Step1
+        # Step1. Ignore any leading whitespace
         i = 0
         while i < len(s) and s[i] == " ":
             i += 1
 
-        # Step2
+        # Step2. 
         negative = 1
-        if i < len(s):
-            if s[i] == "+": 
-                negative, i = 1, i + 1
-            elif s[i] == "-": 
-                negative, i = -1, i + 1
+        if i < len(s) and s[i] == "+":
+            i += 1
+        elif i < len(s) and s[i] == "-":
+            negative = -1
+            i += 1
 
-        # Step 3
+        # Step3
         while i < len(s) and s[i] == "0":
             i += 1
-        
+
         ans = 0
-        while i < len(s) and s[i].isdecimal():
+        while i < len(s) and s[i].isdigit():
             ans = ans * 10 + int(s[i])
             i += 1
 
-        # Step 4
-        ans = ans * negative
-        return sorted([-2 ** 31, ans, 2 ** 31 - 1])[1]
-            
 
-            
+        return sorted([-2 ** 31, 2 ** 31 - 1, ans * negative])[1]
 
+
+        
+
+        
         
