@@ -8,12 +8,12 @@ class Solution:
         dummy = prev = ListNode()
         while list1 and list2:
             if list1.val <= list2.val:
-                cur, list1 = ListNode(list1.val), list1.next
+                cur, list1 = list1, list1.next
             else:
-                cur, list2 = ListNode(list2.val), list2.next
+                cur, list2 = list2, list2.next
             prev.next = cur
-            prev = prev.next
-        prev.next = list1 or list2
+            prev = cur
+        prev.next = (list1 or list2)
         return dummy.next
-        
+
         
