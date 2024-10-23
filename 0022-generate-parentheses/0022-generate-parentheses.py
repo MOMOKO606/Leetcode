@@ -1,14 +1,14 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        def helper(left=n, right=n, seq=""):
+        def helper(left, right, seq):
             if not left and not right: 
-                ans.append(seq[:])
+                ans.append(seq)
                 return 
-            if right < left or left < 0: return 
-            helper(left, right - 1, seq + ")")
-            helper(left - 1, right, seq + "(")
-        
+            if right > left: helper(left, right - 1, seq + ")")
+            if left > 0: helper(left - 1, right, seq + "(") 
+
+
         ans = []
-        helper()
+        helper(left=n, right=n, seq="")
         return ans
         
