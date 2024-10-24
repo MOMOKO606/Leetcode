@@ -4,7 +4,7 @@ class Solution:
             if not target:
                 ans.append(seq)
                 return
-            if target < 0 or i == len(candidates): return
+            if target < 0: return
             for j in range(i, len(candidates)):
                 helper(j, target - candidates[j], seq + [candidates[j]])
 
