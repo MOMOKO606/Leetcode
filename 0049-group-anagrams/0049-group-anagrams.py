@@ -2,8 +2,8 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         ans = {}
         for word in strs:
-            key = "".join(sorted(word))
-            ans[key] = ans.get(key, []) + [word]
+            target = "".join(sorted(word))
+            ans[target] = ans.get(target, []) + [word]
         return list(ans.values())
 
         
