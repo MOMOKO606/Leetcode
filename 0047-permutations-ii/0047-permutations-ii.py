@@ -6,4 +6,7 @@ class Solution:
             if nums[i] in visited: continue
             visited.add(nums[i])
             ans += [[nums[i]] + seq for seq in self.permuteUnique(nums[:i] + nums[i + 1:])]
-        return ans        
+        return ans
+
+
+        
