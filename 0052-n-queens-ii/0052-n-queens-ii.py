@@ -4,17 +4,17 @@ class Solution:
             if i == n: return 1
             ans = 0
             for j in range(n):
-                if j in cols or i + j in back_slashes or i - j in slashes: continue
+                if j in cols or i - j in backSlash or i + j in slash: continue
                 cols.add(j)
-                back_slashes.add(i + j)
-                slashes.add(i - j)
+                backSlash.add(i - j)
+                slash.add(i + j)
                 ans += helper(i + 1)
                 cols.remove(j)
-                back_slashes.remove(i + j)
-                slashes.remove(i - j)
+                backSlash.remove(i - j)
+                slash.remove(i + j)
             return ans
 
-        cols, slashes, back_slashes  = set(), set(), set()
+        cols, backSlash, slash = set(), set(), set()
         return helper()
-        
+
         
