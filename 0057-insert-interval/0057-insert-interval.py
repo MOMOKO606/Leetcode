@@ -1,13 +1,12 @@
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         bisect.insort(intervals, newInterval)
-        curStart, curEnd, ans = intervals[0][0], intervals[0][1], []
-        for i in range(1, len(intervals)):
-            if curStart <= intervals[i][0] <= curEnd:
-                curStart, curEnd = min(curStart, intervals[i][0]), max(curEnd, intervals[i][1])
+        cur_left, cur_right, ans = intervals[0][0], intervals[0][1], []
+        for j in range(1, len(intervals)):
+            if intervals[j][0] <= cur_right:
+                cur_right = max(cur_right, intervals[j][1])
             else:
-                ans.append([curStart, curEnd])
-                curStart, curEnd = intervals[i][0], intervals[i][1]
-        return ans + [[curStart, curEnd]]
-
+                ans.append([cur_left, cur_right])
+                cur_left, cur_right = intervals[j][0], intervals[j][1]
+        return ans + [[cur_left, cur_right]]
         
