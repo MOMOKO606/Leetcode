@@ -3,19 +3,21 @@ class Solution:
         def helper(i=0):
             if i == n: 
                 ans.append(seq[:])
-                return 
+                return
             for j in range(n):
-                if j in cols or i + j in slashes or i - j in back_slashes: continue
+                if j in cols or i + j in backSlash or i - j in slash: continue
                 cols.add(j)
-                slashes.add(i + j)
-                back_slashes.add(i - j)
+                backSlash.add(i + j)
+                slash.add(i - j)
                 seq.append(j)
                 helper(i + 1)
-                seq.pop()
                 cols.remove(j)
-                slashes.remove(i + j)
-                back_slashes.remove(i - j)
+                backSlash.remove(i + j)
+                slash.remove(i - j)
+                seq.pop()
 
-        cols, slashes, back_slashes, seq, ans = set(), set(), set(), [], []
+        cols, backSlash, slash, seq, ans = set(), set(), set(), [], []
         helper()
         return [["." * pos + "Q" + "." * (n - pos - 1) for pos in seq] for seq in ans]
+        
+        
