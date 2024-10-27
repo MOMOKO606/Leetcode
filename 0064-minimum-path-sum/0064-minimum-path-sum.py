@@ -7,6 +7,4 @@ class Solution:
             for j in range(1, cols):
                 grid[i][j] += min(grid[i - 1][j], grid[i][j - 1])
         return grid[-1][-1]
-
-
         
