@@ -1,19 +1,17 @@
 class Solution:
     def isNumber(self, s: str) -> bool:
-        hasDigit, hasEe, hasDec, hasSign = False, False, False, False
+        hasDigit, hasE, hasDec, hasSign = False, False, False, False
         for char in s:
-            if char in "0123456789":
-                hasDigit = True
+            if char.isdigit(): hasDigit = True
             elif char in "+-":
                 if hasSign or hasDigit or hasDec: return False
                 hasSign = True
             elif char == ".":
-                if hasEe or hasDec: return False
+                if hasDec or hasE: return False
                 hasDec = True
-            elif char in "Ee":
-                if hasEe or not hasDigit: return False
-                hasEe, hasDigit, hasDec, hasSign = True, False, False, False
-            else: 
-                return False
+            elif char in "eE":
+                if not hasDigit or hasE: return False
+                hasDigit, hasE, hasDec, hasSign = False, True, False, False
+            else: return False
         return hasDigit
         
