@@ -3,14 +3,13 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        i = -1
-        for j in range(len(nums)):
-            if nums[j] == 0:
-                i += 1
-                nums[i], nums[j] = nums[j], nums[i]
-        k = i
-        for j in range(k + 1, len(nums)):
-            if nums[j] == 1:
-                i += 1
-                nums[i], nums[j] = nums[j], nums[i]
+        i = j = -1
+        for k, num in enumerate(nums):
+            if num == 0:
+                i, j = i + 1, j + 1
+                nums[i], nums[k] = nums[k], nums[i]
+                if j != i: nums[j], nums[k] = nums[k], nums[j]
+            elif num == 1:
+                j += 1
+                nums[j], nums[k] = nums[k], nums[j]
         
