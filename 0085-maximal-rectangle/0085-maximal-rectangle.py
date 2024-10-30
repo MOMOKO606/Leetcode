@@ -1,21 +1,23 @@
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
-        def getMaxRectangle(nums):
-            nums, stack, area = [-inf] + nums + [-inf], [], -inf
+        def get_max_area(nums):
+            nums, stack, ans = [-inf] + nums + [-inf], [], 0
             for j, num in enumerate(nums):
-                while stack and num < nums[stack[-1]]:
-                    k = stack.pop()
-                    area = max(area, (j - stack[-1] - 1) * nums[k])
+                while stack and nums[stack[-1]] > num:
+                    ans = max(ans, nums[stack.pop()] * (j - stack[-1] - 1))
                 stack.append(j)
-            return area
+            return ans
 
 
-        rows, cols, ans = len(matrix), len(matrix[0]), -inf
-        nums = [0] * cols
+        rows, cols, ans = len(matrix), len(matrix[0]), 0
         for i in range(rows):
             for j in range(cols):
-                nums[j] = nums[j] + 1 if matrix[i][j] == "1" else 0
-            ans = max(ans, getMaxRectangle(nums))
+                matrix[i][j] = int(matrix[i][j])
+                if i > 0: 
+                    matrix[i][j] = matrix[i][j] + matrix[i - 1][j] if matrix[i][j] else 0
+            ans = max(ans, get_max_area(matrix[i][:]))
         return ans
+               
+
 
         
