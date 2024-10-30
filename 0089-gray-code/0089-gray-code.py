@@ -1,8 +1,8 @@
 class Solution:
     def grayCode(self, n: int) -> List[int]:
-        ans, one = [0], 1
+        one, ans = 1, [0]
         for _ in range(n):
-            ans += [one + digit for digit in reversed(ans)]
+            ans += [one + num for num in reversed(ans)]
             one <<= 1
         return ans
         
