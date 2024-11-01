@@ -1,10 +1,13 @@
 class Solution:
-    @cache
     def numTrees(self, n: int) -> int:
-        if n < 2: return 1
-        ans = 0
-        for i in range(n):
-            ans += self.numTrees(i) * self.numTrees(n - i - 1)
-        return ans
+        @cache
+        def helper(l, r):
+            if l >= r: return 1
+            ans = 0
+            for k in range(l, r + 1):
+                ans += helper(l, k - 1) * helper(k + 1, r)
+            return ans
 
+        return helper(1, n)
+        
         
