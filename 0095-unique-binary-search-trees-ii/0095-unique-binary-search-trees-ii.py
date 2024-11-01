@@ -13,6 +13,9 @@ class Solution:
             for val in range(left, right + 1):
                 ans += [TreeNode(val=val, left=l, right=r) for l in helper(left, val - 1) for r in helper(val + 1, right)]
             return ans
+
         return helper(1, n)
+        
+                 
 
         
