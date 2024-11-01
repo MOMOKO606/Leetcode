@@ -5,24 +5,23 @@
 #         self.next = next
 class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
-        def reverseN(node, n):
-            prev, cur = None, node
-            while n:
+        def reverseFromNode(cur, count):
+            tail, prev = cur, None
+            while count != right:
+                count += 1
                 next = cur.next
                 cur.next = prev
                 prev, cur = cur, next
-                n -= 1
-            node.next = cur
+            tail.next = cur
             return prev
-
-        dummy = prev = ListNode(next = head)
-        cur = head
-        count = 0
+        
+        dummy = prev = ListNode(next=head)
+        cur, count = head, 0
         while cur:
             count += 1
             if count == left:
-                new_head = reverseN(cur, right - left + 1)
-                prev.next = new_head
+                newHead = reverseFromNode(cur, count - 1)
+                prev.next = newHead
                 return dummy.next
             prev, cur = cur, cur.next
         return dummy.next
