@@ -10,17 +10,16 @@ class Solution:
         Do not return anything, modify root in-place instead.
         """
         def helper(node=root):
-            if not node: return
+            if not node: return 
             helper(node.left)
             if self.prev and self.prev.val > node.val:
-                self.second = node
-                if not self.first: self.first = self.prev
+                if not self.left:
+                    self.left = self.prev
+                self.right = node
             self.prev = node
-            if self.first and self.second: print(self.first.val, self.second.val, self.prev.val)
             helper(node.right)
 
-
-        self.first, self.second, self.prev = None, None, None
+        self.prev, self.left, self.right = None, None, None
         helper()
-        self.first.val, self.second.val = self.second.val, self.first.val
+        self.left.val, self.right.val = self.right.val, self.left.val
         
