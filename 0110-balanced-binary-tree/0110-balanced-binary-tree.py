@@ -7,10 +7,12 @@
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def helper(node):
-            if not node: return True, 0
-            is_left_balanced, left_height = helper(node.left)
-            is_right_balanced, right_height = helper(node.right)
-            return is_left_balanced and is_right_balanced and abs(left_height - right_height) < 2, 1 + max(left_height, right_height)
+            if not node: return [0, True]
+            lHeight, isLeftBalanced = helper(node.left)
+            rHeight, isRightBalanced = helper(node.right)
+            return [1 + max(lHeight, rHeight), abs(lHeight - rHeight) < 2 and isLeftBalanced and isRightBalanced]
 
-        return helper(root)[0]
+        _, ans = helper(root)
+        return ans
+
         
