@@ -11,5 +11,5 @@ class Solution:
         l = self.minDepth(root.left) if root.left else inf
         r = self.minDepth(root.right) if root.right else inf
         return 1 + min(l, r)
-
+        
         
