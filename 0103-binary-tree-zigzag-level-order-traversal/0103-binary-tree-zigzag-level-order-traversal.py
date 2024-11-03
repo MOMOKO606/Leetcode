@@ -7,12 +7,16 @@
 class Solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root: return []
-        queue, count, ans = [root], 1, []
+        queue, ans, isReverse = [root], [], False
         while queue:
-            next_queue = []
-            ans = ans + [[node.val for node in queue]] if count & 1 else ans + [[node.val for node in queue[::-1]]]
+            nextQueue = []
+            if isReverse:
+                ans.append([node.val for node in reversed(queue)])
+            else:
+                ans.append([node.val for node in queue])
             for node in queue:
-                if node.left: next_queue.append(node.left)
-                if node.right: next_queue.append(node.right)
-            queue, count = next_queue, count + 1
+                if node.left: nextQueue.append(node.left)
+                if node.right: nextQueue.append(node.right)
+            queue, isReverse = nextQueue, not isReverse
         return ans
+        
