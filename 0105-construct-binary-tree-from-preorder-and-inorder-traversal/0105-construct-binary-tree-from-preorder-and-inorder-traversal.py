@@ -7,7 +7,7 @@
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         if not preorder: return None
-        val = preorder.pop(0)
-        k = inorder.index(val)
-        return TreeNode(val=val, left=self.buildTree(preorder[:k], inorder[:k]), right=self.buildTree(preorder[k:], inorder[k + 1:]))
+        target = preorder[0]
+        i = inorder.index(target)
+        return TreeNode(val=target, left=self.buildTree(preorder[1: i + 1], inorder[:i]), right=self.buildTree(preorder[i + 1:], inorder[i + 1:]))
         
