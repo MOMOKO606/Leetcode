@@ -10,16 +10,15 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        if not root: return
+        if not root: return root
         queue = [root]
         while queue:
-            next_queue = []
+            nextQueue = []
+            for prev, cur in zip(queue, queue[1:] + [None]): prev.next = cur
             for node in queue:
-                if node.left: next_queue.append(node.left)
-                if node.right: next_queue.append(node.right)
-            for i in range(1, len(next_queue)):
-                next_queue[i - 1].next = next_queue[i]
-            queue = next_queue
+                if node.left: nextQueue.append(node.left)
+                if node.right: nextQueue.append(node.right)
+            queue = nextQueue
         return root
 
         
