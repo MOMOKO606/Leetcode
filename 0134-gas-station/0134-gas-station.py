@@ -1,18 +1,16 @@
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         nums = [g - c for g, c in zip(gas, cost)]
-        total = sum(nums)
-        if total < 0: return -1
-        i, cur = 0, 0
-        for j in range(len(nums)):
-            cur += nums[j]
-            while cur < 0:
-                cur -= nums[i]
-                i += 1
-        return i if cur >= total - cur else -1
-
-
-  
+        if sum(nums) < 0: return -1
+        nums += nums[:-1]
+        total, largestTotal, ans, curLeftIndex = -inf, -inf, 0, 0
+        for i, num in enumerate(nums):
+            if total + num < num:
+               total, curLeftIndex = num, i
+            else: total += num
+            if total > largestTotal:
+                largestTotal, ans = total, curLeftIndex
+        return ans
 
 
         
