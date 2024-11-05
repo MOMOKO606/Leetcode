@@ -7,5 +7,6 @@ class Solution:
             if s[:i] == s[:i][::-1]:
                 ans = min(ans, 1 + self.minCut(s[i:]))
         return ans
-                
+
+
         
