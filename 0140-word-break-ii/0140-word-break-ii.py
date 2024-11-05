@@ -1,16 +1,16 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
-        def helper(s, seq):
-            if not s: 
-                self.ans.append(" ".join(seq))
-                return True
-            for word in wordDict:
-                k = len(word)
-                if s[:k] == word:
-                    helper(s[k:], seq + [word])
 
-        self.ans = []
-        helper(s, [])
-        return self.ans
-        
+        def helper(s=s, seq=[]):
+            if not s:
+                ans.append(" ".join(seq))
+                return
+            for word in wordDict:
+                if s[:len(word)] == word:
+                    helper(s[len(word):], seq + [word])
+
+        wordSet, ans = set(wordDict), []
+        helper()
+        return ans
+
         
