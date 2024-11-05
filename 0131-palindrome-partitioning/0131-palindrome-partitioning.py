@@ -1,6 +1,6 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        def helper(s, seq):
+        def helper(s=s, seq=[]):
             if not s: 
                 ans.append(seq)
                 return
@@ -8,8 +8,8 @@ class Solution:
                 if s[:i] == s[:i][::-1]:
                     helper(s[i:], seq + [s[:i]])
 
-
+                
         ans = []
-        helper(s, [])
+        helper()
         return ans
         
