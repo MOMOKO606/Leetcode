@@ -8,19 +8,24 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        queue, cur = deque([]), head
+        dummy = prev = ListNode(next=head) 
+        deque, cur = collections.deque(), head
         while cur:
-            queue.append(cur)
+            deque.append(cur)
             cur = cur.next
-
-        dummy = prev = ListNode()
-        while queue:
-            l = queue.popleft()
-            r = queue.pop() if queue else None
-            l.next = r
-            if r: r.next = None
-            prev.next = l
-            prev = r
+        
+        while deque:
+            node = deque.popleft()
+            node.next = None
+            prev.next = node
+            prev = node
+            if deque:
+                node = deque.pop()
+                node.next = None
+                prev.next = node
+                prev = node
         return dummy.next
+                
+
 
         
