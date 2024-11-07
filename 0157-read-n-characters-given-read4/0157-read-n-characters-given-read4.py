@@ -23,8 +23,9 @@ class Solution:
         buf4, total_count, i = [" "] * 4, 0, 0
         while n:
             cur_count = min(read4(buf4), n)
+            if not cur_count: return total_count
             buf[i: i + cur_count] = buf4[:cur_count]
             n, total_count, i = n - cur_count, total_count + cur_count, i + cur_count
-            if not cur_count or not n: return total_count
+            
         return total_count
         
