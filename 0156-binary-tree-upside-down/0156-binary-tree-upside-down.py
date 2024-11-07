@@ -6,13 +6,12 @@
 #         self.right = right
 class Solution:
     def upsideDownBinaryTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        if not root or (not root.left and not root.right): return root
-        l, r, root.left, root.right = root.left, root.right, None, None
-        new_root = self.upsideDownBinaryTree(l)
-        l.left, l.right = r, root
-        return new_root
-
-   
+        if not root: return root
+        if not root.left and not root.right: return root
+        left, right = root.left, root.right
+        newRoot = self.upsideDownBinaryTree(root.left)
+        left.right, left.left, root.left, root.right = root, right, None, None
+        return newRoot
 
 
         
