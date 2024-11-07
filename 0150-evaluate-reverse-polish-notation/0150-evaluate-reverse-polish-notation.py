@@ -3,12 +3,12 @@ class Solution:
         stack = []
         for token in tokens:
             if token in "+-*/":
-                num2 = stack.pop()
-                num1 = stack.pop()
-                if token == "+": stack.append(num1 + num2) 
-                elif token == "-": stack.append(num1 - num2)
-                elif token == "*": stack.append(num1 * num2) 
-                elif token == "/": stack.append(int(num1 / num2))
-            else: stack.append(int(token))
+                b = stack.pop()
+                a = stack.pop()
+                if token == "+": stack.append(a + b)
+                elif token == "-": stack.append(a - b)
+                elif token == "*": stack.append(a * b)
+                else: stack.append(int(a / b))
+            else: stack.append(int(token))  
         return stack.pop()
         
