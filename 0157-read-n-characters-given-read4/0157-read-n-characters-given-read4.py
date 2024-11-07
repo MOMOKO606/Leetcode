@@ -26,6 +26,5 @@ class Solution:
             if not cur_count: return total_count
             buf[i: i + cur_count] = buf4[:cur_count]
             n, total_count, i = n - cur_count, total_count + cur_count, i + cur_count
-            
         return total_count
         
