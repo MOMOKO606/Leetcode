@@ -165,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/MOMOKO606/Leetcode/tree/master/0169-majority-element) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0179-largest-number](https://github.com/MOMOKO606/Leetcode/tree/master/0179-largest-number) |
+| [0189-rotate-array](https://github.com/MOMOKO606/Leetcode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0220-contains-duplicate-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0220-contains-duplicate-iii) |
@@ -277,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/MOMOKO606/Leetcode/tree/master/0171-excel-sheet-column-number) |
 | [0172-factorial-trailing-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0172-factorial-trailing-zeroes) |
+| [0189-rotate-array](https://github.com/MOMOKO606/Leetcode/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/MOMOKO606/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/MOMOKO606/Leetcode/tree/master/0231-power-of-two) |
@@ -845,6 +847,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MOMOKO606/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0186-reverse-words-in-a-string-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0186-reverse-words-in-a-string-ii) |
+| [0189-rotate-array](https://github.com/MOMOKO606/Leetcode/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
