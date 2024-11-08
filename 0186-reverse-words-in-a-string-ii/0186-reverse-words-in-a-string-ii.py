@@ -3,18 +3,17 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        def reverse(i, j):
+        def helper(i, j):
             while i < j:
                 s[i], s[j] = s[j], s[i]
                 i, j = i + 1, j - 1
 
-        reverse(0, len(s) - 1)
-        i = -1
-        for j in range(len(s)):
-            if s[j] == " ": 
-                reverse(i + 1, j - 1)
-                i = j
-        reverse(i + 1, len(s) - 1)
 
+        s.reverse()
+        i = 0
+        for j in range(len(s) + 1):
+            if j == len(s) or s[j] == " ": 
+                helper(i, j - 1)
+                i = j + 1
 
         
