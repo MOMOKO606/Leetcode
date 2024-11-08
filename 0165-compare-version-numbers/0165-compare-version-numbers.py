@@ -1,14 +1,11 @@
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
-        version1, version2 = version1.split("."), version2.split(".")
-        l = max(len(version1), len(version2))
-        for _ in range(l - len(version1)): version1.append("0")
-        for _ in range(l - len(version2)): version2.append("0")
-
-
+        version1, version2 = list(map(int, version1.split("."))), list(map(int, version2.split(".")))
+        m, n = len(version1), len(version2)
+        if m < n: version1 += [0] * (n - m)
+        if n < m: version2 += [0] * (m - n)
         for v1, v2 in zip(version1, version2):
-            v1, v2 = int(v1), int(v2)
             if v1 > v2: return 1
             elif v1 < v2: return -1
-        else: return 0
+        return 0
         
