@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0163-missing-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/0163-missing-ranges) |
 | [0164-maximum-gap](https://github.com/MOMOKO606/Leetcode/tree/master/0164-maximum-gap) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MOMOKO606/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0200-number-of-islands](https://github.com/MOMOKO606/Leetcode/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0220-contains-duplicate-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0220-contains-duplicate-iii) |
@@ -478,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MOMOKO606/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
@@ -828,6 +830,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0161-one-edit-distance](https://github.com/MOMOKO606/Leetcode/tree/master/0161-one-edit-distance) |
 | [0165-compare-version-numbers](https://github.com/MOMOKO606/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MOMOKO606/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0253-meeting-rooms-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -958,6 +961,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/MOMOKO606/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/MOMOKO606/Leetcode/tree/master/0155-min-stack) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MOMOKO606/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -988,6 +992,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Data Stream
 |  |
 | ------- |
+| [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
 ## Concurrency
