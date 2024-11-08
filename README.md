@@ -274,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0166-fraction-to-recurring-decimal](https://github.com/MOMOKO606/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/MOMOKO606/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/MOMOKO606/Leetcode/tree/master/0171-excel-sheet-column-number) |
+| [0172-factorial-trailing-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0224-basic-calculator](https://github.com/MOMOKO606/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/MOMOKO606/Leetcode/tree/master/0231-power-of-two) |
