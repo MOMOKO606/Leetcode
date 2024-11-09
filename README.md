@@ -281,6 +281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0171-excel-sheet-column-number](https://github.com/MOMOKO606/Leetcode/tree/master/0171-excel-sheet-column-number) |
 | [0172-factorial-trailing-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0189-rotate-array](https://github.com/MOMOKO606/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/MOMOKO606/Leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/MOMOKO606/Leetcode/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/MOMOKO606/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0227-basic-calculator-ii) |
@@ -500,6 +501,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/MOMOKO606/Leetcode/tree/master/0169-majority-element) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0187-repeated-dna-sequences](https://github.com/MOMOKO606/Leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0202-happy-number](https://github.com/MOMOKO606/Leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/MOMOKO606/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
@@ -857,6 +859,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0170-two-sum-iii-data-structure-design](https://github.com/MOMOKO606/Leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0186-reverse-words-in-a-string-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0186-reverse-words-in-a-string-ii) |
 | [0189-rotate-array](https://github.com/MOMOKO606/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/MOMOKO606/Leetcode/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
