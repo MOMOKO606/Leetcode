@@ -10,13 +10,13 @@ class Trie:
             node[char] = node.get(char, {})
             node = node[char]
         node["#"] = "#"
-
-
+            
+    
     def search(self, word: str) -> bool:
         node = self.trie
         for char in word:
             if char not in node: return False
-            node = node[char]
+            node = node[char] 
         return "#" in node
         
 
@@ -24,8 +24,8 @@ class Trie:
         node = self.trie
         for char in prefix:
             if char not in node: return False
-            node = node[char]
-        return True 
+            node = node[char] 
+        return True
         
 
 
