@@ -15,8 +15,8 @@ class Solution:
                 update(curOper, curNum)
                 curOper, curNum = s[i], 0
             elif s[i] == "(":
-                curNum, j = self.calculate(s[i + 1:])
-                i += j
+                curNum, l = self.calculate(s[i + 1:])
+                i += l
             elif s[i] == ")":
                 update(curOper, curNum)
                 return sum(stack), i + 1
