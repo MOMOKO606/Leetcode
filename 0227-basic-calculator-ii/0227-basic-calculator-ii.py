@@ -1,23 +1,31 @@
 class Solution:
     def calculate(self, s: str) -> int:
-        def helper(curOper, curNum):
+        def update(curOper):
             if curOper == "+":
                 stack.append(curNum)
             elif curOper == "-":
                 stack.append(-curNum)
             elif curOper == "*":
                 stack.append(stack.pop() * curNum)
-            elif curOper == "/":
+            else:
                 stack.append(int(stack.pop() / curNum))
+            
 
-        stack, curOper, curNum = [], "+", 0
-        for char in s:
-            if char.isdigit():
-                curNum = curNum * 10 + int(char)
-            elif char in "+-*/":
-                helper(curOper, curNum)
-                curOper, curNum = char, 0
-        helper(curOper, curNum)
+        i, curOper, stack = 0, "+", []
+        while i < len(s):
+            if s[i] in "+-*/":
+                update(curOper)
+                curOper = s[i]
+            elif s[i].isdigit():
+                curNum = 0
+                while i < len(s) and s[i].isdigit():
+                    curNum = curNum * 10 + int(s[i])
+                    i += 1
+                i -= 1
+            i += 1
+        update(curOper)
         return sum(stack)
 
+
+            
         
