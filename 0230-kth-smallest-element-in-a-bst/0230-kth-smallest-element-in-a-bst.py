@@ -15,7 +15,7 @@ class Solution:
                 return 
             helper(node.right)
         
-        self.count = 0
+        self.count, self.ans = 0, None
         helper()
         return self.ans
         
