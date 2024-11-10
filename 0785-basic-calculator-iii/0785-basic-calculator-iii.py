@@ -7,10 +7,10 @@ class Solution:
                 stack.append(-curNum)
             elif curOper == "*":
                 stack.append(stack.pop() * curNum)
-            elif curOper == "/":
+            else:
                 stack.append(int(stack.pop() / curNum))
-
-        i, stack, curOper, curNum = 0, [], "+", 0
+        
+        i, curOper, curNum, stack = 0, "+", 0, []
         while i < len(s):
             if s[i].isdigit():
                 curNum = curNum * 10 + int(s[i])
@@ -18,8 +18,8 @@ class Solution:
                 update(curOper, curNum)
                 curOper, curNum = s[i], 0
             elif s[i] == "(":
-                curNum, j = self.calculate(s[i + 1:])
-                i += j
+                curNum, l = self.calculate(s[i + 1:])
+                i += l
             elif s[i] == ")":
                 update(curOper, curNum)
                 return sum(stack), i + 1
