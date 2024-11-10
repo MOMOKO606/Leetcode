@@ -290,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/MOMOKO606/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/MOMOKO606/Leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/MOMOKO606/Leetcode/tree/master/0204-count-primes) |
+| [0223-rectangle-area](https://github.com/MOMOKO606/Leetcode/tree/master/0223-rectangle-area) |
 | [0224-basic-calculator](https://github.com/MOMOKO606/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/MOMOKO606/Leetcode/tree/master/0231-power-of-two) |
@@ -1129,6 +1130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/MOMOKO606/Leetcode/tree/master/0149-max-points-on-a-line) |
+| [0223-rectangle-area](https://github.com/MOMOKO606/Leetcode/tree/master/0223-rectangle-area) |
 ## Interactive
 |  |
 | ------- |
