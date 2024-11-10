@@ -8,10 +8,11 @@ class Solution:
             for i in range(k): left = left * 10 + digits[i]
             for j in range(k + 1, len(digits)): right, p = right * 10 + digits[j], p * 10
             if digit == 0: ans += left * p
-            elif digit == 1: ans += right + 1 + left * p
+            elif digit == 1: ans += left * p + right + 1
             else: ans += (left + 1) * p
         return ans
 
-            
+
+
 
         
