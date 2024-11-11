@@ -1,6 +1,6 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
-        p2, p3, p5, ans = 0, 0, 0, [1]
+        ans, p2, p3, p5 = [1], 0, 0, 0
         for _ in range(n - 1):
             num2 = ans[p2] * 2
             num3 = ans[p3] * 3
@@ -10,7 +10,4 @@ class Solution:
             if num3 == ans[-1]: p3 += 1
             if num5 == ans[-1]: p5 += 1
         return ans[-1]
-
-
-
         
