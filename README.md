@@ -452,6 +452,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0227-basic-calculator-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0257-binary-tree-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
+| [0290-word-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0290-word-pattern) |
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
 | [0316-remove-duplicate-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
@@ -534,6 +535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/MOMOKO606/Leetcode/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0290-word-pattern) |
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
