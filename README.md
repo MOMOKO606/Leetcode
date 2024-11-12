@@ -189,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0283-move-zeroes) |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MOMOKO606/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/MOMOKO606/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/MOMOKO606/Leetcode/tree/master/0322-coin-change) |
@@ -361,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0233-number-of-digit-one](https://github.com/MOMOKO606/Leetcode/tree/master/0233-number-of-digit-one) |
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/MOMOKO606/Leetcode/tree/master/0279-perfect-squares) |
+| [0300-longest-increasing-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/MOMOKO606/Leetcode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0368-largest-divisible-subset](https://github.com/MOMOKO606/Leetcode/tree/master/0368-largest-divisible-subset) |
@@ -876,6 +878,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0275-h-index-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0275-h-index-ii) |
 | [0278-first-bad-version](https://github.com/MOMOKO606/Leetcode/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/MOMOKO606/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
