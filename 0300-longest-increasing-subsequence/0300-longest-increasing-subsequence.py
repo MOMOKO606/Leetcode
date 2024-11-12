@@ -1,8 +1,8 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        aux = []
+        lis = []
         for num in nums:
-            k = bisect.bisect_left(aux, num)
-            if k == len(aux): bisect.insort(aux, num)
-            else: aux[k] = num
-        return len(aux)        
+            k = bisect.bisect_left(lis, num)
+            if k == len(lis): lis.append(num)
+            else: lis[k] = num
+        return len(lis)
