@@ -455,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0290-word-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0290-word-pattern) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0299-bulls-and-cows](https://github.com/MOMOKO606/Leetcode/tree/master/0299-bulls-and-cows) |
 | [0316-remove-duplicate-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
@@ -635,6 +636,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/MOMOKO606/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/MOMOKO606/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
@@ -695,6 +697,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/MOMOKO606/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/MOMOKO606/Leetcode/tree/master/0332-reconstruct-itinerary) |
@@ -725,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0269-alien-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0269-alien-dictionary) |
 | [0279-perfect-squares](https://github.com/MOMOKO606/Leetcode/tree/master/0279-perfect-squares) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/MOMOKO606/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/MOMOKO606/Leetcode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -1083,6 +1087,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/MOMOKO606/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/MOMOKO606/Leetcode/tree/master/0404-sum-of-left-leaves) |
 ## Design
 |  |
@@ -1097,6 +1102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/MOMOKO606/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0251-flatten-2d-vector](https://github.com/MOMOKO606/Leetcode/tree/master/0251-flatten-2d-vector) |
 | [0284-peeking-iterator](https://github.com/MOMOKO606/Leetcode/tree/master/0284-peeking-iterator) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0304-range-sum-query-2d-immutable](https://github.com/MOMOKO606/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
