@@ -1,6 +1,5 @@
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
-        if n < 2: return [i for i in range(n)]
         # Build the graph
         graph = collections.defaultdict(list)
         for u, v in edges:
@@ -9,17 +8,15 @@ class Solution:
 
         queue = [node for node in graph if len(graph[node]) < 2]
         while queue:
-            if n < 3: return queue
-            next_queue = set()
+            nextQueue = set()
+            if len(queue) < 3 and len(queue) == n: return queue
             for node in queue:
                 n -= 1
                 for neighbor in graph[node]:
                     graph[neighbor].remove(node)
-                    if len(graph[neighbor]) < 2: 
-                        next_queue.add(neighbor)
-            queue = list(next_queue)
-
-
-
+                    if len(graph[neighbor]) < 2:
+                        nextQueue.add(neighbor)
+            queue = list(nextQueue)
+        return [0]
 
         
