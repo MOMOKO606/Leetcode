@@ -6,10 +6,12 @@ class Solution:
                 dfsHelper(neighbor)
             ans.append(node)
 
-        tickets, graph, ans = sorted(tickets), collections.defaultdict(list), []
         # Build the graph
-        for u, v in tickets:
+        graph, ans = collections.defaultdict(list), []
+        for u, v in sorted(tickets):
             graph[u].append(v)
         dfsHelper()
         return ans[::-1]
+
+        
         
