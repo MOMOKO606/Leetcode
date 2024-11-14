@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -265,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0406-queue-reconstruction-by-height](https://github.com/MOMOKO606/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/2651-count-ways-to-group-overlapping-ranges) |
@@ -913,6 +915,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Segment Tree
@@ -978,6 +981,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0443-string-compression](https://github.com/MOMOKO606/Leetcode/tree/master/0443-string-compression) |
 | [0696-count-binary-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0696-count-binary-substrings) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Linked List
 |  |
