@@ -217,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -578,6 +579,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 ## Ordered Set
 |  |
@@ -587,6 +589,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/MOMOKO606/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 ## Trie
@@ -825,6 +828,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Rolling Hash
 |  |
@@ -929,6 +933,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/MOMOKO606/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/MOMOKO606/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Two Pointers
 |  |
@@ -1220,6 +1225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/MOMOKO606/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Counting Sort
 |  |
 | ------- |
