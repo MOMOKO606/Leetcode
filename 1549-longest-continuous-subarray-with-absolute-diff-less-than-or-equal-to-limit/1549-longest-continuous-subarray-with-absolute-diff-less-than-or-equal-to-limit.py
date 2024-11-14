@@ -1,26 +1,18 @@
-from heapq import heappush, heapify
+from heapq import heappush, heappop
 
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
-        size = len(nums)
-        heap_max = []
-        heap_min = []
-
-        ans = 0
-        left, right = 0, 0
-        while right < size:
-            heapq.heappush(heap_max, [-nums[right], right])
-            heapq.heappush(heap_min, [nums[right], right])
-
-            while -heap_max[0][0] - heap_min[0][0] > limit:
-                while heap_min[0][1] <= left:
-                    heapq.heappop(heap_min)
-                while heap_max[0][1] <= left:
-                    heapq.heappop(heap_max)
-                left += 1
-            ans = max(ans, right - left + 1)
-            right += 1
-
+        i, maxHeap, minHeap, ans = -1, [], [], 0
+        for j in range(len(nums)):
+            heappush(maxHeap, (-nums[j], j))
+            heappush(minHeap, (nums[j], j))
+            while -maxHeap[0][0] - minHeap[0][0] > limit:
+                i += 1
+                while maxHeap[0][1] <= i:
+                    heappop(maxHeap)
+                while minHeap[0][1] <= i:
+                    heappop(minHeap)
+            ans = max(ans, j - i)
         return ans
 
 
