@@ -1,34 +1,10 @@
-class FenwickTree:
-    def __init__(self, size, value):
-        self.size = size
-        self.tree = [value] * size
-
-    def __lowbit(self, index):
-        return index & -index
-
-    def update(self, index, delta):
-        while index < self.size:
-            self.tree[index] += delta
-            index += self.__lowbit(index)
-    
-    def query(self, index):
-        ans = 0
-        while index:
-            ans += self.tree[index]
-            index -= self.__lowbit(index)
-        return ans
-
-
 class Solution:
     def countSmaller(self, nums: List[int]) -> List[int]:
-        transfer, ans = {num: i + 1 for i, num in enumerate(sorted(set(nums)))}, []
-        ft = FenwickTree(len(transfer) + 1, 0)
+        ans, sortedNums = [], []
         for num in reversed(nums):
-            k = transfer[num]
-            ft.update(k, 1)
-            ans.append(ft.query(k - 1))
+            i = bisect.bisect_left(sortedNums, num)
+            bisect.insort(sortedNums, num)
+            ans.append(i)
         return ans[::-1]
-
-
 
         
