@@ -1,10 +1,10 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        i, j, ans, nums1, nums2 = 0, 0, [], sorted(nums1), sorted(nums2)
-        while i < len(nums1) and j < len(nums2):
-            if nums1[i] < nums2[j]: i += 1
-            elif nums1[i] > nums2[j]: j += 1
-            else: i, j, ans = i + 1, j + 1, ans + [nums1[i]]
+        ans, visited = [], Counter(nums1)
+        for num in nums2:
+            if num in visited and visited[num] > 0:
+                ans.append(num)
+                visited[num] -= 1
         return ans
-
+        
         
