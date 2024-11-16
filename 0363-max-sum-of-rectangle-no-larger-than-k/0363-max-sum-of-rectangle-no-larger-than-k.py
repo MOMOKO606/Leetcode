@@ -3,17 +3,14 @@ class Solution:
         rows, cols, ans = len(matrix), len(matrix[0]), -inf
         for top in range(rows):
             compressed = [0] * cols
-            for i in range(top, rows):
+            for bottom in range(top, rows):
                 preSum, preSums = 0, [0]
                 for j in range(cols):
-                    compressed[j] += matrix[i][j]
+                    compressed[j] += matrix[bottom][j]
                     preSum += compressed[j]
-                    index = bisect.bisect_left(preSums, preSum - k)
-                    if index < len(preSums): ans = max(ans, preSum - preSums[index])
+                    i = bisect.bisect_left(preSums, preSum - k)
+                    if i < len(preSums): ans = max(ans, preSum - preSums[i])
                     bisect.insort(preSums, preSum)
         return ans
 
-                    
-
-
-        
+                
