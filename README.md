@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/MOMOKO606/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MOMOKO606/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0377-combination-sum-iv](https://github.com/MOMOKO606/Leetcode/tree/master/0377-combination-sum-iv) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0406-queue-reconstruction-by-height](https://github.com/MOMOKO606/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
@@ -264,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/MOMOKO606/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0406-queue-reconstruction-by-height](https://github.com/MOMOKO606/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
@@ -583,6 +585,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MOMOKO606/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
@@ -688,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/MOMOKO606/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -916,6 +920,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0374-guess-number-higher-or-lower](https://github.com/MOMOKO606/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
