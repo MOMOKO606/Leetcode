@@ -8,12 +8,13 @@
 class Solution:
     def guessNumber(self, n: int) -> int:
         low, high = 1, n
-        while low <= high:
+        while low < high:
             mid = (low + high) // 2
             key = guess(mid)
-            if key == 0: return mid
-            elif key == 1: low = mid + 1
-            else: high = mid - 1
-        
-       
+            if not key: return mid
+            if key == -1:
+                high = mid - 1
+            else:
+                low = mid + 1
+        return low
         
