@@ -915,6 +915,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/MOMOKO606/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
+| [0374-guess-number-higher-or-lower](https://github.com/MOMOKO606/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
@@ -1225,6 +1226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/MOMOKO606/Leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0278-first-bad-version](https://github.com/MOMOKO606/Leetcode/tree/master/0278-first-bad-version) |
+| [0374-guess-number-higher-or-lower](https://github.com/MOMOKO606/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 ## Quickselect
 |  |
 | ------- |
