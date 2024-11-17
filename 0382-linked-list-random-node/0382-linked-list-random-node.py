@@ -14,10 +14,9 @@ class Solution:
         while cur:
             count += 1
             if random.random() <= 1 / count:
-                ans = cur.val 
+                ans = cur.val
             cur = cur.next
         return ans
-
         
 
 
