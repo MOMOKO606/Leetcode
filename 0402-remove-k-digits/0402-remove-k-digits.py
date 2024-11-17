@@ -13,5 +13,3 @@ class Solution:
         while stack and not stack[0]:
             stack.pop(0)
         return "".join(map(str, stack)) if stack else "0"
-
-        
