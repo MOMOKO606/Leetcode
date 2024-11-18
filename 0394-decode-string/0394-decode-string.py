@@ -15,8 +15,6 @@ class Solution:
             else:
                 stack.append(char)
         
-        for s in stack:
-            ans += s
-        return ans
+        return "".join(stack)
 
         
