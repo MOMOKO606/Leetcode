@@ -1,6 +1,6 @@
 class Solution:
-    @cache
     def longestSubstring(self, s: str, k: int) -> int:
+        if not s: return 0
         freqs = Counter(s)
         for i, char in enumerate(s):
             if freqs[char] < k:
