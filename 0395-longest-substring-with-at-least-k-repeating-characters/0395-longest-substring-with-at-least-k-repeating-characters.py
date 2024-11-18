@@ -1,4 +1,5 @@
 class Solution:
+    @cache
     def longestSubstring(self, s: str, k: int) -> int:
         if not s: return 0
         freqs = Counter(s)
