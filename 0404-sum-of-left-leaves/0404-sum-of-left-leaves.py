@@ -9,10 +9,7 @@ class Solution:
         def helper(prev=None, node=root):
             if not node: return 0
             if prev and prev.left == node and not node.left and not node.right: return node.val
-            ans = 0
-            ans += helper(node, node.left)
-            ans += helper(node, node.right)
-            return ans
+            return helper(node, node.left) + helper(node, node.right)
         return helper()
 
 
