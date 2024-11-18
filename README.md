@@ -416,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/MOMOKO606/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
+| [0394-decode-string](https://github.com/MOMOKO606/Leetcode/tree/master/0394-decode-string) |
 | [0785-basic-calculator-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0785-basic-calculator-iii) |
 ## String
 |  |
@@ -486,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/MOMOKO606/Leetcode/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/MOMOKO606/Leetcode/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/MOMOKO606/Leetcode/tree/master/0394-decode-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/MOMOKO606/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0402-remove-k-digits) |
 | [0433-minimum-genetic-mutation](https://github.com/MOMOKO606/Leetcode/tree/master/0433-minimum-genetic-mutation) |
@@ -1062,6 +1064,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/MOMOKO606/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0394-decode-string](https://github.com/MOMOKO606/Leetcode/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
