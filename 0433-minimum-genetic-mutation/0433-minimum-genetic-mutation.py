@@ -4,18 +4,18 @@ class Solution:
         if endGene not in bank: return -1
         queue, steps = [startGene], 0
         while queue:
-            next_queue = []
-            for word in queue:
-                if word == endGene: return steps
-                for i in range(len(word)):
+            nextQueue = []
+            for gene in queue:
+                if gene == endGene: return steps
+                for i in range(len(gene)):
                     for char in "ACGT":
-                        newWord = word[:i] + char + word[i + 1:]
-                        if newWord in bank:
-                            bank.remove(newWord)
-                            next_queue.append(newWord)
-            steps, queue = steps + 1, next_queue
+                        newGene = gene[:i] + char + gene[i + 1:]
+                        if newGene in bank:
+                            nextQueue.append(newGene)
+                            bank.remove(newGene)
+            queue, steps = nextQueue, steps + 1
         return -1
-                        
+
 
 
         
