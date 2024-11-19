@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/MOMOKO606/Leetcode/tree/master/0399-evaluate-division) |
 | [0406-queue-reconstruction-by-height](https://github.com/MOMOKO606/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
+| [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0377-combination-sum-iv](https://github.com/MOMOKO606/Leetcode/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0392-is-subsequence) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
+| [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0836-race-car](https://github.com/MOMOKO606/Leetcode/tree/master/0836-race-car) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
