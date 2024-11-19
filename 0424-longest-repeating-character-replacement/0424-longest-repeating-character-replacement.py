@@ -7,7 +7,6 @@ class Solution:
             while j - i > maxFreq + k:
                 i += 1
                 freqs[s[i]] -= 1
-                maxFreq = max(freqs.values())
             ans = max(ans, j - i)
         return ans
             
