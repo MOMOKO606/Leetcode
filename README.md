@@ -211,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/MOMOKO606/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/MOMOKO606/Leetcode/tree/master/0399-evaluate-division) |
+| [0403-frog-jump](https://github.com/MOMOKO606/Leetcode/tree/master/0403-frog-jump) |
 | [0406-queue-reconstruction-by-height](https://github.com/MOMOKO606/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0376-wiggle-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0376-wiggle-subsequence) |
 | [0377-combination-sum-iv](https://github.com/MOMOKO606/Leetcode/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0392-is-subsequence) |
+| [0403-frog-jump](https://github.com/MOMOKO606/Leetcode/tree/master/0403-frog-jump) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
