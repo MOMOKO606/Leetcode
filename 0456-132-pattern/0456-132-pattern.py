@@ -1,11 +1,10 @@
 class Solution:
     def find132pattern(self, nums: List[int]) -> bool:
-        stack, second_largest = [], None
+        stack, secondLargest = [], None
         for num in reversed(nums):
-            if second_largest and num < second_largest: return True
             while stack and num > stack[-1]:
-                second_largest = stack.pop()
+                secondLargest = stack.pop()
             stack.append(num)
+            if secondLargest and num < secondLargest: return True
         return False
-
         
