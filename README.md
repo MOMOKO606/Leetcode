@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/MOMOKO606/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
@@ -274,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/MOMOKO606/Leetcode/tree/master/0389-find-the-difference) |
 | [0406-queue-reconstruction-by-height](https://github.com/MOMOKO606/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
+| [0435-non-overlapping-intervals](https://github.com/MOMOKO606/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -398,6 +400,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/MOMOKO606/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0836-race-car](https://github.com/MOMOKO606/Leetcode/tree/master/0836-race-car) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -529,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0376-wiggle-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0376-wiggle-subsequence) |
 | [0402-remove-k-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/MOMOKO606/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1652-minimum-suffix-flips](https://github.com/MOMOKO606/Leetcode/tree/master/1652-minimum-suffix-flips) |
