@@ -505,6 +505,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0433-minimum-genetic-mutation](https://github.com/MOMOKO606/Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/MOMOKO606/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/MOMOKO606/Leetcode/tree/master/0443-string-compression) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0696-count-binary-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
@@ -701,6 +702,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/MOMOKO606/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
@@ -770,6 +772,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/MOMOKO606/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/MOMOKO606/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0547-number-of-provinces](https://github.com/MOMOKO606/Leetcode/tree/master/0547-number-of-provinces) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -803,6 +806,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/MOMOKO606/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/MOMOKO606/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0433-minimum-genetic-mutation](https://github.com/MOMOKO606/Leetcode/tree/master/0433-minimum-genetic-mutation) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0547-number-of-provinces](https://github.com/MOMOKO606/Leetcode/tree/master/0547-number-of-provinces) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
@@ -1142,6 +1146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/MOMOKO606/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1181,6 +1186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/MOMOKO606/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Design
 |  |
 | ------- |
@@ -1201,6 +1207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/MOMOKO606/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Iterator
 |  |
 | ------- |
