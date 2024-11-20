@@ -3,7 +3,7 @@ class Solution:
         freqs, n, i, ans = Counter(p), len(p), 0, []
         for j in range(len(s) + 1):
             if not n: ans.append(i)
-            while i < len(s) and j - i + 1 > len(p):
+            if i < len(s) and j - i + 1 > len(p):
                 if s[i] in freqs:
                     freqs[s[i]] += 1
                     if freqs[s[i]] > 0: n += 1
