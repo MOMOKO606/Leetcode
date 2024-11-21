@@ -513,6 +513,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0443-string-compression](https://github.com/MOMOKO606/Leetcode/tree/master/0443-string-compression) |
 | [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0451-sort-characters-by-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0459-repeated-substring-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0696-count-binary-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
@@ -1136,6 +1137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MOMOKO606/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0214-shortest-palindrome](https://github.com/MOMOKO606/Leetcode/tree/master/0214-shortest-palindrome) |
+| [0459-repeated-substring-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0459-repeated-substring-pattern) |
 ## Monotonic Stack
 |  |
 | ------- |
