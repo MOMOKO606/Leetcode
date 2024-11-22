@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
 | [0474-ones-and-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0474-ones-and-zeroes) |
+| [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/MOMOKO606/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -753,6 +754,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
+| [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -799,6 +801,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
+| [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0547-number-of-provinces](https://github.com/MOMOKO606/Leetcode/tree/master/0547-number-of-provinces) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
@@ -835,6 +838,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0433-minimum-genetic-mutation](https://github.com/MOMOKO606/Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
+| [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0547-number-of-provinces](https://github.com/MOMOKO606/Leetcode/tree/master/0547-number-of-provinces) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
