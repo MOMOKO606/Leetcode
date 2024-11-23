@@ -352,6 +352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/MOMOKO606/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/MOMOKO606/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0382-linked-list-random-node](https://github.com/MOMOKO606/Leetcode/tree/master/0382-linked-list-random-node) |
+| [0504-base-7](https://github.com/MOMOKO606/Leetcode/tree/master/0504-base-7) |
 | [0785-basic-calculator-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0785-basic-calculator-iii) |
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
 | [1070-convert-to-base-2](https://github.com/MOMOKO606/Leetcode/tree/master/1070-convert-to-base-2) |
