@@ -227,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/MOMOKO606/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/MOMOKO606/Leetcode/tree/master/0502-ipo) |
+| [0503-next-greater-element-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -1145,6 +1146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/MOMOKO606/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0785-basic-calculator-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0785-basic-calculator-iii) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -1179,6 +1181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/MOMOKO606/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 ## Binary Search Tree
