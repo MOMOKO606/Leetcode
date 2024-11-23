@@ -421,6 +421,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0471-encode-string-with-shortest-length](https://github.com/MOMOKO606/Leetcode/tree/master/0471-encode-string-with-shortest-length) |
 | [0474-ones-and-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0836-race-car](https://github.com/MOMOKO606/Leetcode/tree/master/0836-race-car) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -532,6 +533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0459-repeated-substring-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0471-encode-string-with-shortest-length](https://github.com/MOMOKO606/Leetcode/tree/master/0471-encode-string-with-shortest-length) |
 | [0474-ones-and-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0474-ones-and-zeroes) |
+| [0516-longest-palindromic-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0696-count-binary-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
