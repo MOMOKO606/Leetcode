@@ -1,22 +1,25 @@
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
-        def dfsHelper(i, j):
-            if not (0 <= i < n and 0 <= j < n and isConnected[i][j]): return
-            isConnected[i][j] = 0
-            for di in range(n):
-                dfsHelper(di, j)
-            for dj in range(n):
-                dfsHelper(i, dj)
+        def parent(i):
+            root = i
+            while p[root] != root:
+                root = p[root]
+            while p[i] != i:
+                p[i], i = root, p[i]
+            return root
 
-
-        n, ans = len(isConnected), 0
-        for k in range(n):
-            for i in range(n):
-                if isConnected[i][k]: ans += 1
-                dfsHelper(i, k)
+        def connect(i, j):
+            pi, pj = parent(i), parent(j)
+            p[pi] = pj
+        
+        n = len(isConnected)
+        p = [i for i in range(n)]
+        for i in range(n):
             for j in range(n):
-                if isConnected[k][j]: ans += 1
-                dfsHelper(k, j)
-        return ans
+                if isConnected[i][j]:
+                    connect(i, j)
+        return len(set([parent(i) for i in range(n)]))
 
+
+        
         
