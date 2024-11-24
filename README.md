@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0529-minesweeper](https://github.com/MOMOKO606/Leetcode/tree/master/0529-minesweeper) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -777,6 +778,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
+| [0529-minesweeper](https://github.com/MOMOKO606/Leetcode/tree/master/0529-minesweeper) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -826,6 +828,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/MOMOKO606/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0529-minesweeper](https://github.com/MOMOKO606/Leetcode/tree/master/0529-minesweeper) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0547-number-of-provinces](https://github.com/MOMOKO606/Leetcode/tree/master/0547-number-of-provinces) |
@@ -865,6 +868,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/MOMOKO606/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0529-minesweeper](https://github.com/MOMOKO606/Leetcode/tree/master/0529-minesweeper) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/MOMOKO606/Leetcode/tree/master/0547-number-of-provinces) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/MOMOKO606/Leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
