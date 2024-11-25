@@ -1,6 +1,8 @@
 class Solution:
     def validPalindrome(self, s: str) -> bool:
-        if not s: return True
-        if s[0] != s[-1]: return s[1:] == s[1:][::-1] or s[:-1] == s[:-1][::-1]
-        return self.validPalindrome(s[1:-1])
+        def helper(i, j):
+            if i >= j: return True
+            if s[i] == s[j]: return helper(i + 1, j - 1)
+            return s[i + 1: j + 1] == s[i + 1: j + 1][::-1] or s[i: j] == s[i: j][::-1]
+        return helper(0, len(s) - 1)
         
