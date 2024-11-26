@@ -364,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0382-linked-list-random-node](https://github.com/MOMOKO606/Leetcode/tree/master/0382-linked-list-random-node) |
 | [0504-base-7](https://github.com/MOMOKO606/Leetcode/tree/master/0504-base-7) |
 | [0523-continuous-subarray-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/MOMOKO606/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0785-basic-calculator-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0785-basic-calculator-iii) |
 | [1013-fibonacci-number](https://github.com/MOMOKO606/Leetcode/tree/master/1013-fibonacci-number) |
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
@@ -1076,6 +1077,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0493-reverse-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/0493-reverse-pairs) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/MOMOKO606/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
