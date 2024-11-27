@@ -5,8 +5,7 @@ class Solution:
             curProduct *= num
             while i < j and curProduct >= k:
                 i += 1
-                curProduct /= nums[i]
+                curProduct //= nums[i]
             ans += j - i
         return ans
-
         
