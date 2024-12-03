@@ -14,8 +14,8 @@ from queue import Queue
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
         def _crawl():
-            tmp = []
             while True:
+                tmp = []
                 for url in htmlParser.getUrls(curQueue.get()):
                     if url.split("http://")[1].split("/")[0] == domain and url not in visited:
                         visited.add(url)
