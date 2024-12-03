@@ -22,10 +22,10 @@ class Solution:
                         tmp.append(url)
                 nextQueue.put(tmp)
 
-
         curQueue, nextQueue, running, visited = Queue(), Queue(), 1, set([startUrl])
         domain = startUrl.split("http://")[1].split("/")[0]
         curQueue.put(startUrl)
+        
         for _ in range(5):
             thread = Thread(target=_crawl, daemon=True)
             thread.start()
@@ -36,4 +36,7 @@ class Solution:
                 running += 1
             running -= 1
         return list(visited)
+
+        
+
         
