@@ -1,29 +1,28 @@
 class MyQueue:
 
     def __init__(self):
-        self.receive, self.ready = [], []
+        self.stack1, self.stack2 = [], []
+        
 
     def push(self, x: int) -> None:
-        self.receive.append(x)
+        self.stack1.append(x)
         
 
     def pop(self) -> int:
-        if not self.ready: 
-            while self.receive:
-                self.ready.append(self.receive.pop())    
-        return self.ready.pop()
-
-        
+        if not self.stack2: 
+            while self.stack1:
+                self.stack2.append(self.stack1.pop())
+        return self.stack2.pop()
 
     def peek(self) -> int:
-        if not self.ready: 
-            while self.receive:
-                self.ready.append(self.receive.pop())    
-        return self.ready[-1]
+        if not self.stack2: 
+            while self.stack1:
+                self.stack2.append(self.stack1.pop())
+        return self.stack2[-1]
         
 
     def empty(self) -> bool:
-        return not self.receive and not self.ready
+        return not self.stack1 and not self.stack2
         
 
 
