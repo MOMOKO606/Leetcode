@@ -1,27 +1,26 @@
 class RandomizedSet:
 
     def __init__(self):
+        self.index = 0
         self.nums = []
-        self.indexes = {}
-        self.count = 0
-        
+        self.nums_dict = {}
 
     def insert(self, val: int) -> bool:
-        if val in self.indexes: return False
+        if val in self.nums_dict: return False
         self.nums.append(val)
-        self.indexes[val] = self.count
-        self.count += 1
+        self.nums_dict[val] = self.index
+        self.index += 1
         return True
         
 
     def remove(self, val: int) -> bool:
-        if val not in self.indexes: return False
-        i = self.indexes[val]
-        self.nums[i] = self.nums[-1]
-        self.indexes[self.nums[-1]] = i
-        self.indexes.pop(val)
+        if val not in self.nums_dict: return False
+        target = self.nums_dict[val]
+        self.nums[target] = self.nums[-1]
+        self.nums_dict[self.nums[-1]] = target
+        del self.nums_dict[val]
         self.nums.pop()
-        self.count -= 1
+        self.index -= 1
         return True
         
 
