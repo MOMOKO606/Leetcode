@@ -1,18 +1,25 @@
 class Vector2D:
 
     def __init__(self, vec: List[List[int]]):
-        self.nums = [num for row in vec for num in row]
-        self.pointer = 0
+        self.i, self.j, self.vec = 0, 0, vec
+
         
 
     def next(self) -> int:
-        ans = self.nums[self.pointer]
-        self.pointer += 1
-        return ans
+        if self.hasNext():
+            ans = self.vec[self.i][self.j]
+            self.j += 1
+            return ans
+
         
 
     def hasNext(self) -> bool:
-        return self.pointer < len(self.nums)
+        while self.i < len(self.vec):
+            if self.j < len(self.vec[self.i]): return True
+            self.i, self.j = self.i + 1, 0
+        return False
+        
+        
         
 
 
