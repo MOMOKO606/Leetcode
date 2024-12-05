@@ -25,8 +25,8 @@ class PeekingIterator:
         Initialize your data structure here.
         :type iterator: Iterator
         """
+        self.peek_num = iterator.next() if iterator.hasNext() else None
         self.iterator = iterator
-        self.peek_num = self.iterator.next() if self.iterator.hasNext() else None
         
 
     def peek(self):
