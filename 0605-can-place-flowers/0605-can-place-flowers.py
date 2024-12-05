@@ -1,10 +1,10 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         for i, num in enumerate(flowerbed):
-            if n == 0: return True
-            if num or (i > 0 and flowerbed[i - 1]) or (i < len(flowerbed) - 1 and flowerbed[i + 1]): continue
-           
-            flowerbed[i] = 1
-            n -= 1
-        return n == 0
+           if num: continue
+           if (i < 1 or not flowerbed[i - 1]) and (i == len(flowerbed) - 1 or not flowerbed[i + 1]): n, flowerbed[i] = n - 1, 1
+        return n <= 0
+
+
+
         
