@@ -5,42 +5,40 @@ class FileSystem:
         
 
     def ls(self, path: str) -> List[str]:
-        path, node = path.split("/")[1:], self.trie
-        if "" in path: path.remove("")
+        path = path.split("/")
+        path.pop(0)
+        node = self.trie
         for p in path:
-            node[p] = node.get(p, {})
-            prev = p
-            node = node[p]
-        if "#" in node: 
-            return [prev]
-        else: return sorted(list(node.keys()))
+            if p in node: prev, node = p, node[p]
+        return sorted(list(node.keys())) if "#" not in node else [prev]
         
 
     def mkdir(self, path: str) -> None:
-        path, node = path.split("/")[1:], self.trie
+        path = path.split("/")
+        path.pop(0)
+        node = self.trie
         for p in path:
             node[p] = node.get(p, {})
             node = node[p]
-
-
+        
 
     def addContentToFile(self, filePath: str, content: str) -> None:
-        path, node = filePath.split("/")[1:], self.trie
-        for p in path:
+        filePath = filePath.split("/")
+        filePath.pop(0)
+        node = self.trie
+        for p in filePath:
             node[p] = node.get(p, {})
             node = node[p]
-        node["#"] = node.get("#", []) + [content]
-
-        
+        node["#"] = node.get("#", "") + content
 
     def readContentFromFile(self, filePath: str) -> str:
-        path, node = filePath.split("/")[1:], self.trie
-        if "" in path: path.remove("")
-        for p in path:
+        filePath = filePath.split("/")
+        filePath.pop(0)
+        node = self.trie
+        for p in filePath:
             node[p] = node.get(p, {})
             node = node[p]
-        return "".join(node["#"])
-        
+        return node["#"]
 
 
 # Your FileSystem object will be instantiated and called as such:
