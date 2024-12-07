@@ -1,7 +1,7 @@
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
         @cache
-        def helper(target=target):
+        def helper(target):
             if not target: return 1
             if target < 0: return 0
             ans = 0
@@ -9,6 +9,6 @@ class Solution:
                 ans += helper(target - num)
             return ans
 
-        return helper()
 
+        return helper(target=target)
         
