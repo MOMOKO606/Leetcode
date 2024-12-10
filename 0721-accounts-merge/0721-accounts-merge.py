@@ -20,7 +20,7 @@ class Solution:
             for email in account[1:]:
                 graph[email].append(i)
 
-        i_visited, email_visited, ans = set(), set([]), []
+        i_visited, email_visited, ans = set(), set(), []
         for i, account in enumerate(accounts):
             if i in i_visited: continue
             ans.append([account[0]] + dfsHelper(i))
