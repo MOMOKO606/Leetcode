@@ -1,30 +1,37 @@
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
-        def dfsHelper(i):
-            if i in i_visited: return []
-            i_visited.add(i)
-            emails = []
-            for email in accounts[i][1:]:
-                if email in email_visited: continue
-                email_visited.add(email)
-                emails.append(email)
-                for neighbor in graph[email]:
-                    emails += dfsHelper(neighbor)
-            return emails
-        
-        
-        
-        graph = collections.defaultdict(set)
+        def parent(i):
+            root = i
+            while p[root] != root:
+                root = p[root]
+            while p[i] != i:
+                i, p[i] = p[i], root
+            return root
+
+        def connect(i, j):
+            pi, pj = parent(i), parent(j)
+            p[pi] = pj
+
+        p = [i for i in range(len(accounts))]
+
+        email_to_account, root_to_email = {}, collections.defaultdict(set)
         for i, account in enumerate(accounts):
             for email in account[1:]:
-                graph[email].add(i)
+                if email in email_to_account:
+                    connect(i, email_to_account[email])
+                else:
+                    email_to_account[email] = i
 
-        ans, i_visited, email_visited = [], set(), set()
         for i, account in enumerate(accounts):
-            if i in i_visited: continue
-            ans.append([account[0]] + sorted(dfsHelper(i)))
-        return ans
-           
+            pi = parent(i)
+            for email in account[1:]:
+                root_to_email[pi].add(email)
+
+        return [[accounts[i][0]] + sorted(list(emails)) for i, emails in root_to_email.items()]
+
+        
+
+        
 
 
         
