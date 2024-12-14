@@ -1,29 +1,38 @@
 class Solution:
     def calculate(self, s: str) -> int:
-        def update(curOper, curNum):
-            if curOper == "+":
-                stack.append(curNum)
-            elif curOper == "-":
-                stack.append(-curNum)
-            elif curOper == "*":
-                stack.append(stack.pop() * curNum)
+        def get_num(j):
+            num = 0
+            while j < len(s) and s[j].isdigit():
+                num = num * 10 + int(s[j])
+                j += 1
+            return num, j - 1 
+
+        def update():
+            if cur_oper == "+":
+                stack.append(cur_num)
+            elif cur_oper == "-":
+                stack.append(-cur_num)
+            elif cur_oper == "*":
+                stack.append(stack.pop() * cur_num)
             else:
-                stack.append(int(stack.pop() / curNum))
+                stack.append(int(stack.pop() / cur_num))
         
-        i, curOper, curNum, stack = 0, "+", 0, []
-        while i < len(s):
-            if s[i].isdigit():
-                curNum = curNum * 10 + int(s[i])
-            elif s[i] in "+-*/":
-                update(curOper, curNum)
-                curOper, curNum = s[i], 0
-            elif s[i] == "(":
-                curNum, l = self.calculate(s[i + 1:])
-                i += l
-            elif s[i] == ")":
-                update(curOper, curNum)
-                return sum(stack), i + 1
-            i += 1
-        update(curOper, curNum)
+        stack, cur_oper, j = [], "+", 0
+        while j < len(s):
+            if s[j] in "+-*/":
+                update()
+                cur_oper = s[j]
+            elif s[j].isdigit():
+                cur_num, j = get_num(j)
+            elif s[j] == "(":
+                cur_num, delta = self.calculate(s[j + 1:])
+                j += delta
+            elif s[j] == ")":
+                update()
+                return sum(stack), j + 1
+            j += 1
+        update()
         return sum(stack)
+        
+
         
