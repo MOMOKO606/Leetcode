@@ -252,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0761-employee-free-time](https://github.com/MOMOKO606/Leetcode/tree/master/0761-employee-free-time) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
+| [0811-number-of-subarrays-with-bounded-maximum](https://github.com/MOMOKO606/Leetcode/tree/master/0811-number-of-subarrays-with-bounded-maximum) |
 | [0859-design-circular-deque](https://github.com/MOMOKO606/Leetcode/tree/master/0859-design-circular-deque) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -1226,6 +1227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0680-valid-palindrome-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0696-count-binary-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0768-partition-labels](https://github.com/MOMOKO606/Leetcode/tree/master/0768-partition-labels) |
+| [0811-number-of-subarrays-with-bounded-maximum](https://github.com/MOMOKO606/Leetcode/tree/master/0811-number-of-subarrays-with-bounded-maximum) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Linked List
