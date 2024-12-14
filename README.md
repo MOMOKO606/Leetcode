@@ -248,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0737-sentence-similarity-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0739-daily-temperatures](https://github.com/MOMOKO606/Leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/MOMOKO606/Leetcode/tree/master/0740-delete-and-earn) |
+| [0747-min-cost-climbing-stairs](https://github.com/MOMOKO606/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0859-design-circular-deque](https://github.com/MOMOKO606/Leetcode/tree/master/0859-design-circular-deque) |
@@ -453,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0730-count-different-palindromic-subsequences](https://github.com/MOMOKO606/Leetcode/tree/master/0730-count-different-palindromic-subsequences) |
 | [0740-delete-and-earn](https://github.com/MOMOKO606/Leetcode/tree/master/0740-delete-and-earn) |
+| [0747-min-cost-climbing-stairs](https://github.com/MOMOKO606/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0836-race-car](https://github.com/MOMOKO606/Leetcode/tree/master/0836-race-car) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/MOMOKO606/Leetcode/tree/master/1013-fibonacci-number) |
