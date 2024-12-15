@@ -387,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/MOMOKO606/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0785-basic-calculator-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0785-basic-calculator-iii) |
+| [0897-prime-palindrome](https://github.com/MOMOKO606/Leetcode/tree/master/0897-prime-palindrome) |
 | [1013-fibonacci-number](https://github.com/MOMOKO606/Leetcode/tree/master/1013-fibonacci-number) |
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
 | [1070-convert-to-base-2](https://github.com/MOMOKO606/Leetcode/tree/master/1070-convert-to-base-2) |
@@ -1322,6 +1323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0204-count-primes](https://github.com/MOMOKO606/Leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/MOMOKO606/Leetcode/tree/master/0258-add-digits) |
+| [0897-prime-palindrome](https://github.com/MOMOKO606/Leetcode/tree/master/0897-prime-palindrome) |
 | [1585-the-kth-factor-of-n](https://github.com/MOMOKO606/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 ## String Matching
 |  |
