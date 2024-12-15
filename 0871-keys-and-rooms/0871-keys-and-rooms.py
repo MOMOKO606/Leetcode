@@ -1,12 +1,18 @@
 class Solution:
-    # BFS
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
-        deque, visited = collections.deque([0]), set([0])
-        while deque:
-            node = deque.popleft()
-            for neighbour in rooms[node]:
-                if neighbour not in visited:
-                    visited.add(neighbour)
-                    deque.append(neighbour)
-        return len(rooms) == len(visited)
+        # Build the graph
+        graph = collections.defaultdict(list)
+        for i, room in enumerate(rooms):
+            graph[i] = room
+
+        queue, visited = [0], set([0])
+        while queue:
+            next_queue = []
+            for node in queue:
+                for neighbor in graph[node]:
+                    if neighbor in visited: continue
+                    visited.add(neighbor)
+                    next_queue.append(neighbor)
+            queue = next_queue
+        return len(visited) == len(rooms)
         
