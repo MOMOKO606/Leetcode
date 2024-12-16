@@ -463,6 +463,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/MOMOKO606/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/MOMOKO606/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0806-domino-and-tromino-tiling](https://github.com/MOMOKO606/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
 | [0836-race-car](https://github.com/MOMOKO606/Leetcode/tree/master/0836-race-car) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/MOMOKO606/Leetcode/tree/master/1013-fibonacci-number) |
