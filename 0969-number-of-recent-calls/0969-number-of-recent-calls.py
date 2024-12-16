@@ -1,15 +1,18 @@
 class RecentCounter:
 
     def __init__(self):
-        self.deque = collections.deque([])
+        self.times = collections.deque()
+        self.count = 0
         
 
     def ping(self, t: int) -> int:
-        left = t - 3000
-        self.deque.append(t)
-        while self.deque[0] < left:
-            self.deque.popleft()
-        return len(self.deque)
+        target = t - 3000
+        while self.times and self.times[0] < target:
+            self.times.popleft()
+            self.count -= 1
+        self.times.append(t)
+        self.count += 1
+        return self.count
 
         
 
