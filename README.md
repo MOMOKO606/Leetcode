@@ -260,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/MOMOKO606/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [1036-rotting-oranges](https://github.com/MOMOKO606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
@@ -876,6 +877,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/MOMOKO606/Leetcode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0945-snakes-and-ladders](https://github.com/MOMOKO606/Leetcode/tree/master/0945-snakes-and-ladders) |
+| [1036-rotting-oranges](https://github.com/MOMOKO606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
 ## Depth-First Search
@@ -992,6 +994,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/MOMOKO606/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0871-keys-and-rooms](https://github.com/MOMOKO606/Leetcode/tree/master/0871-keys-and-rooms) |
 | [0945-snakes-and-ladders](https://github.com/MOMOKO606/Leetcode/tree/master/0945-snakes-and-ladders) |
+| [1036-rotting-oranges](https://github.com/MOMOKO606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
