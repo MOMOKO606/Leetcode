@@ -260,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/MOMOKO606/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -1070,6 +1071,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/MOMOKO606/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0643-maximum-average-subarray-i](https://github.com/MOMOKO606/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -1172,6 +1174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0729-my-calendar-i](https://github.com/MOMOKO606/Leetcode/tree/master/0729-my-calendar-i) |
 | [0907-koko-eating-bananas](https://github.com/MOMOKO606/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
@@ -1535,6 +1538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/MOMOKO606/Leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/MOMOKO606/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
