@@ -1,14 +1,17 @@
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
-        words, visited, ans = sorted(words, key = lambda x: len(x)), {}, -math.inf
+        @cache
+        def dfsHelper(node):
+            if node not in word_set: return 0
+            ans = 0
+            for i in range(len(node)):
+                predecessor = node[:i] + node[i + 1:]
+                ans = max(ans, dfsHelper(predecessor) + 1)
+            return ans
+
+        word_set = set(words)
+        ans = 1
         for word in words:
-            curLength = 1
-            for i in range(len(word)):
-                prev = word[:i] + word[i + 1:]
-                curLength = max(curLength, visited.get(prev, 0) + 1)
-            visited[word] = curLength
-            ans = max(ans, curLength)
+            ans = max(ans, dfsHelper(word))
         return ans
-
-
         
