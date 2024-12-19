@@ -264,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/MOMOKO606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/MOMOKO606/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1072-next-greater-node-in-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1072-next-greater-node-in-linked-list) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
@@ -1313,6 +1314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0382-linked-list-random-node](https://github.com/MOMOKO606/Leetcode/tree/master/0382-linked-list-random-node) |
 | [0859-design-circular-deque](https://github.com/MOMOKO606/Leetcode/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1072-next-greater-node-in-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1072-next-greater-node-in-linked-list) |
 ## Stack
 |  |
 | ------- |
@@ -1350,6 +1352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-basic-calculator-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0785-basic-calculator-iii) |
 | [0937-online-stock-span](https://github.com/MOMOKO606/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1072-next-greater-node-in-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1072-next-greater-node-in-linked-list) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 ## Merge Sort
 |  |
@@ -1387,6 +1390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/MOMOKO606/Leetcode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/MOMOKO606/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1072-next-greater-node-in-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1072-next-greater-node-in-linked-list) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 ## Binary Search Tree
 |  |
