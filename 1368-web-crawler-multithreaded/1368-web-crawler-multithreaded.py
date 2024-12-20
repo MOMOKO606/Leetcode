@@ -9,33 +9,35 @@
 #        :rtype List[str]
 #        """
 from queue import Queue
-from threading import Thread
+from concurrent.futures import ThreadPoolExecutor
+
 
 class Solution:
     def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:
-        def _crawl():
-            while True:
-                tmp = []
-                for url in htmlParser.getUrls(cur_queue.get()):
-                    if url not in visited and url.split("http://")[1].split("/")[0] == domain:
-                        tmp.append(url)
-                        visited.add(url)
-                next_queue.put(tmp)
+        def _crawl(url):
+            next_node = []
+            for new_url in htmlParser.getUrls(url):
+                if new_url not in visited and new_url.split("http://")[1].split("/")[0] == domain:
+                    visited.add(new_url)
+                    next_node.append(new_url)
+            return next_node
 
-
-        domain = startUrl.split("http://")[1].split("/")[0]
-        cur_queue, next_queue, visited, running = Queue(), Queue(), set([startUrl]), 1
-        cur_queue.put(startUrl)
-        for _ in range(5):
-            thread = Thread(target=_crawl, daemon=True)
-            thread.start()
         
-        while running:
-            for url in next_queue.get():
-                cur_queue.put(url)
-                running += 1
-            running -= 1
+        domain, visited = startUrl.split("http://")[1].split("/")[0], set([startUrl])
+        cur_queue = Queue()
+        cur_queue.put(startUrl)
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            while not cur_queue.empty():
+                futures = []
+                while not cur_queue.empty():
+                    futures.append(executor.submit(_crawl, cur_queue.get()))
+                for future in futures:
+                    for url in future.result():
+                        cur_queue.put(url)
         return list(visited)
+
+
+
 
 
         
