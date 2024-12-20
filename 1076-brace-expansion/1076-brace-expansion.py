@@ -1,15 +1,25 @@
 class Solution:
     def expand(self, s: str) -> List[str]:
-        if not s: return [""]
-        if s[0].isalpha(): return [s[0] + seq for seq in self.expand(s[1:])]
-        if s[0] == "{":
-            chars = []
-            for i, char in enumerate(s[1:]):
-                if char.isalpha(): chars.append(char)
-                elif char == "}": break
-            return sorted([char + seq for char in chars for seq in self.expand(s[i + 2:])])
-
-        
+        def getOptions(s):
+            options = []
+            for j, char in enumerate(s):
+                if char.isalpha(): options.append(char)
+                if char == "}": break
+            return options, j + 1
 
 
+        def helper(s, seq):
+            if not s: 
+                ans.append(seq[:])
+                return
+            if s[0].isalpha(): 
+                helper(s[1:], seq + s[0])
+            else:
+                options, j = getOptions(s)
+                for char in options:
+                    helper(s[j:], seq + char)
+
+        ans = []
+        helper(s, "")
+        return sorted(ans)
         
