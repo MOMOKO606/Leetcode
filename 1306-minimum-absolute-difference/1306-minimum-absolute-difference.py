@@ -1,11 +1,10 @@
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
-        arr, min_diff, ans = sorted(arr), inf, []
-        for j in range(1, len(arr)):
-            diff = arr[j] - arr[j - 1]
-            if diff < min_diff:
-                min_diff, ans = diff, [[arr[j - 1], arr[j]]]
-            elif diff == min_diff: ans.append([arr[j - 1], arr[j]])
+        ans, arr, smallest = [], sorted(arr), inf
+        for num1, num2 in zip(arr[1:], arr[:-1]):
+            smallest = min(smallest, abs(num1 - num2))
+        for num1, num2 in zip(arr[:-1], arr[1:]):
+            if abs(num1 - num2) == smallest: ans.append([num1, num2])
         return ans
-
+        
         
