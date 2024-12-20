@@ -617,6 +617,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/MOMOKO606/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1271-web-crawler](https://github.com/MOMOKO606/Leetcode/tree/master/1271-web-crawler) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1652-minimum-suffix-flips](https://github.com/MOMOKO606/Leetcode/tree/master/1652-minimum-suffix-flips) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -972,6 +973,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1091-maximum-average-subtree](https://github.com/MOMOKO606/Leetcode/tree/master/1091-maximum-average-subtree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1271-web-crawler](https://github.com/MOMOKO606/Leetcode/tree/master/1271-web-crawler) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
@@ -1027,6 +1029,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1076-brace-expansion](https://github.com/MOMOKO606/Leetcode/tree/master/1076-brace-expansion) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1271-web-crawler](https://github.com/MOMOKO606/Leetcode/tree/master/1271-web-crawler) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Graph
@@ -1608,6 +1611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0157-read-n-characters-given-read4](https://github.com/MOMOKO606/Leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0278-first-bad-version](https://github.com/MOMOKO606/Leetcode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/MOMOKO606/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
+| [1271-web-crawler](https://github.com/MOMOKO606/Leetcode/tree/master/1271-web-crawler) |
 ## Quickselect
 |  |
 | ------- |
