@@ -869,6 +869,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1091-maximum-average-subtree](https://github.com/MOMOKO606/Leetcode/tree/master/1091-maximum-average-subtree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
 ## Matrix
 |  |
@@ -970,6 +971,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1091-maximum-average-subtree](https://github.com/MOMOKO606/Leetcode/tree/master/1091-maximum-average-subtree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
@@ -1023,6 +1025,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0945-snakes-and-ladders](https://github.com/MOMOKO606/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/MOMOKO606/Leetcode/tree/master/1036-rotting-oranges) |
 | [1076-brace-expansion](https://github.com/MOMOKO606/Leetcode/tree/master/1076-brace-expansion) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -1485,6 +1488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1091-maximum-average-subtree](https://github.com/MOMOKO606/Leetcode/tree/master/1091-maximum-average-subtree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Design
 |  |
 | ------- |
