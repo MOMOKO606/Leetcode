@@ -614,6 +614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0812-rotate-string](https://github.com/MOMOKO606/Leetcode/tree/master/0812-rotate-string) |
 | [0953-reverse-only-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1076-brace-expansion](https://github.com/MOMOKO606/Leetcode/tree/master/1076-brace-expansion) |
+| [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/MOMOKO606/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -732,6 +733,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0782-jewels-and-stones](https://github.com/MOMOKO606/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0906-walking-robot-simulation](https://github.com/MOMOKO606/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [1039-find-the-town-judge](https://github.com/MOMOKO606/Leetcode/tree/master/1039-find-the-town-judge) |
+| [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MOMOKO606/Leetcode/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1217-relative-sort-array](https://github.com/MOMOKO606/Leetcode/tree/master/1217-relative-sort-array) |
@@ -792,6 +794,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0588-design-in-memory-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/0588-design-in-memory-file-system) |
 | [0692-top-k-frequent-words](https://github.com/MOMOKO606/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0720-longest-word-in-dictionary](https://github.com/MOMOKO606/Leetcode/tree/master/0720-longest-word-in-dictionary) |
+| [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 ## Divide and Conquer
 |  |
@@ -1521,6 +1524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0859-design-circular-deque](https://github.com/MOMOKO606/Leetcode/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/MOMOKO606/Leetcode/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/MOMOKO606/Leetcode/tree/master/0969-number-of-recent-calls) |
+| [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 ## Iterator
 |  |
 | ------- |
