@@ -274,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-unique-number-of-occurrences](https://github.com/MOMOKO606/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/MOMOKO606/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/MOMOKO606/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/MOMOKO606/Leetcode/tree/master/1217-relative-sort-array) |
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
@@ -1086,6 +1088,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/MOMOKO606/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/MOMOKO606/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
@@ -1110,6 +1113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/MOMOKO606/Leetcode/tree/master/0389-find-the-difference) |
 | [1022-unique-paths-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/MOMOKO606/Leetcode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
