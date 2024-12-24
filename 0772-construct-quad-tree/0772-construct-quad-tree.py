@@ -27,10 +27,7 @@ class Solution:
             bottomRight = helper(r + n, c + n, n)
             return Node(1, False, topLeft, topRight, bottomLeft, bottomRight)
 
-        
         n = len(grid)
         return helper(0, 0, n)
-
-
 
         
