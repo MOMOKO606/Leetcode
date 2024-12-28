@@ -4,13 +4,13 @@ class Solution:
             if not target: 
                 ans.append(seq)
                 return
-            if target < 0: return
+            if i == len(candidates) or target < 0: return
             for j in range(i, len(candidates)):
                 if j > i and candidates[j] == candidates[j - 1]: continue
                 helper(j + 1, target - candidates[j], seq + [candidates[j]])
 
 
-        candidates, ans = sorted(candidates), []
-        helper(i=0, target=target, seq=[])
+        ans, candidates = [], sorted(candidates)
+        helper(0, target, [])
         return ans
         
