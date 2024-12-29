@@ -1,16 +1,18 @@
 class Solution:
     def reorganizeString(self, s: str) -> str:
-        max_heap, ans, prev = [], "", None
+        max_heap, ans, next = [], "", None
         for char, freq in Counter(s).items():
             heapq.heappush(max_heap, (-freq, char))
+
         while max_heap:
             freq, char = heapq.heappop(max_heap)
-            ans, freq = ans + char, freq + 1
-            if prev:
-                heapq.heappush(max_heap, prev)
-                prev = None
-            if freq:
-                prev = (freq, char)
-        return ans if len(ans) == len(s) else ""
+            freq += 1
+            ans += char
+            if next: heapq.heappush(max_heap, next)
+            next = (freq, char) if freq < 0 else None
+        return ans if not next else ""
+
+
+
 
         
