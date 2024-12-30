@@ -1,24 +1,23 @@
 class Vector2D:
 
     def __init__(self, vec: List[List[int]]):
-        self.i, self.j, self.vec = 0, 0, vec
+        self.vec = vec
+        self.i, self.j = 0, 0
 
         
-
     def next(self) -> int:
         if self.hasNext():
             ans = self.vec[self.i][self.j]
-            self.j += 1
+            self.j += 1    
             return ans
 
         
-
     def hasNext(self) -> bool:
         while self.i < len(self.vec):
-            if self.j < len(self.vec[self.i]): return True
+            if self.j < len(self.vec[self.i]):     
+                return True
             self.i, self.j = self.i + 1, 0
         return False
-        
         
         
 
