@@ -5,17 +5,15 @@ class Solution:
         for u, v, w in flights:
             graph[u][v] = w
 
-        queue, ans, k, visited = [(src, 0)], inf, k + 2, set([src, 0])
+        queue, k, visited = [(src, 0)], k + 1, [inf] * n
         while queue and k:
             next_queue = []
-            for node, price in queue:
-                if node == dst: 
-                    ans = min(ans, price)
+            for node, cur_cost in queue:
                 for neighbor in graph[node]:
-                    if price + graph[node][neighbor] > ans or (neighbor, price + graph[node][neighbor]) in visited: continue
-                    next_queue.append((neighbor, price + graph[node][neighbor]))
-                    visited.add((neighbor, price + graph[node][neighbor]))
+                    if cur_cost + graph[node][neighbor] > visited[neighbor]: continue
+                    visited[neighbor] = cur_cost + graph[node][neighbor]
+                    next_queue.append((neighbor, cur_cost + graph[node][neighbor]))
                     
             k, queue = k - 1, next_queue
-        return ans if ans != inf else -1
+        return visited[dst] if visited[dst] != inf else -1
         
