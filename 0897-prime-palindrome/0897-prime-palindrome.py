@@ -6,11 +6,11 @@ class Solution:
             return True
 
         if n < 3: return 2
-        if 7 < n < 11: return 11
-        i = 1
+        if 7 < n <= 11: return 11
+        i = 2
         while True:
             num = int(str(i) + str(i)[:-1][::-1])
-            if num > n and is_prime(num):
+            if num >= n and is_prime(num):
                 return num
             i += 1
         
