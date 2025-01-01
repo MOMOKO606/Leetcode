@@ -1,11 +1,11 @@
 class Solution:
     def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:
-        ans, stack, nums = 0, [], [inf] + nums + [inf]
+        nums, stack, ans = [inf] + nums + [inf], [], 0
         for j, num in enumerate(nums):
-            while stack and num > nums[stack[-1]]:
+            while stack and nums[stack[-1]] < num:
                 k = stack.pop()
                 if left <= nums[k] <= right:
-                    ans += (k - stack[-1]) * (j - k)
+                    ans += (j - k) * (k - stack[-1])
             stack.append(j)
         return ans
         
