@@ -1,23 +1,22 @@
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
-        sweeplines, maxHeap, ans = [], [0], []
+        sweepline, min_heap, ans = [], [0], []
         for left, right, height in buildings:
-            sweeplines.append([left, -height])
-            sweeplines.append([right, height])
-        sweeplines.sort()
+            sweepline.append([left, -height])
+            sweepline.append([right, height])
 
-        for pos, height in sweeplines:
+        for pos, height in sorted(sweepline):
             if height < 0:
-                if height < maxHeap[0]:
+                if height < min_heap[0]:
                     ans.append([pos, -height])
-                heapq.heappush(maxHeap, height)
+                heapq.heappush(min_heap, height)
             else:
-                maxHeap.remove(-height)
-                heapq.heapify(maxHeap)
-                if height > -maxHeap[0]:
-                    ans.append([pos, -maxHeap[0]])
+                min_heap.remove(-height)
+                heapq.heapify(min_heap)
+                if height > -min_heap[0]:
+                    ans.append([pos, -min_heap[0]])
         return ans
 
-                
+
 
         
