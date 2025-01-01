@@ -1,12 +1,16 @@
 class Solution:
     def palindromePairs(self, words: List[str]) -> List[List[int]]:
-        visited, ans = {word: i for i, word in enumerate(words)}, set()
+        indexes, ans = {word: i for i, word in enumerate(words)}, set()
         for i, word in enumerate(words):
             for j in range(len(word) + 1):
-                left, right = word[:j], word[j:]
-                if left == left[::-1] and right[::-1] in visited and visited[right[::-1]] != i:
-                    ans.add((visited[right[::-1]],i))
-                if right == right[::-1] and left[::-1] in visited and visited[left[::-1]] != i:
-                    ans.add((i, visited[left[::-1]]))
-        return list(ans)
+                left = word[j:][::-1]
+                if left in indexes and (indexes[left], i) not in ans and indexes[left] != i and left + word == (left + word)[::-1]:
+                    ans.add((indexes[left], i))
+            for j in range(len(word) + 1):
+                right = word[:j][::-1]
+                if right in indexes and (i, indexes[right]) not in ans and i != indexes[right] and word + right == (word + right)[::-1]:
+                    ans.add((i, indexes[right]))
+        return list(map(list, ans))
+            
+
         
