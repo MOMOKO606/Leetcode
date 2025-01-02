@@ -1,8 +1,7 @@
 class Solution:
     def baseNeg2(self, n: int) -> str:
-        ans = ""
-        while n != 1 and n != 0:
-            if n & 1: ans, n = "1" + ans, ceil(n / -2)
-            else: ans, n = "0" + ans, n // -2
-        return str(n) + ans
+        if 0 <= n < 2: return str(n)
+        if n & 1: return self.baseNeg2(ceil(n / -2)) + "1"
+        else: return self.baseNeg2(n // -2) + "0"
+
         
