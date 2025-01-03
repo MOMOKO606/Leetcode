@@ -1,15 +1,18 @@
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
-        words, visited, ans = sorted(words, key=len, reverse=True), set(), 1
+        @cache
+        def dfs_helper(word):
+            if word not in word_set: return -inf
+            ans = 1
+            for i in range(len(word)):
+                predecessor = word[:i] + word[i + 1:]
+                ans = max(ans, 1 + dfs_helper(predecessor))
+            return ans
+
+
+        words, ans, word_set = sorted(words, key=len, reverse=True), 1, set(words)
         for word in words:
-            if word in visited: continue
-            deque = collections.deque([(word, 1)])
-            while deque:
-                node, count = deque.popleft()
-                ans = max(ans, count)
-                for i in range(len(node)):
-                    predecessor = node[:i] + node[i + 1:]
-                    if predecessor in words and predecessor not in visited:
-                        deque.append((predecessor, count + 1))
-                        visited.add(predecessor)
+            ans = max(ans, dfs_helper(word))
         return ans
+
+        
