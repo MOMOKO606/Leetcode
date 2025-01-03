@@ -1,13 +1,13 @@
 class Solution:
     def numTilings(self, n: int) -> int:
-        if n < 3: return n
-        dp, MOD = [[0] * 3 for _ in range(n)], 10 ** 9 + 7
-        dp[0][0] = dp[1][1] = dp[1][2] = 1
-        dp[1][0] = 2
+        if n < 3:  return n
+        dp, MOD = [[0] * n for _ in range(3)], 10 ** 9 + 7
+        dp[0][0] =  dp[1][1] = dp[2][1] = 1
+        dp[0][1] = 2
         for i in range(2, n):
-            dp[i][0] = (dp[i - 1][1] + dp[i - 1][2] + dp[i - 1][0] + dp[i - 2][0]) % MOD
-            dp[i][1] = (dp[i - 2][0] + dp[i - 1][2]) % MOD
-            dp[i][2] = (dp[i - 2][0] + dp[i - 1][1]) % MOD
-        return dp[-1][0]
+            dp[0][i] = (dp[0][i - 1] + dp[0][i - 2] + dp[1][i - 1] + dp[2][i - 1]) % MOD
+            dp[1][i] = (dp[0][i - 2] + dp[2][i - 1]) % MOD
+            dp[2][i] = (dp[0][i - 2] + dp[1][i - 1]) % MOD
+        return dp[0][-1]        
 
         
