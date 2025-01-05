@@ -6,7 +6,9 @@ class Solution:
             heapq.heappush(max_heap, (-num, j))
             while -max_heap[0][0] - min_heap[0][0] > limit:
                 i += 1
-                if i >= min_heap[0][1]: heapq.heappop(min_heap)
-                if i >= max_heap[0][1]: heapq.heappop(max_heap)
+                while i >= min_heap[0][1]: 
+                    heapq.heappop(min_heap)
+                while i >= max_heap[0][1]: 
+                    heapq.heappop(max_heap)
             ans = max(ans, j - i)
         return ans
