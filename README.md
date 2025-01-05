@@ -277,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/MOMOKO606/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
@@ -344,6 +345,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1306-minimum-absolute-difference](https://github.com/MOMOKO606/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+| [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
@@ -414,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1057-numbers-with-repeated-digits](https://github.com/MOMOKO606/Leetcode/tree/master/1057-numbers-with-repeated-digits) |
 | [1070-convert-to-base-2](https://github.com/MOMOKO606/Leetcode/tree/master/1070-convert-to-base-2) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/MOMOKO606/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
 | [1585-the-kth-factor-of-n](https://github.com/MOMOKO606/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3321-type-of-triangle](https://github.com/MOMOKO606/Leetcode/tree/master/3321-type-of-triangle) |
@@ -496,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1130-last-stone-weight-ii](https://github.com/MOMOKO606/Leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1250-longest-common-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Recursion
