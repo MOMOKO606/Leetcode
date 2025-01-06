@@ -279,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
 | [1603-running-sum-of-1d-array](https://github.com/MOMOKO606/Leetcode/tree/master/1603-running-sum-of-1d-array) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
@@ -347,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
@@ -671,6 +673,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/MOMOKO606/Leetcode/tree/master/0890-lemonade-change) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1652-minimum-suffix-flips](https://github.com/MOMOKO606/Leetcode/tree/master/1652-minimum-suffix-flips) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
@@ -757,6 +760,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/MOMOKO606/Leetcode/tree/master/1217-relative-sort-array) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1319-unique-number-of-occurrences](https://github.com/MOMOKO606/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/MOMOKO606/Leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
@@ -1101,6 +1105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0692-top-k-frequent-words](https://github.com/MOMOKO606/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
