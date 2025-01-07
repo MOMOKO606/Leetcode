@@ -1,8 +1,8 @@
 class Solution:
     def minFlips(self, target: str) -> int:
         flipped, count = False, 0
-        for char in target:
-            if not (char == "0" and not flipped or char == "1" and flipped): 
-                count, flipped = count + 1, not flipped
+        for num in target:
+            if (num == "1" and flipped) or (num == "0" and not flipped): continue
+            flipped, count = not flipped, count + 1
         return count
         
