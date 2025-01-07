@@ -284,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1762-furthest-building-you-can-reach](https://github.com/MOMOKO606/Leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -681,6 +682,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1652-minimum-suffix-flips](https://github.com/MOMOKO606/Leetcode/tree/master/1652-minimum-suffix-flips) |
+| [1762-furthest-building-you-can-reach](https://github.com/MOMOKO606/Leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
@@ -797,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/MOMOKO606/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1762-furthest-building-you-can-reach](https://github.com/MOMOKO606/Leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 ## Ordered Set
 |  |
