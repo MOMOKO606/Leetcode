@@ -649,6 +649,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/MOMOKO606/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1652-minimum-suffix-flips](https://github.com/MOMOKO606/Leetcode/tree/master/1652-minimum-suffix-flips) |
+| [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
@@ -1360,6 +1361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0953-reverse-only-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Linked List
 |  |
