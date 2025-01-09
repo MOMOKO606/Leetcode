@@ -286,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1762-furthest-building-you-can-reach](https://github.com/MOMOKO606/Leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
+| [1833-find-the-highest-altitude](https://github.com/MOMOKO606/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -1654,6 +1655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MOMOKO606/Leetcode/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1321-get-equal-substrings-within-budget](https://github.com/MOMOKO606/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1603-running-sum-of-1d-array](https://github.com/MOMOKO606/Leetcode/tree/master/1603-running-sum-of-1d-array) |
+| [1833-find-the-highest-altitude](https://github.com/MOMOKO606/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/MOMOKO606/Leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/MOMOKO606/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 ## Doubly-Linked List
