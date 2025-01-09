@@ -358,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/2651-count-ways-to-group-overlapping-ranges) |
@@ -649,6 +650,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/MOMOKO606/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/MOMOKO606/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1652-minimum-suffix-flips](https://github.com/MOMOKO606/Leetcode/tree/master/1652-minimum-suffix-flips) |
+| [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
@@ -773,6 +775,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-unique-number-of-occurrences](https://github.com/MOMOKO606/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/MOMOKO606/Leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
@@ -1119,6 +1122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
