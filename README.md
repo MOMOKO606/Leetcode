@@ -782,6 +782,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/MOMOKO606/Leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
@@ -1414,6 +1415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0908-middle-of-the-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1072-next-greater-node-in-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1072-next-greater-node-in-linked-list) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
+| [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
 ## Stack
 |  |
 | ------- |
