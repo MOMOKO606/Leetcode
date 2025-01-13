@@ -1395,6 +1395,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1972-rotating-the-box](https://github.com/MOMOKO606/Leetcode/tree/master/1972-rotating-the-box) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -1434,6 +1435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1905-design-authentication-manager](https://github.com/MOMOKO606/Leetcode/tree/master/1905-design-authentication-manager) |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Stack
 |  |
