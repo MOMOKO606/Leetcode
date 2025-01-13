@@ -294,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1972-rotating-the-box](https://github.com/MOMOKO606/Leetcode/tree/master/1972-rotating-the-box) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/MOMOKO606/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2043-cyclically-rotating-a-grid](https://github.com/MOMOKO606/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
+| [2262-solving-questions-with-brainpower](https://github.com/MOMOKO606/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/MOMOKO606/Leetcode/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
@@ -525,6 +526,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1571-allocate-mailboxes](https://github.com/MOMOKO606/Leetcode/tree/master/1571-allocate-mailboxes) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/MOMOKO606/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2262-solving-questions-with-brainpower](https://github.com/MOMOKO606/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Recursion
