@@ -293,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1972-rotating-the-box](https://github.com/MOMOKO606/Leetcode/tree/master/1972-rotating-the-box) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/MOMOKO606/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2043-cyclically-rotating-a-grid](https://github.com/MOMOKO606/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -365,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/2651-count-ways-to-group-overlapping-ranges) |
@@ -1300,6 +1302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/MOMOKO606/Leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Segment Tree
 |  |
@@ -1386,6 +1389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1972-rotating-the-box](https://github.com/MOMOKO606/Leetcode/tree/master/1972-rotating-the-box) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Linked List
 |  |
