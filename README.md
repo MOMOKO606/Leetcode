@@ -296,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2043-cyclically-rotating-a-grid](https://github.com/MOMOKO606/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/MOMOKO606/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/MOMOKO606/Leetcode/tree/master/2283-sort-even-and-odd-indices-independently) |
+| [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -667,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/MOMOKO606/Leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
+| [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
@@ -795,6 +797,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1905-design-authentication-manager](https://github.com/MOMOKO606/Leetcode/tree/master/1905-design-authentication-manager) |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
+| [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/MOMOKO606/Leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
@@ -1624,6 +1627,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [1176-design-a-leaderboard](https://github.com/MOMOKO606/Leetcode/tree/master/1176-design-a-leaderboard) |
 | [1905-design-authentication-manager](https://github.com/MOMOKO606/Leetcode/tree/master/1905-design-authentication-manager) |
+| [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 ## Iterator
 |  |
 | ------- |
