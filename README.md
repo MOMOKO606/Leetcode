@@ -298,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2283-sort-even-and-odd-indices-independently](https://github.com/MOMOKO606/Leetcode/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -1205,6 +1206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/MOMOKO606/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/MOMOKO606/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/MOMOKO606/Leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Rolling Hash
 |  |
@@ -1317,6 +1319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1772-create-sorted-array-through-instructions](https://github.com/MOMOKO606/Leetcode/tree/master/1772-create-sorted-array-through-instructions) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/MOMOKO606/Leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
 ## Segment Tree
 |  |
@@ -1711,6 +1714,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1603-running-sum-of-1d-array](https://github.com/MOMOKO606/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1833-find-the-highest-altitude](https://github.com/MOMOKO606/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/MOMOKO606/Leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/MOMOKO606/Leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/MOMOKO606/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 ## Doubly-Linked List
