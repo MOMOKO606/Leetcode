@@ -6,6 +6,7 @@ class Solution:
         def dfsHelper(node):
             if node in visited: return
             visited.add(node)
+            known.add(node)
             for neighbor in graph[node]:
                 dfsHelper(neighbor)
 
@@ -16,11 +17,10 @@ class Solution:
                 graph[u].append(v)
                 graph[v].append(u)
 
-            for node in known:
+            for node in graph.keys():
+                if node not in known: continue
                 dfsHelper(node)
 
-            for node in visited:
-                known.add(node)
         return list(known)
                 
 
