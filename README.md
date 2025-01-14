@@ -370,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2213-find-all-people-with-secret](https://github.com/MOMOKO606/Leetcode/tree/master/2213-find-all-people-with-secret) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/MOMOKO606/Leetcode/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -1050,6 +1051,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MOMOKO606/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [2213-find-all-people-with-secret](https://github.com/MOMOKO606/Leetcode/tree/master/2213-find-all-people-with-secret) |
 | [3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network](https://github.com/MOMOKO606/Leetcode/tree/master/3326-count-pairs-of-connectable-servers-in-a-weighted-tree-network) |
 ## Breadth-First Search
 |  |
@@ -1109,6 +1111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1544-count-good-nodes-in-binary-tree](https://github.com/MOMOKO606/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MOMOKO606/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/MOMOKO606/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2213-find-all-people-with-secret](https://github.com/MOMOKO606/Leetcode/tree/master/2213-find-all-people-with-secret) |
 ## Graph
 |  |
 | ------- |
@@ -1127,6 +1130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/MOMOKO606/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MOMOKO606/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [2213-find-all-people-with-secret](https://github.com/MOMOKO606/Leetcode/tree/master/2213-find-all-people-with-secret) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Topological Sort
 |  |
@@ -1225,6 +1229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/MOMOKO606/Leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0737-sentence-similarity-ii) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/MOMOKO606/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2213-find-all-people-with-secret](https://github.com/MOMOKO606/Leetcode/tree/master/2213-find-all-people-with-secret) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Backtracking
 |  |
