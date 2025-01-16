@@ -267,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/MOMOKO606/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1072-next-greater-node-in-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/1072-next-greater-node-in-linked-list) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/MOMOKO606/Leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MOMOKO606/Leetcode/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -661,6 +662,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0829-subdomain-visit-count](https://github.com/MOMOKO606/Leetcode/tree/master/0829-subdomain-visit-count) |
 | [0953-reverse-only-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1076-brace-expansion](https://github.com/MOMOKO606/Leetcode/tree/master/1076-brace-expansion) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/MOMOKO606/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -790,6 +792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0829-subdomain-visit-count](https://github.com/MOMOKO606/Leetcode/tree/master/0829-subdomain-visit-count) |
 | [0906-walking-robot-simulation](https://github.com/MOMOKO606/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [1039-find-the-town-judge](https://github.com/MOMOKO606/Leetcode/tree/master/1039-find-the-town-judge) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/MOMOKO606/Leetcode/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -1160,6 +1163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0692-top-k-frequent-words](https://github.com/MOMOKO606/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
 | [0829-subdomain-visit-count](https://github.com/MOMOKO606/Leetcode/tree/master/0829-subdomain-visit-count) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/MOMOKO606/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
