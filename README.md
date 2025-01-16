@@ -203,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0336-palindrome-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/0336-palindrome-pairs) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0362-design-hit-counter](https://github.com/MOMOKO606/Leetcode/tree/master/0362-design-hit-counter) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0368-largest-divisible-subset](https://github.com/MOMOKO606/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/MOMOKO606/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -1322,6 +1323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/MOMOKO606/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/MOMOKO606/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0362-design-hit-counter](https://github.com/MOMOKO606/Leetcode/tree/master/0362-design-hit-counter) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0374-guess-number-higher-or-lower](https://github.com/MOMOKO606/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/MOMOKO606/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1363,6 +1365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/MOMOKO606/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/MOMOKO606/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/MOMOKO606/Leetcode/tree/master/0362-design-hit-counter) |
 | [0649-dota2-senate](https://github.com/MOMOKO606/Leetcode/tree/master/0649-dota2-senate) |
 | [0859-design-circular-deque](https://github.com/MOMOKO606/Leetcode/tree/master/0859-design-circular-deque) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -1646,6 +1649,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0307-range-sum-query-mutable](https://github.com/MOMOKO606/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
+| [0362-design-hit-counter](https://github.com/MOMOKO606/Leetcode/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/MOMOKO606/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0449-serialize-and-deserialize-bst](https://github.com/MOMOKO606/Leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0588-design-in-memory-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/0588-design-in-memory-file-system) |
@@ -1693,6 +1697,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/MOMOKO606/Leetcode/tree/master/0359-logger-rate-limiter) |
+| [0362-design-hit-counter](https://github.com/MOMOKO606/Leetcode/tree/master/0362-design-hit-counter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/MOMOKO606/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/MOMOKO606/Leetcode/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/MOMOKO606/Leetcode/tree/master/0969-number-of-recent-calls) |
