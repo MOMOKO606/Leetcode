@@ -1,13 +1,12 @@
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
-        line, occupied, ans = [], 0, []
+        total, line, ans, count = 0, [], [], 0
         for word in words:
-            if len(line) + occupied + len(word) > maxWidth:
-                for i in range(maxWidth - occupied - len(line) + 1):
-                    j = i % (len(line) - 1) if len(line) > 1 else 0
-                    line[j] += " "
-                ans, line, occupied = ans + [" ".join(line)], [], 0
-            line, occupied = line + [word], occupied + len(word)
+            if len(word) + count + total > maxWidth:
+                for j in range(maxWidth - total):
+                    line[j % max(len(line) - 1, 1)] += " "
+                ans, line, total, count = ans + ["".join(line)], [], 0, 0
+            line, total, count = line + [word], total + len(word), count + 1
         return ans + [" ".join(line).ljust(maxWidth)]
 
         
