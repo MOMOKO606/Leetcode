@@ -1,31 +1,23 @@
 class Solution:
     def minTransfers(self, transactions: List[List[int]]) -> int:
-        from collections import defaultdict
-        person = defaultdict(int)
-        for x, y, z in transactions:
-            person[x] -= z
-            person[y] += z
-        # 账号
-        accounts = list(person.values())
-       
-        res = float("inf")
-
-        def dfs(i, cnt):
-            nonlocal res
-            # 全局变量退出递归
-            if cnt >= res: return 
-            # 账号为0不考虑
-            while i < len(accounts) and accounts[i] == 0: i += 1
-            # 遍历完
-            if i == len(accounts):
-                res = min(res, cnt)
-                return
+        def dfs_helper(i):
+            while i < len(nums) and not nums[i]:
+                i += 1
+            if i == len(accounts): return 0
+            ans = inf
             for j in range(i + 1, len(accounts)):
-                if accounts[i] * accounts[j] < 0:
-                    accounts[j] += accounts[i]
-                    dfs(i + 1, cnt + 1)
-                    accounts[j] -= accounts[i]
+                if nums[i] * nums[j] < 0:
+                    nums[j] += nums[i]
+                    ans = min(ans, 1 + dfs_helper(i + 1))
+                    nums[j] -= nums[i]
+            return ans
 
-        dfs(0, 0)
-        return res
+        accounts = collections.defaultdict(int)
+        for u, v, w in transactions:
+            accounts[v] += w
+            accounts[u] -= w
+
+        nums = list(accounts.values())
+        return dfs_helper(0)
+
         
