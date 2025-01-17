@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/MOMOKO606/Leetcode/tree/master/0455-assign-cookies) |
 | [0456-132-pattern](https://github.com/MOMOKO606/Leetcode/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/MOMOKO606/Leetcode/tree/master/0463-island-perimeter) |
+| [0465-optimal-account-balancing](https://github.com/MOMOKO606/Leetcode/tree/master/0465-optimal-account-balancing) |
 | [0474-ones-and-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0490-the-maze](https://github.com/MOMOKO606/Leetcode/tree/master/0490-the-maze) |
 | [0493-reverse-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/0493-reverse-pairs) |
@@ -514,6 +515,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0413-arithmetic-slices](https://github.com/MOMOKO606/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/MOMOKO606/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0465-optimal-account-balancing](https://github.com/MOMOKO606/Leetcode/tree/master/0465-optimal-account-balancing) |
 | [0471-encode-string-with-shortest-length](https://github.com/MOMOKO606/Leetcode/tree/master/0471-encode-string-with-shortest-length) |
 | [0474-ones-and-zeroes](https://github.com/MOMOKO606/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0494-target-sum) |
@@ -1201,6 +1203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/MOMOKO606/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/MOMOKO606/Leetcode/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/MOMOKO606/Leetcode/tree/master/0389-find-the-difference) |
+| [0465-optimal-account-balancing](https://github.com/MOMOKO606/Leetcode/tree/master/0465-optimal-account-balancing) |
 | [1022-unique-paths-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1022-unique-paths-iii) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/MOMOKO606/Leetcode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/MOMOKO606/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
@@ -1287,6 +1290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/MOMOKO606/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0465-optimal-account-balancing](https://github.com/MOMOKO606/Leetcode/tree/master/0465-optimal-account-balancing) |
 | [0494-target-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0494-target-sum) |
 | [0787-sliding-puzzle](https://github.com/MOMOKO606/Leetcode/tree/master/0787-sliding-puzzle) |
 | [1022-unique-paths-iii](https://github.com/MOMOKO606/Leetcode/tree/master/1022-unique-paths-iii) |
@@ -1792,4 +1796,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0399-evaluate-division](https://github.com/MOMOKO606/Leetcode/tree/master/0399-evaluate-division) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/MOMOKO606/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+## Bitmask
+|  |
+| ------- |
+| [0465-optimal-account-balancing](https://github.com/MOMOKO606/Leetcode/tree/master/0465-optimal-account-balancing) |
 <!---LeetCode Topics End-->
