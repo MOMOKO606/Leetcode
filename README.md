@@ -234,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0529-minesweeper](https://github.com/MOMOKO606/Leetcode/tree/master/0529-minesweeper) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/MOMOKO606/Leetcode/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0605-can-place-flowers](https://github.com/MOMOKO606/Leetcode/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/MOMOKO606/Leetcode/tree/master/0621-task-scheduler) |
 | [0636-exclusive-time-of-functions](https://github.com/MOMOKO606/Leetcode/tree/master/0636-exclusive-time-of-functions) |
@@ -652,6 +653,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0541-reverse-string-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0541-reverse-string-ii) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/MOMOKO606/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0588-design-in-memory-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/0588-design-in-memory-file-system) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/MOMOKO606/Leetcode/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0647-palindromic-substrings](https://github.com/MOMOKO606/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0649-dota2-senate](https://github.com/MOMOKO606/Leetcode/tree/master/0649-dota2-senate) |
 | [0680-valid-palindrome-ii](https://github.com/MOMOKO606/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -787,6 +789,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/MOMOKO606/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/MOMOKO606/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0588-design-in-memory-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/0588-design-in-memory-file-system) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/MOMOKO606/Leetcode/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0621-task-scheduler](https://github.com/MOMOKO606/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/MOMOKO606/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0697-degree-of-an-array](https://github.com/MOMOKO606/Leetcode/tree/master/0697-degree-of-an-array) |
