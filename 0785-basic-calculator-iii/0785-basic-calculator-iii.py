@@ -1,12 +1,5 @@
 class Solution:
     def calculate(self, s: str) -> int:
-        def get_num(j):
-            num = 0
-            while j < len(s) and s[j].isdigit():
-                num = num * 10 + int(s[j])
-                j += 1
-            return num, j - 1 
-
         def update():
             if cur_oper == "+":
                 stack.append(cur_num)
@@ -14,25 +7,23 @@ class Solution:
                 stack.append(-cur_num)
             elif cur_oper == "*":
                 stack.append(stack.pop() * cur_num)
-            else:
+            elif cur_oper == "/":
                 stack.append(int(stack.pop() / cur_num))
-        
-        stack, cur_oper, j = [], "+", 0
-        while j < len(s):
-            if s[j] in "+-*/":
+
+        i, stack, cur_num, cur_oper = 0, [], 0, "+"
+        while i < len(s):
+            if s[i].isdigit():
+                cur_num = cur_num * 10 + int(s[i])
+            elif s[i] in "+-*/":
                 update()
-                cur_oper = s[j]
-            elif s[j].isdigit():
-                cur_num, j = get_num(j)
-            elif s[j] == "(":
-                cur_num, delta = self.calculate(s[j + 1:])
-                j += delta
-            elif s[j] == ")":
+                cur_oper, cur_num = s[i], 0
+            elif s[i] == "(":
+                cur_num, j = self.calculate(s[i + 1:])
+                i += j
+            elif s[i] == ")":
                 update()
-                return sum(stack), j + 1
-            j += 1
+                return sum(stack), i + 1
+            i += 1
         update()
         return sum(stack)
-        
-
         
