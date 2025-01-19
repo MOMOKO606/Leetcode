@@ -292,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/MOMOKO606/Leetcode/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/MOMOKO606/Leetcode/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/MOMOKO606/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1757-minimum-jumps-to-reach-home](https://github.com/MOMOKO606/Leetcode/tree/master/1757-minimum-jumps-to-reach-home) |
 | [1762-furthest-building-you-can-reach](https://github.com/MOMOKO606/Leetcode/tree/master/1762-furthest-building-you-can-reach) |
@@ -819,6 +820,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/MOMOKO606/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/MOMOKO606/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/MOMOKO606/Leetcode/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/MOMOKO606/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/MOMOKO606/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/MOMOKO606/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -1448,6 +1450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0953-reverse-only-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/MOMOKO606/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/MOMOKO606/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/MOMOKO606/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1972-rotating-the-box](https://github.com/MOMOKO606/Leetcode/tree/master/1972-rotating-the-box) |
@@ -1680,6 +1683,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0969-number-of-recent-calls](https://github.com/MOMOKO606/Leetcode/tree/master/0969-number-of-recent-calls) |
 | [1125-design-file-system](https://github.com/MOMOKO606/Leetcode/tree/master/1125-design-file-system) |
 | [1176-design-a-leaderboard](https://github.com/MOMOKO606/Leetcode/tree/master/1176-design-a-leaderboard) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/MOMOKO606/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1905-design-authentication-manager](https://github.com/MOMOKO606/Leetcode/tree/master/1905-design-authentication-manager) |
 | [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [2413-smallest-number-in-infinite-set](https://github.com/MOMOKO606/Leetcode/tree/master/2413-smallest-number-in-infinite-set) |
