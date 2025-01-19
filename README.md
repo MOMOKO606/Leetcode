@@ -309,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/MOMOKO606/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2479-meeting-rooms-iii](https://github.com/MOMOKO606/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2518-the-employee-that-worked-on-the-longest-task](https://github.com/MOMOKO606/Leetcode/tree/master/2518-the-employee-that-worked-on-the-longest-task) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/MOMOKO606/Leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -386,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2213-find-all-people-with-secret](https://github.com/MOMOKO606/Leetcode/tree/master/2213-find-all-people-with-secret) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/MOMOKO606/Leetcode/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2479-meeting-rooms-iii](https://github.com/MOMOKO606/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/2651-count-ways-to-group-overlapping-ranges) |
@@ -825,6 +827,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/MOMOKO606/Leetcode/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [2413-smallest-number-in-infinite-set](https://github.com/MOMOKO606/Leetcode/tree/master/2413-smallest-number-in-infinite-set) |
+| [2479-meeting-rooms-iii](https://github.com/MOMOKO606/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/MOMOKO606/Leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
@@ -856,6 +859,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/MOMOKO606/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1762-furthest-building-you-can-reach](https://github.com/MOMOKO606/Leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [2413-smallest-number-in-infinite-set](https://github.com/MOMOKO606/Leetcode/tree/master/2413-smallest-number-in-infinite-set) |
+| [2479-meeting-rooms-iii](https://github.com/MOMOKO606/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
 ## Ordered Set
 |  |
@@ -1314,6 +1318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/MOMOKO606/Leetcode/tree/master/0735-asteroid-collision) |
 | [0906-walking-robot-simulation](https://github.com/MOMOKO606/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [2043-cyclically-rotating-a-grid](https://github.com/MOMOKO606/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
+| [2479-meeting-rooms-iii](https://github.com/MOMOKO606/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/MOMOKO606/Leetcode/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 ## Binary Search
 |  |
