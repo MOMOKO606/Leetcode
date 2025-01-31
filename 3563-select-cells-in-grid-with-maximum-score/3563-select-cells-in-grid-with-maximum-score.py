@@ -1,23 +1,34 @@
 class Solution:
     def maxScore(self, grid: List[List[int]]) -> int:
-        mx = max(map(max, grid))
-        pos = [[] for _ in range(mx + 1)]
-        for i, row in enumerate(grid):
-            for x in set(row):  # 去重
-                pos[x].append(i)
-
-        @cache
-        def dfs(i: int, j: int) -> int:
-            if i == 0:
-                return 0
-            # 不选 x
-            res = dfs(i - 1, j)
-            # 枚举选第 k 行的 x
-            for k in pos[i]:
-                if (j >> k & 1) == 0:
-                    res = max(res, dfs(i - 1, j | 1 << k) + i)
-            return res
-        return dfs(mx, 0)
-
+        rows = len(grid)
+        cols = len(grid[0])
+        # flatten all the values in the grid and deduplicate
+        value_set = set([grid[r][c] for r in range(rows) for c in range(cols)])
         
+        # sort values from in descending order
+        value_list = sorted(list(value_set))[::-1]
+
+        # create a map mapping from each value to the list of row indexes with these values
+        val_to_rows = defaultdict(list)
+        for value in value_list:
+            val_to_rows[value] = [r for r in range(rows) if value in grid[r]]
+
+        # Run dfs on rows with cell values in descending order.
+        def dfs(row_set, remaining_values, score):
+            if not remaining_values:
+                return score
+
+            value = remaining_values[0]
+            remaining_values = remaining_values[1:]
+
+            score_list = []
+
+            for row in val_to_rows[value]:
+                if row not in row_set:
+                    score_list.append(dfs(row_set | {row}, remaining_values, score + value))
+            if not score_list:
+                score_list.append(dfs(row_set, remaining_values, score))
+            return max(score_list)
+
+        return dfs(set(), value_list, 0)
         
