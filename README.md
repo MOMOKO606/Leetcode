@@ -331,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/MOMOKO606/Leetcode/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/MOMOKO606/Leetcode/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
+| [3563-select-cells-in-grid-with-maximum-score](https://github.com/MOMOKO606/Leetcode/tree/master/3563-select-cells-in-grid-with-maximum-score) |
 ## Sorting
 |  |
 | ------- |
@@ -550,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2262-solving-questions-with-brainpower](https://github.com/MOMOKO606/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
+| [3563-select-cells-in-grid-with-maximum-score](https://github.com/MOMOKO606/Leetcode/tree/master/3563-select-cells-in-grid-with-maximum-score) |
 ## Recursion
 |  |
 | ------- |
@@ -1014,6 +1016,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2043-cyclically-rotating-a-grid](https://github.com/MOMOKO606/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/MOMOKO606/Leetcode/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/MOMOKO606/Leetcode/tree/master/2631-sort-the-students-by-their-kth-score) |
+| [3563-select-cells-in-grid-with-maximum-score](https://github.com/MOMOKO606/Leetcode/tree/master/3563-select-cells-in-grid-with-maximum-score) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -1222,6 +1225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/MOMOKO606/Leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/MOMOKO606/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3364-minimum-sum-of-values-by-dividing-array](https://github.com/MOMOKO606/Leetcode/tree/master/3364-minimum-sum-of-values-by-dividing-array) |
+| [3563-select-cells-in-grid-with-maximum-score](https://github.com/MOMOKO606/Leetcode/tree/master/3563-select-cells-in-grid-with-maximum-score) |
 ## Sliding Window
 |  |
 | ------- |
@@ -1814,4 +1818,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0465-optimal-account-balancing](https://github.com/MOMOKO606/Leetcode/tree/master/0465-optimal-account-balancing) |
+| [3563-select-cells-in-grid-with-maximum-score](https://github.com/MOMOKO606/Leetcode/tree/master/3563-select-cells-in-grid-with-maximum-score) |
 <!---LeetCode Topics End-->
