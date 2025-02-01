@@ -331,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/MOMOKO606/Leetcode/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/MOMOKO606/Leetcode/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3563-select-cells-in-grid-with-maximum-score](https://github.com/MOMOKO606/Leetcode/tree/master/3563-select-cells-in-grid-with-maximum-score) |
 ## Sorting
 |  |
@@ -865,6 +866,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2413-smallest-number-in-infinite-set](https://github.com/MOMOKO606/Leetcode/tree/master/2413-smallest-number-in-infinite-set) |
 | [2479-meeting-rooms-iii](https://github.com/MOMOKO606/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3363-most-frequent-ids](https://github.com/MOMOKO606/Leetcode/tree/master/3363-most-frequent-ids) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3495-k-th-nearest-obstacle-queries) |
 ## Ordered Set
 |  |
 | ------- |
