@@ -7,19 +7,18 @@ class Solution:
 
   
         def dfs(row_set, remaining_values, score):
-            if not remaining_values:
-                return score
+            if not remaining_values: return score
 
             value = remaining_values[0]
             remaining_values = remaining_values[1:]
 
-            score_list = []
+            ans = -inf
 
             for row in val_to_rows[value]:
                 if row not in row_set:
-                    score_list.append(dfs(row_set | {row}, remaining_values, score + value))
-            if not score_list:
-                score_list.append(dfs(row_set, remaining_values, score))
-            return max(score_list)
+                   ans = max(ans, (dfs(row_set | {row}, remaining_values, score + value)))
+            if ans == -inf:
+                ans = dfs(row_set, remaining_values, score)
+            return ans
 
         return dfs(set(), sorted(list(val_to_rows.keys()), reverse=True), 0)
