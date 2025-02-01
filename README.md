@@ -466,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3321-type-of-triangle](https://github.com/MOMOKO606/Leetcode/tree/master/3321-type-of-triangle) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
+| [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/MOMOKO606/Leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -700,6 +701,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/MOMOKO606/Leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
 ## Greedy
 |  |
 | ------- |
