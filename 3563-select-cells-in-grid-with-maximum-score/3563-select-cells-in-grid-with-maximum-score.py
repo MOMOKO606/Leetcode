@@ -13,12 +13,9 @@ class Solution:
             remaining_values = remaining_values[1:]
 
             ans = -inf
-
             for row in val_to_rows[value]:
                 if row not in row_set:
                    ans = max(ans, (dfs(row_set | {row}, remaining_values, score + value)))
-            if ans == -inf:
-                ans = dfs(row_set, remaining_values, score)
-            return ans
+            return ans if ans != -inf else dfs(row_set, remaining_values, score)
 
         return dfs(set(), sorted(list(val_to_rows.keys()), reverse=True), 0)
