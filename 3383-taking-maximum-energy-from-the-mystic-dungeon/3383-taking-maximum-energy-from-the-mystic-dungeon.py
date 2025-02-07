@@ -1,10 +1,14 @@
 class Solution:
     def maximumEnergy(self, energy: List[int], k: int) -> int:
-        energy = energy[::-1]
-        ans = max(energy[:k])
-        for i in range(k, len(energy)):
-            energy[i] += energy[i - k]
-            ans = max(ans, energy[i])
+        @cache
+        def helper(i):
+            if i > len(energy) - k - 1:
+                return energy[i]
+            return energy[i] + helper(i + k)
+
+        ans = -inf
+        for i in range(len(energy)):
+            ans = max(ans, helper(i))
         return ans
-        
+
         
