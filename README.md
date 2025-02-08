@@ -701,6 +701,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3384-minimum-number-of-operations-to-make-word-k-periodic](https://github.com/MOMOKO606/Leetcode/tree/master/3384-minimum-number-of-operations-to-make-word-k-periodic) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
+| [3396-valid-word](https://github.com/MOMOKO606/Leetcode/tree/master/3396-valid-word) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/MOMOKO606/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/MOMOKO606/Leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
 ## Greedy
