@@ -329,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/MOMOKO606/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+| [3397-find-the-integer-added-to-array-i](https://github.com/MOMOKO606/Leetcode/tree/master/3397-find-the-integer-added-to-array-i) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/MOMOKO606/Leetcode/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/MOMOKO606/Leetcode/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3495-k-th-nearest-obstacle-queries) |
