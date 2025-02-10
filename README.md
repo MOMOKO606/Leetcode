@@ -330,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/MOMOKO606/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3397-find-the-integer-added-to-array-i](https://github.com/MOMOKO606/Leetcode/tree/master/3397-find-the-integer-added-to-array-i) |
+| [3399-find-the-integer-added-to-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/3399-find-the-integer-added-to-array-ii) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/MOMOKO606/Leetcode/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/MOMOKO606/Leetcode/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3495-k-th-nearest-obstacle-queries) |
@@ -397,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/MOMOKO606/Leetcode/tree/master/2651-count-ways-to-group-overlapping-ranges) |
 | [3321-type-of-triangle](https://github.com/MOMOKO606/Leetcode/tree/master/3321-type-of-triangle) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+| [3399-find-the-integer-added-to-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/3399-find-the-integer-added-to-array-ii) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -746,6 +748,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0204-count-primes](https://github.com/MOMOKO606/Leetcode/tree/master/0204-count-primes) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
+| [3399-find-the-integer-added-to-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/3399-find-the-integer-added-to-array-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -1471,6 +1474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/MOMOKO606/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/MOMOKO606/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3399-find-the-integer-added-to-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/3399-find-the-integer-added-to-array-ii) |
 ## Linked List
 |  |
 | ------- |
