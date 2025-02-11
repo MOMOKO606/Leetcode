@@ -703,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/MOMOKO606/Leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2285-design-bitset](https://github.com/MOMOKO606/Leetcode/tree/master/2285-design-bitset) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MOMOKO606/Leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
+| [3361-latest-time-you-can-obtain-after-replacing-characters](https://github.com/MOMOKO606/Leetcode/tree/master/3361-latest-time-you-can-obtain-after-replacing-characters) |
 | [3376-longest-common-suffix-queries](https://github.com/MOMOKO606/Leetcode/tree/master/3376-longest-common-suffix-queries) |
 | [3384-minimum-number-of-operations-to-make-word-k-periodic](https://github.com/MOMOKO606/Leetcode/tree/master/3384-minimum-number-of-operations-to-make-word-k-periodic) |
 | [3395-minimum-length-of-anagram-concatenation](https://github.com/MOMOKO606/Leetcode/tree/master/3395-minimum-length-of-anagram-concatenation) |
@@ -750,6 +751,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0204-count-primes](https://github.com/MOMOKO606/Leetcode/tree/master/0204-count-primes) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/MOMOKO606/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
+| [3361-latest-time-you-can-obtain-after-replacing-characters](https://github.com/MOMOKO606/Leetcode/tree/master/3361-latest-time-you-can-obtain-after-replacing-characters) |
 | [3399-find-the-integer-added-to-array-ii](https://github.com/MOMOKO606/Leetcode/tree/master/3399-find-the-integer-added-to-array-ii) |
 ## Hash Table
 |  |
