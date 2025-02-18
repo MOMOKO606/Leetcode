@@ -18,16 +18,15 @@ class Solution:
                     if grid[i][j] != grid[r][c]: return False
             return True
 
+
         def helper(r, c, n):
             if is_leaf(r, c, n): return Node(grid[r][c], True, None, None, None, None)
             n //= 2
-            topLeft = helper(r, c, n)
-            topRight = helper(r, c + n, n)
-            bottomLeft = helper(r + n, c, n)
-            bottomRight = helper(r + n, c + n, n)
-            return Node(1, False, topLeft, topRight, bottomLeft, bottomRight)
-
-        n = len(grid)
-        return helper(0, 0, n)
-
+            top_left = helper(r, c, n)
+            top_right = helper(r, c + n, n)
+            bottom_left = helper(r + n, c, n)
+            bottom_right = helper(r + n, c + n, n)
+            return Node(1, False, top_left, top_right, bottom_left, bottom_right)
+        
+        return helper(0, 0, len(grid))
         
