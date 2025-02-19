@@ -8,12 +8,11 @@ class Solution:
         queue, k, visited = [(src, 0)], k + 1, [inf] * n
         while queue and k:
             next_queue = []
-            for node, cur_cost in queue:
+            for node, cost in queue:
                 for neighbor in graph[node]:
-                    if cur_cost + graph[node][neighbor] > visited[neighbor]: continue
-                    visited[neighbor] = cur_cost + graph[node][neighbor]
-                    next_queue.append((neighbor, cur_cost + graph[node][neighbor]))
-                    
+                    if cost + graph[node][neighbor] > visited[neighbor]: continue
+                    visited[neighbor] = cost + graph[node][neighbor]
+                    next_queue.append((neighbor, cost + graph[node][neighbor]))
             k, queue = k - 1, next_queue
         return visited[dst] if visited[dst] != inf else -1
         
