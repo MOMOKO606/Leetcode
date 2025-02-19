@@ -2,36 +2,37 @@ class FileSystem:
 
     def __init__(self):
         self.trie = {}
+        
 
     def ls(self, path: str) -> List[str]:
         path, node, prev = path.split("/")[1:], self.trie, None
-        for p in path:
-            if p in node:
-                node, prev = node[p], p
-        if "#" in node: return [prev]
-        return sorted(list(node.keys()))
+        for char in path:
+            if not char: continue
+            prev = char
+            node = node[char]
+        return sorted(list(node.keys())) if "#" not in node else [char]
 
 
     def mkdir(self, path: str) -> None:
         path, node = path.split("/")[1:], self.trie
-        for p in path:
-            node[p] = node.get(p, {})
-            node = node[p]
+        for char in path:
+            node[char] = node.get(char, {})
+            node = node[char]
         
 
     def addContentToFile(self, filePath: str, content: str) -> None:
         filePath, node = filePath.split("/")[1:], self.trie
-        for p in filePath:
-            node[p] = node.get(p, {})
-            node = node[p]
+        for char in filePath:
+            node[char] = node.get(char, {})
+            node = node[char]
         node["#"] = node.get("#", "") + content
+
         
 
     def readContentFromFile(self, filePath: str) -> str:
         filePath, node = filePath.split("/")[1:], self.trie
-        for p in filePath:
-            node[p] = node.get(p, {})
-            node = node[p]
+        for char in filePath:
+            node = node[char]
         return node["#"]
         
 
