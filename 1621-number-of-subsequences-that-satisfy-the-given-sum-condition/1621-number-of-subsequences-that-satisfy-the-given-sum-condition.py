@@ -1,8 +1,13 @@
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
-        ans, nums, j = 0, sorted(nums), len(nums) - 1
-        for i, num in enumerate(nums):
-            while i <= j and num + nums[j] > target:
+        nums, i, j, ans = sorted(nums), 0, len(nums) - 1, 0
+        while i <= j:
+            if nums[i] + nums[j] <= target:
+                ans += 2 ** (j - i)
+                i += 1
+            else:
                 j -= 1
-            ans += 2 ** (j - i) if i <= j else 0
         return ans % (10 ** 9 + 7)
+
+
+        
