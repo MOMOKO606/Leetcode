@@ -4,6 +4,7 @@ class Solution:
             mid = (i + j) // 2
             return sum(abs(houses[k] - houses[mid]) for k in range(i, j + 1))
 
+
         @cache
         def helper(i, k):
             if i == len(houses) and not k: return 0
@@ -12,9 +13,7 @@ class Solution:
             for j in range(i, len(houses)):
                 ans = min(ans, helper(j + 1, k - 1) + cost(i, j))
             return ans
-
-        houses = sorted(houses)
+        
+        houses.sort()
         return helper(0, k)
-
-
         
