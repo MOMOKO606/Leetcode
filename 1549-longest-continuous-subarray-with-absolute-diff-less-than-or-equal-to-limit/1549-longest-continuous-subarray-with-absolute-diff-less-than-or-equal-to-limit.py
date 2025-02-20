@@ -1,14 +1,24 @@
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
-        min_heap, max_heap, ans, i = [], [], 0, -1
-        for j, num in enumerate(nums):
-            heapq.heappush(min_heap, (num, j))
-            heapq.heappush(max_heap, (-num, j))
-            while -max_heap[0][0] - min_heap[0][0] > limit:
+        i, ans, max_window, min_window = -1, 1, [], []
+        for j in range(len(nums)):
+            while max_window and nums[j] > nums[max_window[-1]]:
+                max_window.pop()
+            max_window.append(j)
+
+            while min_window and nums[j] < nums[min_window[-1]]:
+                min_window.pop()
+            min_window.append(j)
+
+            while nums[max_window[0]] - nums[min_window[0]] > limit:
                 i += 1
-                while i >= min_heap[0][1]: 
-                    heapq.heappop(min_heap)
-                while i >= max_heap[0][1]: 
-                    heapq.heappop(max_heap)
+                while i >= max_window[0]:
+                    max_window.pop(0)
+                while i >= min_window[0]:
+                    min_window.pop(0)            
+            
             ans = max(ans, j - i)
         return ans
+
+
+        
