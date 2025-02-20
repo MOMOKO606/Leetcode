@@ -1,16 +1,15 @@
 class Solution:
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         ans, products = [], sorted(products)
-        for i in range(1, len(searchWord) + 1):
-            count, seq = 0, []
+        for i in range(len(searchWord)):
+            next_products = []
             for product in products:
-                if count == 3: break
-                if product[:i] == searchWord[:i]:
-                    count, seq = count + 1, seq + [product]
-            ans.append(seq)
+                if i < len(product) and searchWord[i] == product[i]:
+                    next_products.append(product)
+            ans.append(next_products[:3])
+            products = next_products
         return ans
-
-
-
+                
+            
 
         
