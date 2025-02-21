@@ -12,21 +12,18 @@ class Solution:
             pi, pj = parent(i), parent(j)
             p[pi] = pj
 
-        p, ans = [i for i in range(n)], []
-        for u, v, _ in edges:
-            connect(u, v)
+        p = [i for i in range(n)]
+        for i, j, _ in edges:
+            connect(i, j)
 
-        roots = {parent(i): -1 for i in range(n)}
-        for u, v, w in edges:
-            roots[parent(u)] &= w
-            
-        for u, v in query:
-            pu, pv = parent(u), parent(v)
-            if pu == pv: ans.append(roots[pu])
-            else: ans.append(-1)
+        roots = {i: -1 for i in range(n)}
+        for i, j, w in edges:
+            pi = parent(i)
+            roots[pi] &= w
+
+        ans = []
+        for i, j in query:
+            pi, pj = parent(i), parent(j)
+            if pi != pj: ans.append(-1)
+            else: ans.append(roots[pi])
         return ans
-
-
-
-
-        
