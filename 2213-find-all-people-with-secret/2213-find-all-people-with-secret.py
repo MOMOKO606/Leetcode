@@ -1,29 +1,32 @@
 from itertools import groupby
 
-
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
-        def dfsHelper(node):
-            if node in visited: return
-            visited.add(node)
-            known.add(node)
-            for neighbor in graph[node]:
-                dfsHelper(neighbor)
+        def parent(i):
+            root = i
+            while p[root] != root:
+                root = p[root]
+            while p[i] != i:
+                p[i], i = root, p[i]
+            return root
 
-        known = set([0, firstPerson])
+        def connect(i, j):
+            pi, pj = parent(i), parent(j)
+            p[pi] = pj
+
+        p = [i for i in range(n)]
+        connect(0, firstPerson)
         for _, group in groupby(sorted(meetings, key=lambda x: x[2]), key=lambda x: x[2]):
-            graph, visited = collections.defaultdict(list), set([])
+            visited = set()
             for u, v, _ in group:
-                graph[u].append(v)
-                graph[v].append(u)
+                visited.add(u)
+                visited.add(v)
+                connect(u, v)
 
-            for node in graph.keys():
-                if node not in known: continue
-                dfsHelper(node)
-
-        return list(known)
+            for node in visited:
+                if parent(node) != parent(0):
+                    p[node] = node
+        return [node for node in range(n) if parent(node) == parent(0)]
                 
-
-            
 
         
