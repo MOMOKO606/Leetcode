@@ -1,21 +1,24 @@
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
-        meetings.sort()
-        available, used, holds = [i for i in range(n)], [], [0] * n
+        room_heap, schedule_heap, meetings, freqs, largest_freq, ans = [i for i in range(n)], [], sorted(meetings), [0] * n, -inf, 0
         for start, end in meetings:
-            while used and used[0][0] <= start:
-                _, room = heapq.heappop(used)
-                heapq.heappush(available, room)
+            while schedule_heap and start >= schedule_heap[0][0]:
+                _, room_id = heapq.heappop(schedule_heap)
+                heapq.heappush(room_heap, room_id)
             
-            if not available:
-                new_end, room = heapq.heappop(used)
-                end = new_end + end - start
-                heapq.heappush(available, room)
-            
-            room = heapq.heappop(available)
-            holds[room] += 1
-            heapq.heappush(used, (end, room))
+            if not room_heap:
+                cur_end, room_id = heapq.heappop(schedule_heap)
+                end = cur_end + end - start
+                heapq.heappush(room_heap, room_id) 
+
+            room_id = heapq.heappop(room_heap)
+            heapq.heappush(schedule_heap, [end, room_id])
+            freqs[room_id] += 1
         
-        return holds.index(max(holds))
+        for i in range(len(freqs) - 1, -1, -1):
+            if freqs[i] >= largest_freq:
+                largest_freq, ans = freqs[i], i
+        return ans
+
 
         
