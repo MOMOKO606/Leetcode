@@ -1,17 +1,18 @@
 class Solution:
     def maxScore(self, grid: List[List[int]]) -> int:
-        @cache
-        def helper(i=0, cur_total=0):
-            if i == rows: return cur_total
+        def dfs_helper(i=0, visited=set()):
+            if i == len(remain): return 0
             ans = -inf
+            for row in val_to_rows[remain[i]]:
+                if row not in visited:
+                    ans = max(ans, remain[i] + dfs_helper(i + 1, visited | {row}))
+            return ans if ans != -inf else dfs_helper(i + 1, visited)
+
+        
+        rows, cols, val_to_rows = len(grid), len(grid[0]), collections.defaultdict(set)
+        for i in range(rows):
             for j in range(cols):
-                if grid[i][j] in visited: continue
-                visited.add(grid[i][j])
-                ans = max(ans, helper(i + 1, cur_total + grid[i][j]))
-                visited.remove(grid[i][j])
-            return ans if ans != -inf else cur_total + helper(i + 1)
-
-        rows, cols, visited = len(grid), len(grid[0]), set()
-        return helper()
-
+                val_to_rows[grid[i][j]].add(i)
+        remain = sorted(list(val_to_rows.keys()), reverse=True)
+        return dfs_helper()
         
