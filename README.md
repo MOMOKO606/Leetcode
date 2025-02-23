@@ -1758,6 +1758,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1368-web-crawler-multithreaded](https://github.com/MOMOKO606/Leetcode/tree/master/1368-web-crawler-multithreaded) |
+| [1410-traffic-light-controlled-intersection](https://github.com/MOMOKO606/Leetcode/tree/master/1410-traffic-light-controlled-intersection) |
 ## Reservoir Sampling
 |  |
 | ------- |
