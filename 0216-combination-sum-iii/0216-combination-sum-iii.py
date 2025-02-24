@@ -1,16 +1,15 @@
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
-        def helper(target, k, start, seq):
-            if not target and not k: 
+        def helper(i=1, seq=[], k=k, n=n):
+            if not n and not k:
                 ans.append(seq)
-                return
-            if target <= 0 or not k: return 
-            for i in range(start, 10):
-                helper(target - i, k - 1, i + 1, seq + [i])
-
-
+                return ans
+            if n <= 0 or not k or i > 9: return 
+            helper(i + 1, seq + [i], k - 1, n - i)
+            helper(i + 1, seq, k, n)
+            
 
         ans = []
-        helper(target=n, k=k, start=1, seq=[])
+        helper()
         return ans
         
