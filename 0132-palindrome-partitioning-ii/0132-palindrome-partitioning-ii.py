@@ -8,8 +8,4 @@ class Solution:
                 ans = min(ans, 1 + self.minCut(s[i:]))
         return ans
 
-
-
-
-        
         
