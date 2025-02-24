@@ -9,6 +9,6 @@ class Solution:
                     ans = max(ans, [nums[j]] + helper(nums[j], j + 1), key=len)
             return ans
 
-        nums = sorted(nums)
+        nums.sort()
         return helper()
         
