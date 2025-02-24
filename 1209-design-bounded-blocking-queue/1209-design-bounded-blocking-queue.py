@@ -1,15 +1,28 @@
-import queue
 import threading
 
 class BoundedBlockingQueue(object):
     def __init__(self, capacity: int):
-        self.queue = queue.Queue(maxsize=capacity)  # 使用 queue.Queue 实现有限阻塞队列
+        self.capacity = capacity
+        self.queue = []
+        self.lock = threading.Lock()
+        self.not_full = threading.Condition(self.lock)
+        self.not_empty = threading.Condition(self.lock)
 
     def enqueue(self, element: int) -> None:
-        self.queue.put(element)  # 阻塞直到队列有空闲空间
+        with self.lock:
+            while len(self.queue) == self.capacity:
+                self.not_full.wait()
+            self.queue.append(element)
+            self.not_empty.notify()
 
     def dequeue(self) -> int:
-        return self.queue.get()  # 阻塞直到队列中有元素
+        with self.lock:
+            while len(self.queue) == 0:
+                self.not_empty.wait()
+            element = self.queue.pop(0)
+            self.not_full.notify()
+            return element
 
     def size(self) -> int:
-        return self.queue.qsize()  # 返回队列当前大小
+        with self.lock:
+            return len(self.queue)
