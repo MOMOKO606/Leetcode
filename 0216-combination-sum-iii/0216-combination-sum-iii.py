@@ -4,9 +4,9 @@ class Solution:
             if not n and not k:
                 ans.append(seq)
                 return ans
-            if n <= 0 or not k or i > 9: return 
-            helper(i + 1, seq + [i], k - 1, n - i)
-            helper(i + 1, seq, k, n)
+            if n <= 0 or not k: return 
+            for j in range(i, 10):
+                helper(j + 1, seq + [j], k - 1, n - j)
             
 
         ans = []
