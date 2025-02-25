@@ -1,30 +1,34 @@
-class Solution:
-    def countSmaller(self, nums: List[int]) -> List[int]:
-        def merge(left, right):
-            sorted_nums = []
-            while left and right:
-                if left[0][0] > right[0][0]:
-                    node = left.pop(0)
-                    ans[node[1]] += len(right)
-                    sorted_nums.append(node)
-                else:
-                    sorted_nums.append(right.pop(0))
-            return sorted_nums + (left or right)
+class FenwickTree:
+    def __init__(self, size, value):
+        self.nodes = [value] * size
+        self.size = size
 
-        def mergeSort(nums):
-            n = len(nums)
-            if n == 1: return nums
-            mid = n // 2
-            left = mergeSort(nums[:mid])
-            right = mergeSort(nums[mid:])
-            return merge(left, right)
 
-        ans = [0] * len(nums)
-        mergeSort([[num, i] for i, num in enumerate(nums)])
+    def _lowbit(self, index):
+        return index & -index
+
+
+    def update(self, index, delta):
+        while index < self.size:
+            self.nodes[index] += delta
+            index += self._lowbit(index)
+
+
+    def query(self, index):
+        ans = 0
+        while index:
+            ans += self.nodes[index]
+            index -= self._lowbit(index)
         return ans
 
 
-            
-        
-
+class Solution:
+    def countSmaller(self, nums: List[int]) -> List[int]:
+        num_to_index = {num: i + 1 for i, num in enumerate(sorted(nums))}
+        ft, ans = FenwickTree(len(nums) + 1, 0), []
+        for num in reversed(nums):
+            i = num_to_index[num]
+            ft.update(i, 1)
+            ans.append(ft.query(i - 1))
+        return ans[::-1]
         
