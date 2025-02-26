@@ -1,16 +1,19 @@
 class FenwickTree:
-    def __init__(self, value, size):
-        self.nums = [value] * size
+    def __init__(self, size, value):
         self.size = size
+        self.nums = [value] * size
+
 
     def lowbit(self, index):
         return index & -index
+
 
     def update(self, index, delta):
         while index < self.size:
             self.nums[index] += delta
             index += self.lowbit(index)
-    
+
+
     def query(self, index):
         ans = 0
         while index:
@@ -22,18 +25,21 @@ class FenwickTree:
 class NumArray:
 
     def __init__(self, nums: List[int]):
-        ft = FenwickTree(0, len(nums) + 1)
-        for i, num in enumerate(nums):
-            ft.update(i + 1, num)
-        self.ft, self.nums = ft, nums
-        
+        self.trans = {num: i + 1 for i, num in enumerate(sorted(nums))}
+        self.nums = nums
+        ft = FenwickTree(len(nums) + 1, 0)
+        for num in nums:
+            k = self.trans[num]
+            ft.update(k, num)
+        self.ft = ft
+
         
 
     def update(self, index: int, val: int) -> None:
-        self.ft.update(index + 1, val - self.nums[index])
-        self.nums[index] = val
-        
+        delta = val - self.nums[index]
+        self.ft.update(index + 1, delta)
 
+        
 
     def sumRange(self, left: int, right: int) -> int:
         return self.ft.query(right + 1) - self.ft.query(left)
