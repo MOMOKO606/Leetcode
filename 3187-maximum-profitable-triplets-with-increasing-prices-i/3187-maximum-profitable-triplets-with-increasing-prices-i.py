@@ -1,12 +1,14 @@
 class Solution:
     def maxProfit(self, prices: List[int], profits: List[int]) -> int:
-        prefix, postfix, ans = [-inf] * len(prices), [-inf] * len(prices), -1
-        for i in range(len(prices) - 1):
-            for j in range(i + 1, len(prices)):
+        n = len(prices)
+        pre, post, ans = [-inf] * n, [-inf] * n, -inf
+        for i in range(n - 1):
+            for j in range(i + 1, n):
                 if prices[i] < prices[j]:
-                    postfix[i] = max(postfix[i], profits[j])
-                    prefix[j] = max(prefix[j], profits[i])
+                    pre[j] = max(pre[j], profits[i])
+                    post[i] = max(post[i], profits[j])
         
-        for i in range(len(profits)):
-            ans = max(ans, profits[i] + prefix[i] + postfix[i])
-        return ans
+        for i in range(1, n - 1):
+            ans = max(ans, pre[i] + profits[i] + post[i])
+        return ans if ans != -inf else -1
+        
