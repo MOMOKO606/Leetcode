@@ -25,12 +25,10 @@ class FenwickTree:
 class NumArray:
 
     def __init__(self, nums: List[int]):
-        self.trans = {num: i + 1 for i, num in enumerate(nums)}
-        self.nums = nums
         ft = FenwickTree(len(nums) + 1, 0)
-        for num in nums:
-            k = self.trans[num]
-            ft.update(k, num)
+        self.nums = nums
+        for i, num in enumerate(nums):
+            ft.update(i + 1, num)
         self.ft = ft
 
         
@@ -38,6 +36,7 @@ class NumArray:
     def update(self, index: int, val: int) -> None:
         delta = val - self.nums[index]
         self.ft.update(index + 1, delta)
+        self.nums[index] = val
 
         
 
