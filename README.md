@@ -263,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/MOMOKO606/Leetcode/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/MOMOKO606/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/MOMOKO606/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [0941-sort-array-by-parity](https://github.com/MOMOKO606/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0943-sum-of-subarray-minimums](https://github.com/MOMOKO606/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/MOMOKO606/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/MOMOKO606/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -378,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/MOMOKO606/Leetcode/tree/master/0726-number-of-atoms) |
 | [0761-employee-free-time](https://github.com/MOMOKO606/Leetcode/tree/master/0761-employee-free-time) |
 | [0778-reorganize-string](https://github.com/MOMOKO606/Leetcode/tree/master/0778-reorganize-string) |
+| [0941-sort-array-by-parity](https://github.com/MOMOKO606/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1176-design-a-leaderboard](https://github.com/MOMOKO606/Leetcode/tree/master/1176-design-a-leaderboard) |
 | [1217-relative-sort-array](https://github.com/MOMOKO606/Leetcode/tree/master/1217-relative-sort-array) |
@@ -1477,6 +1479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0768-partition-labels](https://github.com/MOMOKO606/Leetcode/tree/master/0768-partition-labels) |
 | [0811-number-of-subarrays-with-bounded-maximum](https://github.com/MOMOKO606/Leetcode/tree/master/0811-number-of-subarrays-with-bounded-maximum) |
 | [0908-middle-of-the-linked-list](https://github.com/MOMOKO606/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [0941-sort-array-by-parity](https://github.com/MOMOKO606/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0953-reverse-only-letters](https://github.com/MOMOKO606/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1129-longest-string-chain](https://github.com/MOMOKO606/Leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/MOMOKO606/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
