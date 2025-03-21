@@ -7,6 +7,4 @@ class Solution:
             elif s[i].lower() != s[j].lower(): return False
             else: i, j = i + 1, j - 1
         return True
-
-
         
