@@ -10,9 +10,8 @@ class Solution:
         while l1 or l2 or carry:
             if l1: carry, l1 = carry + l1.val, l1.next
             if l2: carry, l2 = carry + l2.val, l2.next
-            cur = ListNode(carry % 10)
-            prev.next = cur
-            prev = cur
+            cur = ListNode(val=carry % 10)
+            prev.next, prev = cur, cur
             carry //= 10
         return dummy.next
         
