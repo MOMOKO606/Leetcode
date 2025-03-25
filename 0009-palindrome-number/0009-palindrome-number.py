@@ -1,6 +1,10 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0: return False
-        x = list(str(abs(x)))
-        return x == x[::-1]
+        ans, x_copy = 0, x
+        while x_copy:
+            ans = ans * 10 + x_copy % 10
+            x_copy //= 10
+        return ans == x
+        
         
