@@ -1,7 +1,8 @@
 class Solution:
     def minimumLength(self, s: str) -> int:
-        freqs, ans = Counter(s).values(), 0
-        for freq in freqs:
+        ans = 0
+        for freq in Counter(s).values():
             if freq & 1: ans += 1
             else: ans += 2
         return ans
+        
