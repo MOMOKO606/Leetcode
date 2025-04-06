@@ -1,20 +1,18 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
-        if not s: return 0
-        digits = {
-            "M": 1000,
-            "CM": 900,
-            "D": 500,
-            "CD": 400,
-            "C": 100,
-            "XC": 90,
-            "L": 50,
-            "XL": 40,
-            "X": 10,
-            "IX": 9,
-            "V": 5,
-            "IV": 4,
-            "I": 1,
+        two_digits = {
+            "IV": 4, "IX": 9, "XL": 40, "XC": 90,
+            "CD": 400, "CM": 900
         }
-        if s[:2] in digits: return digits[s[:2]] + self.romanToInt(s[2:])
-        elif s[:1] in digits: return digits[s[:1]] + self.romanToInt(s[1:])
+        one_digit = {
+            "I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000
+        }
+        
+        def helper(s):
+            if not s: return 0
+            if s[:2] in two_digits:
+                return two_digits[s[:2]] + helper(s[2:])
+            return one_digit[s[0]] + helper(s[1:]) 
+
+        return helper(s)
+        
